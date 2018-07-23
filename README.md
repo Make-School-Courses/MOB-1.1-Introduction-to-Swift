@@ -1,8 +1,8 @@
-# Introduction to Swift with Games 
+# Introduction to Swift with Games
 
-## Course Description 
+## Course Description
 
-We will be learning the fundamentals of the Swift, by cloning and building our very own iOS game. 
+We will be learning the fundamentals of the Swift, by cloning and building our very own iOS game.
 
 ## Course Specifics
 
@@ -12,7 +12,7 @@ Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs 
+Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites:  
 
@@ -23,18 +23,26 @@ None <br>
 Students by the end of the course will be able to ...
 
 1. Write working Swift code
+1. Apply OOP principles in Swift
+1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to building an iOS game.
 1. Set breakpoints to inspect and debug code
-1. Use Swift tools/principles/concepts to build a game
+1. Compare and contrast variables and constants in Swift
+1. Identify Swift keywords and constructs
+1. Use Xcode to build and run an iOS Game
+
 
 ## Lessons
 
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
-1. Lesson Title
+1. Introduction to Mobile Development in Swift
     - **Before Class**
-    - **Class Topic**
+      - Complete all course pre-work
     - **In Class Activities**
+      - Why are we learning about Mobile Development?
+      - Identify mobile Development in the scope of Software Development
     - **After Class**
+      - Begin [Simple iOS Game Tutorial](www.google.com)
 1. Lesson Title
     - **Class Topic**
     - **In Class Activities**
