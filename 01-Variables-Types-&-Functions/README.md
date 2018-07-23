@@ -3,7 +3,7 @@
 ## Lesson Overview
 - 5 min Intro & Objectives
 - 10 min Think, Pair Share
-- 20 min TT on Variables, Types and Functions in Swift
+- 20 min TT on Variables, Types(Built in & User generated) and Functions in Swift
 - 30 min  First set of challenges on variables & functions
 - 10 min Break
 - 10 min TT and demo of refactoring and scope with functions
@@ -17,8 +17,7 @@
 1. Compare and contrast variables and constants
 1. Identify and write comments in code
 1. Construct and use functions to encapsulate code
-1. Describe (im)mutable data
-
+1. Compare and contrast between mutable and immutable data
 
 ## Baseline Challenges
 
