@@ -59,6 +59,10 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
+1. Introduction to OOP in Games
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 
 ## Tutorials & Projects
 
