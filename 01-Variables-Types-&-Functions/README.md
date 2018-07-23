@@ -11,7 +11,7 @@
 - 20 min Second set of challenges on variables & functions
 - Wrap up
 
-## Objectives
+## Objectives & Competencies
 1. Identify and use variables
 1. Identify and define types in Swift
 1. Compare and contrast variables and constants

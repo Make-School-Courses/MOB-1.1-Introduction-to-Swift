@@ -11,7 +11,7 @@
 - 5 min Wrap up
 
 
-## Objectives
+## Objectives & Competencies
 1. Identify and distinguish between Classes, Structs and Enums in Swift code
 2. Use Classes, Structs and Enums in Object Oriented Programming (OOP)
 3. Differentiate between functions and methods in OOP
