@@ -1,4 +1,4 @@
-# Classes, Structs & Enums
+# Classes & Structs
 
 ## Lesson Overview
 - 5 min Intro & Objectives & Review of Previous Class

@@ -43,11 +43,15 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Identify mobile Development in the scope of Software Development
     - **After Class**
       - Begin [Simple iOS Game Tutorial](www.google.com)
+1. Optionals, Enums & Conditionals
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Variables, Types & Functions
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
-1. Classes, Structs & Enums
+1. Classes & Structs
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
