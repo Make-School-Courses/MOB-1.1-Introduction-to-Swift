@@ -21,20 +21,20 @@
 **Object Oriented House**
 1. Go over this specification for a house.
 A house has these properties:
-  a. Number of rooms?
-  b. Number of kitchens?
-  c. Number of bathrooms?
-  d. Does it have a garage?
-  e. Does it have air conditioning?
+  - a. Number of rooms?
+  - b. Number of kitchens?
+  - c. Number of bathrooms?
+  - d. Does it have a garage?
+  - e. Does it have air conditioning?
 
 An owner of a house can perform these in his/her house:
-  a. Sleep
-  b. Enter/Exit
-  c. If there is a garage, they can park
+  - a. Sleep
+  - b. Enter/Exit
+  - c. If there is a garage, they can park
 
 **Object Oriented Tesla Factory**
 1. Imagine you are Elon Musk working on Tesla Model 3. We want to develop a system to build similar Cars from a specification in the assembly line.
-  a. List 5 components of a Tesla(Car) and 3 actions that a Tesla(Car) can perform.
-  b. Build a Tesla Car Factory in code with the specifications you came up with, that can create a Model 3 when needed.
+  - a. List 5 components of a Tesla(Car) and 3 actions that a Tesla(Car) can perform.
+  - b. Build a Tesla Car Factory in code with the specifications you came up with, that can create a Model 3 when needed.
 
 1. Complete the [Simple Game 1 Tutorial]()

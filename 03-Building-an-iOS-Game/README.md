@@ -20,5 +20,5 @@
 ## Baseline Challenges
 
 1. Lets create a `Pop the Bubble` game in iOS
-a. We will start by cloning this [Starter Project](www.starterproject.com) with some of the assets pre-filled.
-b. The game is simple, there will be a few floating bubbles that we can tap to pop.
+  - a. We will start by cloning this [Starter Project](www.starterproject.com) with some of the assets pre-filled.
+  - b. The game is simple, there will be a few floating bubbles that we can tap to pop.
