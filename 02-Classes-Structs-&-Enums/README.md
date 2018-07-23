@@ -1,7 +1,7 @@
 # Classes, Structs & Enums
 
 ## Lesson Overview
-- 5 min Intro & Objectives
+- 5 min Intro & Objectives & Review of Previous Class
 - 10 min Activity on Object Oriented Programming
 - 20 min TT Introduction to Object Oriented Programming in Swift with Structs & Classes
 - 30 min Group up and answer Challenge 1
