@@ -30,6 +30,15 @@ Students by the end of the course will be able to ...
 1. Identify Swift keywords and constructs
 1. Use Xcode to build and run an iOS Game
 
+## Evaluation
+
+To pass this course you must meet the following requirements:
+
+- No more than two no call no shows
+- No more than four excused absences
+- Make up all classwork from all absences
+- Finish all required tutorials and projects
+- Pass the final exam (summative assessment) with >=80%
 
 ## Lessons
 
@@ -55,9 +64,10 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Writing logic statements in Swift
     - **In Class Activities**
 1. Classes & Structs
-    - **Class Topic**
+    - **Classes and Structs**
+      - Differentiate between classes and structs
+      - Identify when to use classes and structs
     - **In Class Activities**
-    - **After Class**
 1. Building an iOS Game
     - **What is SpriteKit**
       - Navigating a SpriteKit project
@@ -73,8 +83,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **After Class**
 1. OOP - Structs & Protocols
     - **Remodeling with Structs & Protocols**
-    - **In Class Activities**
-    - **After Class**
 1. SpriteKit - Adding motion
     - **Making things move and interact with actions**
       - Using SKAction
@@ -98,16 +106,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 - [Simple iOS Game 1]()
 - [Simple iOS Game 2]()
-
-## Evaluation
-
-To pass this course you must meet the following requirements:
-
-- No more than two no call no shows
-- No more than four excused absences
-- Make up all classwork from all absences
-- Finish all required tutorials and projects
-- Pass the final exam (summative assessment) with >=80%
 
 ## Make School Course Policies
 

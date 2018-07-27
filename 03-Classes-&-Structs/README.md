@@ -41,4 +41,5 @@ An owner of a house can perform these in his/her house:
 
 ## Resources
 
+[Apple Docs - When to use structs vs classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
 [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)
