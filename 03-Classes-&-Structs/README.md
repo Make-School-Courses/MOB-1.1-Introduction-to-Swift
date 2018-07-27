@@ -38,3 +38,7 @@ An owner of a house can perform these in his/her house:
   - b. Build a Tesla Car Factory in code with the specifications you came up with, that can create a Model 3 when needed.
 
 1. Complete the [Simple Game 1 Tutorial]()
+
+## Resources
+
+[Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)

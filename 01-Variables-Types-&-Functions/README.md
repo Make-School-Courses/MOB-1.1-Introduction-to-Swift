@@ -19,9 +19,16 @@
 1. Construct and use functions to encapsulate code
 1. Compare and contrast between mutable and immutable data
 
+## Class Materials
+
+Slides:
+
+[Swift Types](assets/swift-types.key)
+
 ## Baseline Challenges
 
 **Variables & Functions**
 1. Work with a partner to come up with an analogy for types in Swift. Focus on the purpose and use of types.
 
-1. [Variables Swift Playgrounds](https://github.com/Product-College-Courses/MOB-1-Swift-iOS-Xcode/blob/master/02-Variables/Variables.playground)
+1. [Variables Swift Playgrounds](assets/variables.zip)
+1. [Functions Swift Playgrounds](assets/functions.zip)

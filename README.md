@@ -43,27 +43,46 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Identify mobile Development in the scope of Software Development
     - **After Class**
       - Begin [Simple iOS Game Tutorial](www.google.com)
-1. Optionals, Enums & Conditionals
-    - **Class Topic**
-    - **In Class Activities**
-    - **After Class**
 1. Variables, Types & Functions
-    - **Class Topic**
+    - **Variables and Types**
+      - What are variables?
+      - Fundamental & composite types in swift
+      - Functions and code encapsulation
     - **In Class Activities**
-    - **After Class**
+1. Optionals, Enums & Conditionals
+    - **Logic Statements in Swift**
+      - What is an optional?
+      - Writing logic statements in Swift
+    - **In Class Activities**
 1. Classes & Structs
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
 1. Building an iOS Game
-    - **Class Topic**
+    - **What is SpriteKit**
+      - Navigating a SpriteKit project
+      - Nodes, Scenes, Sprites, Actions
     - **In Class Activities**
     - **After Class**
+      - Tutorial - [Simple Game 1]()
 1. Introduction to OOP in Games
-    - **Class Topic**
+    - **Building Characters & Abilities**
     - **In Class Activities**
     - **After Class**
-
+1. OOP - Structs & Protocols
+    - **Remodeling with Structs & Protocols**
+    - **In Class Activities**
+    - **After Class**
+1. SpriteKit - Adding motion
+    - **Making things move and interact with actions**
+      - Using SKAction
+      - Using SKTexture
+    - **In Class Activities**
+    - **After Class**
+1. SpriteKit - Physics
+    - ****
+    - **In Class Activities**
+    - **After Class**
 ## Tutorials & Projects
 
 - [Simple iOS Game 1]()
