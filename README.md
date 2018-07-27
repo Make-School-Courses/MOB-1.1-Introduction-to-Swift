@@ -61,12 +61,14 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Building an iOS Game
     - **What is SpriteKit**
       - Navigating a SpriteKit project
-      - Nodes, Scenes, Sprites, Actions
+      - Nodes, Scenes, Sprites
     - **In Class Activities**
     - **After Class**
       - Tutorial - [Simple Game 1]()
 1. Introduction to OOP in Games
     - **Building Characters & Abilities**
+      - Subclass SKSpriteNode, add features
+      - Initializers - default, required, and convenience
     - **In Class Activities**
     - **After Class**
 1. OOP - Structs & Protocols
@@ -79,10 +81,19 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Using SKTexture
     - **In Class Activities**
     - **After Class**
-1. SpriteKit - Physics
-    - ****
+1. Inspecting and Debugging Your Code
+    - **Debugging**
+      - Setting breakpoints
+      - Printing objects in the debugger
+      - Moving through code in the debugger
+      - Finding and fixing errors with the debugger
     - **In Class Activities**
-    - **After Class**
+      - Find and fix the bug in sample code
+1. SpriteKit - Swift in Games
+    - **Swift in Games**
+      - Using Enums, Functions, Structs & Protocols
+    - **In Class Activities**
+      - Refactor sample code to use enums, structs and protocols
 ## Tutorials & Projects
 
 - [Simple iOS Game 1]()
