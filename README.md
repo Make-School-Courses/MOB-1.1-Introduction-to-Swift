@@ -102,10 +102,19 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Using Enums, Functions, Structs & Protocols
     - **In Class Activities**
       - Refactor sample code to use enums, structs and protocols
+
 ## Tutorials & Projects
 
-- [Simple iOS Game 1]()
-- [Simple iOS Game 2]()
+- [Sushi Neko](https://www.makeschool.com/online-courses/tutorials/learn-to-clone-timberman-with-spritekit-and-swift-3/getting-started)
+- [Orange Tree](https://github.com/soggybag/Orange-Tree)
+- [Simple iOS Game 3 - OOP - Protocols, Logic, Keyboard time and Challenges, Debugging]()
+
+<!-- Possible Tutorials:
+  1. Game of Life
+  2. Hoppy Bunny
+  3. *All code RPG*
+-->
+
 
 ## Make School Course Policies
 
