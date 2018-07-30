@@ -2,6 +2,7 @@
 
 ## Lesson Overview
 - 5 min Intro & Objectives
+- 2 min Xcode Tips & Tricks - Finding Any Files with ```CMD + Shift + O```
 - 10 min Think, Pair Share
 - 20 min TT on Conditionals & Enums
 - 30 min  First set of challenges on conditionals & enums
