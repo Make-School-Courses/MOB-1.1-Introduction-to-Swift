@@ -7,7 +7,7 @@
 - 30 min  First set of challenges on conditionals & enums
 - 10 min Break
 - 10 min TT on Optionals
-- 15 min Q&A and Introduction to *tutorial 1*
+- 15 min Q&A
 - 20 min Second set of challenges on optionals
 - Wrap up
 

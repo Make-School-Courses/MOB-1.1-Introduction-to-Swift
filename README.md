@@ -50,12 +50,11 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **In Class Activities**
       - Why are we learning about Mobile Development?
       - Identify mobile Development in the scope of Software Development
-    - **After Class**
-      - Begin [Simple iOS Game Tutorial](www.google.com)
 1. Variables, Types & Functions
     - **Variables and Types**
       - What are variables?
       - Fundamental & composite types in swift
+    - **Functions**
       - Functions and code encapsulation
     - **In Class Activities**
 1. Optionals, Enums & Conditionals
@@ -74,7 +73,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Nodes, Scenes, Sprites
     - **In Class Activities**
     - **After Class**
-      - Tutorial - [Simple Game 1]()
+      - Begin - [Sushi Neko](https://www.makeschool.com/online-courses/tutorials/learn-to-clone-timberman-with-spritekit-and-swift-3/getting-started)
 1. Introduction to OOP in Games
     - **Building Characters & Abilities**
       - Subclass SKSpriteNode, add features
@@ -83,12 +82,16 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **After Class**
 1. OOP - Structs & Protocols
     - **Remodeling with Structs & Protocols**
+1. Building an RPG Game
+    - **Use Swift constructs to build an RPG Game**
+      - Using Protocols and structs/classes to build a character system
 1. SpriteKit - Adding motion
     - **Making things move and interact with actions**
       - Using SKAction
       - Using SKTexture
     - **In Class Activities**
     - **After Class**
+      - Begin - [Orange Tree](https://github.com/soggybag/Orange-Tree)
 1. Inspecting and Debugging Your Code
     - **Debugging**
       - Setting breakpoints

@@ -5,9 +5,9 @@
 - 5 min Breakout Activity
 - 2 min Review lessons from preview class
 - 20 min Introduction to SpriteKit - walkthrough
-- 10 min Let's build a simple game in SpriteKit
+- 10 min Let's build a simple game in SpriteKit - (I do)
 - 10 min Break
-- 30 min Form groups and work on challenge 1
+- 30 min Form groups and work on challenge 1 (You do)
 - 10 min Review and Q&A
 - 5 min Wrap up
 
