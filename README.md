@@ -50,6 +50,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **In Class Activities**
       - Why are we learning about Mobile Development?
       - Identify mobile Development in the scope of Software Development
+      - Make a widget factory
 1. Variables, Types & Functions
     - **Variables and Types**
       - What are variables?
@@ -85,6 +86,14 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Building an RPG Game
     - **Use Swift constructs to build an RPG Game**
       - Using Protocols and structs/classes to build a character system
+1. Concentration Game
+    - **Swift in Games**
+    - **In Class Activities**
+1. Concentration Game - Refactor
+    - **Swift in Games**
+      - Using Enums, Functions, Structs & Protocols
+    - **In Class Activities**
+      - Refactor sample code to use enums, structs and protocols
 1. SpriteKit - Adding motion
     - **Making things move and interact with actions**
       - Using SKAction
@@ -100,12 +109,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Finding and fixing errors with the debugger
     - **In Class Activities**
       - Find and fix the bug in sample code
-1. SpriteKit - Swift in Games
-    - **Swift in Games**
-      - Using Enums, Functions, Structs & Protocols
-    - **In Class Activities**
-      - Refactor sample code to use enums, structs and protocols
-
 ## Tutorials & Projects
 
 - [Sushi Neko](https://www.makeschool.com/online-courses/tutorials/learn-to-clone-timberman-with-spritekit-and-swift-3/getting-started)
