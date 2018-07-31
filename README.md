@@ -88,12 +88,23 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Using Protocols and structs/classes to build a character system
 1. Concentration Game
     - **Swift in Games**
+      - Build grids with loops
+      - Display color in Sprites
+      - Use subclassing to customize
+      - State management
     - **In Class Activities**
-1. Concentration Game - Refactor
+1. Concentration Game - Actions
     - **Swift in Games**
-      - Using Enums, Functions, Structs & Protocols
+      - SKActions
+      - Touch events
     - **In Class Activities**
-      - Refactor sample code to use enums, structs and protocols
+1. Concentration Game - Logic
+    - **Swift in Games**
+      - Using Enums, Functions, Structs & Protocols in Games
+      - Game Matching logic
+      - Game Reseting logic
+      - Game State logic
+    - **In Class Activities**
 1. SpriteKit - Adding motion
     - **Making things move and interact with actions**
       - Using SKAction
@@ -109,6 +120,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Finding and fixing errors with the debugger
     - **In Class Activities**
       - Find and fix the bug in sample code
+
 ## Tutorials & Projects
 
 - [Sushi Neko](https://www.makeschool.com/online-courses/tutorials/learn-to-clone-timberman-with-spritekit-and-swift-3/getting-started)
