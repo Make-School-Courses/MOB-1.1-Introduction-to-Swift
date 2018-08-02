@@ -24,6 +24,7 @@ By the end of this lesson, students should be able to:
 
 ## Baseline Challenges
 
-1. [Conditionals Swift Playgrounds](assets/conditionals.zip)
+1. [Conditionals Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground/archive/master.zip)
+<!-- https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground.git -->
 1. [Enums Swift Playgrounds](assets/enums.zip)
 1. [Optionals Swift Playgrounds](assets/optionals.zip)
