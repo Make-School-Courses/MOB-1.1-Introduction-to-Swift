@@ -6,8 +6,8 @@
 - 10 min TT on Structs & Classes
 - 30 min Group up and answer Challenge 1
 - 10 min Break
-- 15 min Kick off Simple Game 1 Tutorial and Q&A
-- 30 min Group up and answer Challenge 2
+- 15 min
+- 30 min Challenge 2
 - 5 min Wrap up
 
 ## Objectives & Competencies
