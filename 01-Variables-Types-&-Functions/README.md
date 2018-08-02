@@ -29,6 +29,7 @@ By the end of this lesson, students should be able to:
 
 Slides:
 
+## TODO: 
 [Swift Variables, Types & Functions](assets/swift-types.key)
 
 ## Baseline Challenges
