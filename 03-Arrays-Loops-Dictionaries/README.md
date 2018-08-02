@@ -23,7 +23,7 @@ By the end of this lesson, students should be able to:
 Slides:
 
 ### TODO: Add slides
-[Arrays Loops & Dictionaries](assets/ald.zip)
+[Arrays Loops & Dictionaries](assets/arrayLoopDictionary.zip)
 
 ## Baseline Challenges
 

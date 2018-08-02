@@ -130,7 +130,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
   3. *All code RPG*
 -->
 
-
 ## Make School Course Policies
 
 [Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
