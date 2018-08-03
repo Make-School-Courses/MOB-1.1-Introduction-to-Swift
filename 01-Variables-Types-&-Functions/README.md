@@ -35,5 +35,5 @@ Slides:
 
 1. [Variables Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground.git -->
-1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/master.zip)
+1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground.git -->
