@@ -14,7 +14,7 @@ Units:  3 units <br>
 Delivery Method:  Residential <br>
 Class Sessions:  14 classes, 7 labs
 
-## Prerequisites:  
+## Prerequisites:
 
 None <br>
 
@@ -122,13 +122,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 - [Sushi Neko](https://www.makeschool.com/online-courses/tutorials/learn-to-clone-timberman-with-spritekit-and-swift-3/getting-started)
 - [Orange Tree](https://github.com/soggybag/Orange-Tree)
-- [Simple iOS Game 3 - OOP - Protocols, Logic, Keyboard time and Challenges, Debugging]()
-
-<!-- Possible Tutorials:
-  1. Game of Life
-  2. Hoppy Bunny
-  3. *All code RPG*
--->
 
 ## Make School Course Policies
 

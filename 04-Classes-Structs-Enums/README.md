@@ -42,7 +42,7 @@ Slides:
     - b. Enter/Exit the house
     - c. If there is a garage, they can park
 
-1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
+2. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
   Complete:
     - a. Chapter 12 on Initializers
     - b. Chapter 10 on Enums
