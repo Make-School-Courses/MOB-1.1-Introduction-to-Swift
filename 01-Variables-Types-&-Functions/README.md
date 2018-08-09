@@ -26,8 +26,7 @@ By the end of this lesson, students should be able to:
 
 Slides:
 
-## TODO:
-[Swift Variables, Types & Functions](assets/swift-types.key)
+[Swift Variables, Types & Functions](https://docs.google.com/presentation/d/1EEPlP2v0bUeqSfXHjcSO_5zSbRY6ZDh_0noaXkXHdRg/edit?usp=sharing)
 
 ## Baseline Challenges
 
@@ -36,5 +35,5 @@ Slides:
 
 1. [Variables Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground.git -->
-1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/master.zip)
+1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground.git -->

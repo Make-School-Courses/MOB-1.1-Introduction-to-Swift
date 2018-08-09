@@ -1,4 +1,4 @@
-# Optionals, Enums & Conditionals
+# Optionals & Conditionals
 
 ## Lesson Overview
 - 5 min Intro & Objectives
@@ -20,6 +20,12 @@ By the end of this lesson, students should be able to:
 1. Identify optional binding
 1. List ways of unwrapping an optional value
 1. List the cause and effect of `Implicitly Unwrapped Optionals`
+
+## Class Materials
+
+Slides:
+
+[Optionals & conditionals](https://docs.google.com/presentation/d/1mGFfmfmUR36PVpOQDSGlCvTjjpBmR6MMiWG8SmKZkAE/edit?usp=sharing)
 
 ## Baseline Challenges
 
