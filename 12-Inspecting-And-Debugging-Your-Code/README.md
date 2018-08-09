@@ -1,21 +1,21 @@
 # Inspecting and Debugging Your Code
 
 ## Lesson Overview
-5min Objectives & Past Lesson Review
-15min (I Do) on using breakpoints
+- 5min Objectives & Past Lesson Review
+- 15min (I Do) on using breakpoints
   - Debug bar
   - Variables view
   - Console
   - Set breakpoints
   - Print objects with `po`
   - Step into and through code with the console
-30min Work on Breakpoints Challenge - Discover the Bug
-10min Break
-15min (I Do) Debugging
+- 30min Work on Breakpoints Challenge - Discover the Bug
+- 10min Break
+- 15min (I Do) Debugging
   - Call Stack
   - Debug Gauges - CPU/Memory usage
-30min - Work on Debug Challenges
-5min Review & Wrap up
+- 30min - Work on Debug Challenges
+- 5min Review & Wrap up
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
