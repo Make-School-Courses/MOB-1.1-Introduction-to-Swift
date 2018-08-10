@@ -24,7 +24,8 @@ By the end of this lesson, students should be able to:
 
 Slides:
 
-[Structs & Protocols](assets/structsAndProtocols.zip)
+[Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNLBCuqV_tRG9yq2ikxCYBXZnSi1peFW7pvM/edit?usp=sharing)
+[Walkthrough](https://github.com/Product-College-Labs/protocols-introduction-ios/archive/master.zip)
 
 ## Baseline Challenges
 
