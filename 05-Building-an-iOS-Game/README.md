@@ -17,6 +17,11 @@ By the end of this lesson, students should be able to:
 - Identify and use SpriteKit to build and run a simple iOS game
 - Place assets and views on a screen
 
+## Class Materials
+
+Slides:
+[Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
+
 ## Baseline Challenges
 
 1. Lets create a `Pop the Bubble` game in iOS

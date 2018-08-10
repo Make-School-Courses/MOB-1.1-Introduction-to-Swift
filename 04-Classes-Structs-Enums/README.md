@@ -23,7 +23,7 @@
 #### TODO:
 
 Slides:
-[Classes, Structs & Enums](assets/classesStructsEnums.zip)
+[Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DAPCZtCvwxohwgjXY1zDHmAfdfQlZvQYSnA9Fbyw/edit?usp=sharing)
 
 ## Baseline Challenges
 

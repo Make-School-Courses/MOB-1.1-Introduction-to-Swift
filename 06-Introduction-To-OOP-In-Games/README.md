@@ -24,6 +24,9 @@ By the end of this lesson, students should be able to:
 - Identify and define `self` in a class
 
 ## Class Materials
+Slides:
+
+[OOP in Games](https://docs.google.com/presentation/d/1RKt5hiE30_opdI9euTtXJJ3oeFtIb4dTJ-a6ETlw0Z8/edit?usp=sharing)
 
 [OOP Playgrounds](https://github.com/Product-College-Labs/object-oriented-programming-in-swift/archive/master.zip)
 <!-- https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git -->
