@@ -1,8 +1,8 @@
-# Introduction to Swift with Games
+# Introduction to Swift
 
 ## Course Description
 
-We will be learning the fundamentals of the Swift, by cloning and building our very own iOS game.
+This class covers the foundations of the Swift programming language. Students learn key concepts including variables, constants, keywords, constructs, data types, Object Oriented Principles, and how to debug in Swift. We will build games in Swift to learn core concepts in mobile development.
 
 ## Course Specifics
 
@@ -16,7 +16,7 @@ Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites:
 
-None <br>
+Prework <br>
 
 ## Learning Objectives or Competencies
 
