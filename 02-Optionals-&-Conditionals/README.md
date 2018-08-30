@@ -29,7 +29,8 @@ Slides:
 
 ## Baseline Challenges
 
-1. [Conditionals Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground/archive/master.zip)
+<!-- 1. [Conditionals Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground/archive/master.zip) -->
+1. [Conditionals Swift Playgrounds](assets/conditionals.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground.git -->
 1. [Optionals Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds.git -->
