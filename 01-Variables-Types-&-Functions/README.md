@@ -32,7 +32,6 @@ Slides:
 
 **Variables & Functions**
 1. Work with a partner to come up with an analogy for types in Swift. Focus on the purpose and use of types.
-
 1. [Variables Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 <!-- https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground.git -->
 1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
