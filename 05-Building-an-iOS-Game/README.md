@@ -2,8 +2,7 @@
 
 ## Lesson Overview
 - 5 min Intro & Objectives
-- 5 min Breakout Activity
-- 10 min Introduction to SpriteKit - A Walkthrough
+- 15 min Introduction to SpriteKit - A Walkthrough
 - 40 min Let's build a simple game in SpriteKit - (I do)
 - 10 min Break
 - 25 min Form groups and work on challenge 1 (You do)
@@ -16,6 +15,7 @@ By the end of this lesson, students should be able to:
 - Identify the user interface elements of Xcode needed to build and run an iOS Game
 - Identify and use SpriteKit to build and run a simple iOS game
 - Place assets and views on a screen
+- Describe how the rendering loop works
 
 ## Class Materials
 
