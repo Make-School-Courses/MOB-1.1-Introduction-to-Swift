@@ -24,6 +24,8 @@ Slides:
 
 ## Baseline Challenges
 
+[Empty Starter project](https://github.com/Product-College-Labs/Game-Starter-Empty/tree/master)
+
 1. Lets create a `Pop the Bubble` game in iOS
   - a. We will start by cloning this repository [Pop The Bubble - Starter Project](https://github.com/Product-College-Labs/pop-the-bubble) with some of the assets pre-filled.
   - b. The game is simple, there will be floating bubbles that we can tap to pop.
