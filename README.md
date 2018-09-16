@@ -2,7 +2,7 @@
 
 ## Course Description
 
-This class covers the foundations of the Swift programming language. Students learn key concepts including variables, constants, keywords, constructs, data types, Object Oriented Principles, and how to debug in Swift. We will build games in Swift to learn core concepts in mobile development.
+This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games in Swift and complete exercises online.
 
 ## Course Specifics
 
@@ -12,7 +12,7 @@ Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs
+Class Sessions:  13 classes, 7 labs
 
 ## Prerequisites:
 
@@ -23,13 +23,14 @@ Prework <br>
 Students by the end of the course will be able to ...
 
 1. Write working Swift code.
-1. Apply OOP principles in Swift.
-1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to building an iOS game.
-1. Set breakpoints to inspect and debug code.
-1. Compare and contrast variables and constants in Swift.
-1. Learn how and when to use optionals.
 1. Identify Swift keywords and constructs.
-1. Use Xcode to build and run an iOS Game.
+1. Choose when to use variables and constants in Swift.
+1. Learn how and when to use optionals.
+1. Apply OOP principles in Swift.
+1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game.
+1. Use Xcode & SpriteKit to build and run an iOS Game.
+1. Set breakpoints to inspect and debug code.
+
 
 ## Evaluation
 
@@ -52,45 +53,62 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Why are we learning about Mobile Development?
       - Identify mobile Development in the scope of Software Development
     - **Variables and Types**
-      - What are variables?
-      - Fundamental & composite types in swift
+      - Variables and Constants (declaration, assigning values, usage)
+      - Types in Swift
     - **Functions**
       - Functions and code encapsulation
     - **After Class**
-      - Begin Classrooms in Repl.it
+      - Complete Classrooms in Repl.it on Variables, Types & Functions
 
 1. Optionals & Conditionals
+    - **Optionals**
+      - Working with optionals (identifying them, unwrapping & binding)
     - **Logic Statements in Swift**
-      - What is an optional?
       - Writing logic statements in Swift
+    - **After Class**
+      - Complete Classrooms in Repl.it on Optionals & Conditionals
+
+1. Arrays, Loops & Dictionaries
+    - **Arrays**
+      - What is an array?
+      - Working with arrays (create, append, delete, iterate)
+    - **Loops**
+      - While loop
+      - For lop
+    - **Dictionaries**
+      - Working with dictionaries (create, append, delete, iterate)
+    - **After Class**
+      - Complete Classrooms in Repl.it on Optionals & Conditionals
 
 1. Classes, Structs & Enums
-    - **Classes, Structs & Enums**
+    - **Classes, Structs**
       - Differentiate between classes & structs
       - Identify when to use classes & structs
+    - **Enums**
       - Identify and learn how to implement enums
     - **After Class**
-      - Complete Classrooms in Repl.it
+      - Complete Classrooms in Repl.it on Structs & Enums
 
 1. Building an iOS Game
     - **Introduction to SpriteKit**
       - Navigating a SpriteKit project
-      - Nodes, Scenes, Sprites, Textures UIColor, CGSize
+      - Nodes, Scenes, Sprites, Textures, UIColor, CGSize
     - **Activities**
       - First sprites (creation & positioning)
     - **After Class**
-      - Begin Tutorial: Sushi Neko
+      - Begin Tutorial: Orange Tree
 
 1. SpriteKit Simple Game
     - **Pop the Bubble Game**
-      - Creating assets & Positioning
-      - How RemoveFromParent works
-      - Run action, Block action, repeat, wait, sequence, touch events
+      - Creating multiple assets & positioning
+      - Using RemoveFromParent
+      - Options for running actions (sequence, repeat, group)
+      - Run action, Block action, Wait action
+      - Touch events
     - **Activities**
-      - Start Pop the Bubble games
+      - Work on Pop the Bubble game
     - **After Class**
       - Add Game Logic
-      - Start Sushi Neko
 
 1. Introduction to OOP in Games
     - **Building Characters & Abilities**
@@ -106,7 +124,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **Use Swift constructs to build an RPG Game**
       - Using Protocols and structs/classes to build a character system
     - **After Class**
-      - Begin Tutorial: Orange Tree
+      - Begin Tutorial: Sushi Neko
 
 1. Concentration Game
     - **Swift in Games**
@@ -116,7 +134,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - State management
 
 1. Concentration Game - Interactions
-    - **Making things move and interact with Actions & Touch Events**
+    - **Swift in Games**
       - SKActions
       - Touch events
 
@@ -140,6 +158,16 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 - [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
 - [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
+
+## Repl.it links (MOB 1.1 - 3:30 only)
+
+- [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)
+- [Conditionals](https://repl.it/classroom/invite/YcGNSq7)
+- [Optionals](https://repl.it/classroom/invite/YhH356u)
+- [Loops](https://repl.it/classroom/invite/YcITQAd)
+- [Arrays](https://repl.it/classroom/invite/YcJWOag)
+- [Structs](https://repl.it/classroom/invite/YcKZNKj)
+- [Enums](https://repl.it/classroom/invite/YcL2Lkm)
 
 ## Make School Course Policies
 
