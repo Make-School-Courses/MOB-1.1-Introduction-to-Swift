@@ -56,9 +56,9 @@ Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DA
     - Share with the rest of the class. (5 min)
 
 1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
-    - Complete:
-      - a. Chapter 12 on Initializers
-      - b. Chapter 10 on Enums
+  - Complete:
+    - a. Chapter 12 on Initializers
+    - b. Chapter 10 on Enums
 
 ## Resources
 
