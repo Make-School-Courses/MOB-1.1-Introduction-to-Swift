@@ -30,30 +30,30 @@ Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DA
 ## Baseline Challenges
 
 1. Analogy
-    - In groups, think in how you can explain how classes or structs work with an analogy. (5 min)
-    - Share with the rest of the class. (5 min)
+  - In groups, think in how you can explain how classes or structs work with an analogy. (5 min)
+  - Share with the rest of the class. (5 min)
 
 1. Defining a Struct
-    - List all the elements that can be part of a specification for a house.
-    - Model everything on the list with a struct for a house.
-    - Examples:
-      - a. Number of rooms
-      - b. Number of kitchens
-      - c. Number of bathrooms
-      - d. It might have a garage or not
+  - List all the elements that can be part of a specification for a house.
+  - Model everything on the list with a struct for a house.
+  - Examples:
+    - a. Number of rooms
+    - b. Number of kitchens
+    - c. Number of bathrooms
+    - d. It might have a garage or not
 
 1. Defining a Class
-    - List all the elements that can be part of a specification for a house owner.
-    - Model everything on the list with a class for a house owner.
-    - Examples:
-      - a. Sleep in a room
-      - b. Enter/Exit the house
-      - c. If there is a garage, they can park
-      - d. They own a house, use your previous struct
+  - List all the elements that can be part of a specification for a house owner.
+  - Model everything on the list with a class for a house owner.
+  - Examples:
+    - a. Sleep in a room
+    - b. Enter/Exit the house
+    - c. If there is a garage, they can park
+    - d. They own a house, use your previous struct
 
 1. Defining an Enum
-    - Individually, think in a concept that can be represented as an enum. Define an enum with your list of options for that concept. (5 min)
-    - Share with the rest of the class. (5 min)
+  - Individually, think in a concept that can be represented as an enum. Define an enum with your list of options for that concept. (5 min)
+  - Share with the rest of the class. (5 min)
 
 1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
     - Complete:
