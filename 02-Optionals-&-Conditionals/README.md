@@ -1,14 +1,18 @@
 # Optionals & Conditionals
 
 ## Lesson Overview
-- 5 min Intro & Objectives
-- 2 min Xcode Tips & Tricks - Finding Any Files with ```CMD + Shift + O```
-- 20 min TT on Conditionals
-- 30 min  Work on Conditionals Playground
-- 10 min Break
-- 15 min TT on Optionals
-- 20 min Work on Optionals Playground
-- 5 min Wrap up & Q&A
+
+| **Time(min)** | **Activity**               |
+| ------------- | ---------------------------|
+| 5             | Intro & Objectives         |
+| 5             | Xcode Tips & Tricks        |
+| 15            | TT on Conditionals         |
+| 30            | Playground on Conditionals |
+| 10            | Break                      |
+| 15            | TT on Optionals            |
+| 20            | Playground on Optionals    |
+| 5             | Wrap up & Q&A              |
+
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
@@ -17,9 +21,22 @@ By the end of this lesson, students should be able to:
 1. Identify and use optionals in Swift code
 1. Use optionals to represent nullable values
 1. Identify and use the `Nil Coalescing Operator`
-1. Identify optional binding
-1. List ways of unwrapping an optional value
-1. List the cause and effect of `Implicitly Unwrapped Optionals`
+1. Identify and use the `guard` statement
+1. Understand the importance of optional binding
+1. List & apply ways for unwrapping an optional value
+1. Explain the implications of  `Implicitly Unwrapped Optionals`
+
+## Xcode Tips - shortcuts
+
+| **Action**            | **Shortcut**                            |
+| ----------            | ---------------------------             |
+| Open quickly          | ⌘⇧O CMD + shift + O                     |
+| Clean                 | ⌘⇧K CMD + shift + K                     |
+| Show/hide debug area  | ⌘⇧Y CMD + shift + Y                     |
+| Show/hide navigator   | ⌘0 CMD + 0                              |
+| Find text in project  | ⌘⇧F CMD + shift + F                     |
+| Minimize functions    | ⌘⇧⌥⬅ CMD + shift + option + left arrow |
+
 
 ## Class Materials
 
@@ -29,9 +46,18 @@ Slides:
 
 ## Baseline Challenges
 
-<!-- 1. [Conditionals Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground/archive/master.zip) -->
-1. [Conditionals Swift Playgrounds](assets/conditionals.zip)
-<!-- https://github.com/MakeSchool-Tutorials/Intro-Conditionals-Swift-Playground.git -->
-1. [Optionals Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
-<!-- https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds.git -->
+1. [Conditionals - Swift Playgrounds](assets/conditionals.zip)
+
+1. [Optionals - Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
+
 1. [Another playground on optionals](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground)
+
+## After Class
+
+- Complete the exercises on Repl.it for Optionals
+
+## Resources
+
+- [Article on Optionals](https://hackernoon.com/swift-optionals-explained-simply-e109a4297298)
+- [Explaining the `guard` statement](https://thatthinginswift.com/guard-statement-swift/)
+- [Xcode shortcuts](https://swifteducation.github.io/assets/pdfs/XcodeKeyboardShortcuts.pdf)

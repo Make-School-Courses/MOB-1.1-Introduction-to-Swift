@@ -34,9 +34,9 @@ Slides:
 **Variables & Functions**
 1. Analogy for types in Swift
     - Work with a partner to come up with an analogy for types in Swift. (5 min)
-    - Share them with the rest of the class.(5min)
-1. [Variables Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
-1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
+    - Share them with the rest of the class.(5 min)
+1. [Variables - Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
+1. [Functions - Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
 
 ## After Class
 
