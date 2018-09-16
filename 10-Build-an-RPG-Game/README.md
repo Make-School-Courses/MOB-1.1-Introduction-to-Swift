@@ -2,15 +2,14 @@
 
 ## Lesson Overview
 
-5min Objectives & Past Lesson Review
-15min TT on OOP in Playgrounds
-30min Work on challenges in RPG Game
-10min Break
-15min TT on OOP
-  - Problems with inheritance
-  - Using protocols and classes to generate characters
-30min Work on challenges in RPG Game
-5min Review & Wrap up
+| **Time(min)** | **Activity**                              |
+| ------------- | ---------------------------               |
+| 5             | Intro & Objectives                        |
+| 10            | TT on OOP in Playgrounds                  |
+| 30            | Work on challenges in RPG Game            |
+| 10            | Break                                     |
+| 40            | Work on challenges in RPG Game            |
+| 5             | Wrap up & Q&A                             |
 
 ## Objectives & Competencies
 

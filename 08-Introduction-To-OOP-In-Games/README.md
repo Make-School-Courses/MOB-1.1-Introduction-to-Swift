@@ -1,14 +1,16 @@
-# Introduction to OOP in Games
+# Introduction to OOP
 
 ## Lesson Overview
-- 5min Objectives & Past Lesson Review
-- 15min TT on Object Oriented Programming (Why, What, How)
-  - Walkthrough Swift Playground on OOP
-- 30min Work on challenges on Intro to Object Oriented Programming - Chapters 1-4
-- 10min Break
-- 10min TT on Subclassing & Inheritance
-- 35min Continue work on OOP  Challenges - Chapters 5-8
-- 5min Review & Wrap up
+
+| **Time(min)** | **Activity**                  |
+| ------------- | ---------------------------   |
+| 5             | Intro & Objectives            |
+| 15            | TT on OOP (What, why, how)    |
+| 30            | Playground OOP (Chapters 1-4) |
+| 10            | Break                         |
+| 10            | TT Subclassing & Inheritance  |
+| 35            | Playground OOP (Chapters 5-8) |
+| 5             | Wrap up & Q&A                 |
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
@@ -24,9 +26,7 @@ By the end of this lesson, students should be able to:
 - Identify and define `self` in a class
 
 ## Class Materials
-Slides:
-
-[OOP in Games](https://docs.google.com/presentation/d/1RKt5hiE30_opdI9euTtXJJ3oeFtIb4dTJ-a6ETlw0Z8/edit?usp=sharing)
+Slides: [OOP in Games](https://docs.google.com/presentation/d/1RKt5hiE30_opdI9euTtXJJ3oeFtIb4dTJ-a6ETlw0Z8/edit?usp=sharing)
 
 [OOP Playgrounds](https://github.com/Product-College-Labs/object-oriented-programming-in-swift/archive/master.zip)
 <!-- https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git -->

@@ -1,16 +1,17 @@
 # Structs & Protocols
 
 ## Lesson Overview
-- 5min Objectives & Past Lesson Review
-- 15min TT on Subclassing - Use cases, pros and cons
-  - Discover challenges with using inheritance
-- 30min Work on challenges in OOP Challenges
-- 10min Break
-- 15min TT on Protocol Oriented Programming
-  - Discuss protocol conformance vs inheritance
-  - Discuss problems with OOP and how protocols help
-- 30min Work on challenges in OOP Challenges(Protocol Section)
-- 5min Review & Wrap up
+
+| **Time(min)** | **Activity**                              |
+| ------------- | ---------------------------               |
+| 5             | Intro & Objectives                        |
+| 10            | TT on Subclassing (uses cases, pros, cons)|
+| 30            | Playground OOP                            |
+| 10            | Break                                     |
+| 10            | TT Protocol conformance vs inheritance    |
+| 5             | TT How protocols help in OOP              |
+| 30            | OOP Challenges(Protocol Section)          |
+| 5             | Wrap up & Q&A                             |
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
@@ -22,9 +23,7 @@ By the end of this lesson, students should be able to:
 
 ## Class Materials
 
-Slides:
-
-[Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNLBCuqV_tRG9yq2ikxCYBXZnSi1peFW7pvM/edit?usp=sharing)
+Slides: [Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNLBCuqV_tRG9yq2ikxCYBXZnSi1peFW7pvM/edit?usp=sharing)
 
 [Walkthrough](https://github.com/Product-College-Labs/protocols-introduction-ios/archive/master.zip)
 
