@@ -26,11 +26,11 @@ Solution to The Grid
 
 ```
 for col in -1 ... 1 {
-for row in -1 ... 1 {
-// make a box
-// center x + space * col
-// center y + space * row
-}
+  for row in -1 ... 1 {
+    // make a box
+    // center x + space * col
+    // center y + space * row
+  }
 }
 ```
 
