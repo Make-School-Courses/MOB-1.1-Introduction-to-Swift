@@ -1,4 +1,4 @@
-# Building an iOS Game
+# Introduction to SpriteKit
 
 ## Lesson Overview
 
@@ -17,7 +17,7 @@ By the end of this lesson, students should be able to:
 
 - Setup an Xcode Game Project
 - Identify the user interface elements of Xcode needed to build and run an iOS Game
-- Identify and use SpriteKit to build and run a simple iOS game
+- Identify and use SpriteKit to build and run a simple project
 - Place assets and views on a screen
 - Describe how the rendering loop works
 
@@ -29,7 +29,13 @@ Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp
 
 [Empty Starter project](https://github.com/Product-College-Labs/Game-Starter-Empty/tree/master)
 
+Using what you already know, complete each step in the image to build a grid. Try using loops for the final result.
+
 ![The Grid](assets/thegrid.png)
 
 ## After Class
 - Start Tutorial: Orange Tree
+
+## Resources
+- [Article - Quick Intro to SpriteKit](https://hackernoon.com/swift-spritekit-basics-94b1798ab639)
+- [A more detailed Explanation of SpriteKit](https://code.tutsplus.com/tutorials/introducing-spritekit--cms-28648)
