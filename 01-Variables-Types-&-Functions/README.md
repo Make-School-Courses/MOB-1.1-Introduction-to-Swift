@@ -32,15 +32,19 @@ Slides:
 ## Baseline Challenges
 
 **Variables & Functions**
-1. Work with a partner to come up with an analogy for types in Swift. Focus on the purpose and use of types. Share them with the rest of the class.
+1. Analogy for types in Swift
+  - Work with a partner to come up with an analogy for types in Swift. (5 min)
+  - Share them with the rest of the class.(5min)
+  
 1. [Variables Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 1. [Functions Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Functions-Swift-Playground/archive/swift4.zip)
 
 ## After Class
 
-- Complete the exercises on Repl.it for Variables, Constants & Types.
+- Complete the exercises on Repl.it for Variables, Types & Functions
 
 ## Resources
 
-1. [Apple's documentation on Variables & Constants](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
-1. [Video on Types in Swift](https://www.youtube.com/watch?v=BlXrMgmvNBI)
+- [Apple's documentation on Variables & Constants](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
+- [Video on Types in Swift](https://www.youtube.com/watch?v=BlXrMgmvNBI)
+- [Article explaining Functions](https://learnappmaking.com/swift-functions-how-to/)
