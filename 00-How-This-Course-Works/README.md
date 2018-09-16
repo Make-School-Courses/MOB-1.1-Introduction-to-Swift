@@ -1,1 +1,0 @@
-# How this course works
