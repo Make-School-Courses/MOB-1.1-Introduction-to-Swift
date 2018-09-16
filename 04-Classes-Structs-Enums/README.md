@@ -60,6 +60,9 @@ Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DA
       - a. Chapter 12 on Initializers
       - b. Chapter 10 on Enums
 
+## After Class
+- Complete the exercises on Repl.it for Structs & Enums
+
 ## Resources
 
 - [Apple Docs - When to use structs vs classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
