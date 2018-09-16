@@ -24,13 +24,15 @@ By the end of this lesson, students should be able to:
 
 Solution to The Grid
 
-`for col in -1 ... 1 {
+```
+for col in -1 ... 1 {
 for row in -1 ... 1 {
 // make a box
 // center x + space * col
 // center y + space * row
 }
-}`
+}
+```
 
 Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
 
@@ -42,7 +44,7 @@ Using what you already know, complete each step in the image.
 
 ![Moving Boxes](assets/movingBoxes.png)
 
-### https://github.com/Product-College-Labs/pop-the-bubble
+<!--- https://github.com/Product-College-Labs/pop-the-bubble --->
 
 ## After Class
 - Continue working on Orange Tree
