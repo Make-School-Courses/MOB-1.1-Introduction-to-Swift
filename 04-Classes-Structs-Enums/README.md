@@ -1,17 +1,22 @@
 # Classes, Structs & Enums
 
 ## Lesson Overview
-- 5 min Intro & Objectives & Review of Previous Class
-- 10 min Activity on encapsulation/code modularity
-- 10 min TT on Structs & Classes
-- 30 min Complete Challenge 1 & Challenge 2a
-- 10 min Break
-- 10 min TT on Enums
-- 20 min Work on Enum challenges
-- 5 min Wrap up
+
+| **Time(min)** | **Activity**                        |
+| ------------- | ---------------------------         |
+| 5             | Intro & Objectives                  |
+| 10            | TT on Classes & Structs             |
+| 10            | Analogy activity                    |
+| 20            | Activity: Defining a class & struct |
+| 10            | Break                               |
+| 10            | TT on Enums                         |
+| 10            | Activity: Defining an Enum          |
+| 25            | Playground Enums & Initializers     |
+| 5             | Wrap up & Q&A                       |
+
 
 ## Objectives & Competencies
-1. Identify and distinguish between Classes & Structs in Swift code
+1. Understand the differences between Classes & Structs in Swift
 1. Create data models with both Classes & Structs
 1. Identify and list reasons for encapsulating code in Structs, Classes & Functions
 1. Use Enums to represent finite state
@@ -20,30 +25,39 @@
 
 ## Class Materials
 
-#### TODO:
-
 Slides:
 [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DAPCZtCvwxohwgjXY1zDHmAfdfQlZvQYSnA9Fbyw/edit?usp=sharing)
 
 ## Baseline Challenges
 
-**Create A House**
+1. Analogy
+  - In groups, think in how you can explain how classes or structs work with an analogy. (5 min)
+  - Share with the rest of the class. (5 min)
 
-1. Go over this specification for a house.
-  - Part One: Properties: A house has these properties:
+1. Defining a Struct
+  - List all the elements that can be part of a specification for a house.
+  - Model everything on the list with a struct for a house.
+  - Examples:
     - a. Number of rooms
     - b. Number of kitchens
     - c. Number of bathrooms
     - d. It might have a garage or not
-    - e. An owner(has name and a house)
 
-  - Part Two: An owner of a house can perform these in his/her house:
+1. Defining a Class
+  - List all the elements that can be part of a specification for a house owner.
+  - Model everything on the list with a class for a house owner.
+  - Examples:
     - a. Sleep in a room
     - b. Enter/Exit the house
     - c. If there is a garage, they can park
+    - d. They own a house, use your previous struct
 
-2. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
-  Complete:
+1. Defining an Enum
+  - Individually, think in a concept that can be represented as an enum. Define an enum with your list of options for that concept. (5 min)
+  - Share with the rest of the class. (5 min)
+
+  1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
+  - Complete:
     - a. Chapter 12 on Initializers
     - b. Chapter 10 on Enums
 

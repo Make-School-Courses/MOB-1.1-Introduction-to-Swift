@@ -29,7 +29,6 @@ Slides:
 ## Baseline Challenges
 
 1. [Array's & Loops Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Arrays-Loops-Swift-Playground/archive/swift4.zip)
-
 1. [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
 
 ## After Class
