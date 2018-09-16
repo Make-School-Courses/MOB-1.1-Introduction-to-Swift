@@ -1,34 +1,48 @@
 # Building an iOS Game
 
 ## Lesson Overview
-- 5 min Intro & Objectives
-- 15 min Introduction to SpriteKit - A Walkthrough
-- 40 min Let's build a simple game in SpriteKit - (I do)
-- 10 min Break
-- 25 min Form groups and work on challenge 1 (You do)
-- 5 min Wrap up
+
+| **Time(min)** | **Activity**                     |
+| ------------- | ---------------------------      |
+| 5             | Intro & Objectives               |
+| 10            | Review & Solution of The Grid    |
+| 10            | TT on Actions for the challenge  |
+| 30            | Challenge                        |
+| 10            | Break                            |
+| 30            | Continue with challenge          |
+| 10            | Checking on Tutorial's progress  |
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
 
-- Setup an Xcode Game Project
-- Identify the user interface elements of Xcode needed to build and run an iOS Game
-- Identify and use SpriteKit to build and run a simple iOS game
-- Place assets and views on a screen
-- Describe how the rendering loop works
+- Use SKActions to move sprites
+- Delete sprites from scenes using `RemoveFromParent`
+- Work with random numbers in Swift
+- Identify & apply the different ways to run actions (block, sequence, repeat)
 
 ## Class Materials
 
-Slides:
-[Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
+Solution to The Grid
+
+`for col in -1 ... 1 {
+for row in -1 ... 1 {
+// make a box
+// center x + space * col
+// center y + space * row
+}
+}`
+
+Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
 
 ## Baseline Challenges
 
 [Empty Starter project](https://github.com/Product-College-Labs/Game-Starter-Empty/tree/master)
 
-1. Lets create a `Pop the Bubble` game in iOS
-  - a. We will start by cloning this repository [Pop The Bubble - Starter Project](https://github.com/Product-College-Labs/pop-the-bubble) with some of the assets pre-filled.
-  - b. The game is simple, there will be floating bubbles that we can tap to pop.
-  Student Challenge:
-    - a.
-    - b.
+Using what you already know, complete each step in the image.
+
+![Moving Boxes](assets/movingBoxes.png)
+
+### https://github.com/Product-College-Labs/pop-the-bubble
+
+## After Class
+- Continue working on Orange Tree
