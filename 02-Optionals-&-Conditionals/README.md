@@ -47,9 +47,7 @@ Slides:
 ## Baseline Challenges
 
 1. [Conditionals - Swift Playgrounds](assets/conditionals.zip)
-
 1. [Optionals - Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
-
 1. [Another playground on optionals](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground)
 
 ## After Class
