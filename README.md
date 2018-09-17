@@ -89,7 +89,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **After Class**
       - Complete Classrooms in Repl.it on Structs & Enums
 
-1. Building an iOS Game
+1. Introduction to SpriteKit
     - **Introduction to SpriteKit**
       - Navigating a SpriteKit project
       - Nodes, Scenes, Sprites, Textures, UIColor, CGSize
@@ -98,17 +98,21 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **After Class**
       - Begin Tutorial: Orange Tree
 
-1. SpriteKit Simple Game
+1. Building an iOS Game
     - **Pop the Bubble Game**
       - Creating multiple assets & positioning
+      - Random numbers
+    - **Activities**
+      - Work on Pop the Bubble game
+
+1. Building an iOS Game Pt.2
+    - **Pop the Bubble Game**
       - Using RemoveFromParent
       - Options for running actions (sequence, repeat, group)
       - Run action, Block action, Wait action
       - Touch events
     - **Activities**
       - Work on Pop the Bubble game
-    - **After Class**
-      - Add Game Logic
 
 1. Introduction to OOP in Games
     - **Building Characters & Abilities**
@@ -132,9 +136,6 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
       - Display color in Sprites
       - Use subclassing to customize
       - State management
-
-1. Concentration Game - Interactions
-    - **Swift in Games**
       - SKActions
       - Touch events
 

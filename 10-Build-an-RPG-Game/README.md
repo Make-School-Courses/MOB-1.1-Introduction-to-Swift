@@ -21,3 +21,7 @@ By the end of this lesson, students should be able to:
 ## Baseline Challenges
 
 [RPG Game](https://github.com/Product-College-Labs/oop-rpg/archive/master.zip)
+
+## After Class
+
+- Begin tutorial Sushi Neko
