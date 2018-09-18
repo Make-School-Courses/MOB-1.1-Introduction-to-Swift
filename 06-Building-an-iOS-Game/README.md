@@ -4,19 +4,21 @@
 
 | **Time(min)** | **Activity**                     |
 | ------------- | ---------------------------      |
-| 5             | Intro & Objectives               |
-| 10            | Review & Solution of The Grid    |
+| 5             | Review & Solution of The Grid    |
+| 5             | Objectives                       |
 | 10            | TT on Actions for the challenge  |
 | 30            | Challenge                        |
 | 10            | Break                            |
-| 30            | Continue with challenge          |
-| 10            | Checking on Tutorial's progress  |
+| 5             | TT Finding & Removing Nodes      |
+| 15            | Activity on Random Numbers       |
+| 25            | Challenge on Moving boxes        |
 
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
 
 - Use SKActions to move sprites
 - Delete sprites from scenes using `RemoveFromParent`
+- Find sprites by their name property
 - Work with random numbers in Swift
 - Identify & apply the different ways to run actions (block, sequence, repeat)
 
@@ -48,3 +50,8 @@ Using what you already know, complete each step in the image.
 
 ## After Class
 - Continue working on Orange Tree
+
+## Resources
+
+- [Apple's documentation on SKActions](https://developer.apple.com/documentation/spritekit/skaction)
+- [Article on random numbers](https://learnappmaking.com/random-numbers-swift/)
