@@ -41,7 +41,7 @@ Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRcz
 ## Baseline Challenges
 
 1. In pairs:
-- Make the group & time diagrams for each of the following animations in a mini whiteboard.
+- Draw the diagrams for each of the following animations in a mini whiteboard.
 - Then code them in Xcode.
 - Then create one diagram for your partner to code.
 
