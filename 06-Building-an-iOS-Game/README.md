@@ -61,4 +61,5 @@ Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRcz
 ## Resources
 
 - [Apple's documentation on SKActions](https://developer.apple.com/documentation/spritekit/skaction)
+- [Article on SKActions](https://hackernoon.com/a-guide-to-spritekit-actions-c20b079f5398)
 - [Article on random numbers](https://learnappmaking.com/random-numbers-swift/)
