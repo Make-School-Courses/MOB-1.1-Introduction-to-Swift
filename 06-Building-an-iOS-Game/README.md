@@ -36,7 +36,7 @@ for col in -1 ... 1 {
 }
 ```
 
-Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
+Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRczeBZJme8hF_7iQ34QMaP2B4zQINFcymXpuY/edit?usp=sharing)
 
 ## Baseline Challenges
 
