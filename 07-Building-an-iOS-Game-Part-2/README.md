@@ -21,7 +21,7 @@ By the end of this lesson, students should be able to:
 
 ## Class Materials
 
-Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
+Slides: [Building an iOS Game](https://docs.google.com/presentation/d/10THRpODPR8kXrsU1I5yAKETj2Hym1PXs-eaYj8tCkxo/edit#slide=id.p)
 
 ## Baseline Challenges
 
