@@ -159,7 +159,8 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 - [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
 - [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
-- Personal Project [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
+- Independent Project [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
 ## Repl.it links (MOB 1.1 - 3:30 only)
 
