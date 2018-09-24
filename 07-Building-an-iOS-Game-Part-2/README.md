@@ -40,8 +40,7 @@ Your complete project should meet the following requirements:
 - Showing a message at the end.
 - Restarting the game. (Stretch challenge)
 
-This project will be graded using [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
-Upload your game to your Github repository.
+Upload your game to your Github repository. This project will be graded using [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
 
 <!--- https://github.com/Product-College-Labs/pop-the-bubble --->
 
