@@ -29,6 +29,20 @@ Using what you already know, complete each step in the image.
 
 ![Moving Boxes](assets/pop.png)
 
+Your complete project should meet the following requirements:
+
+- Bubbles at random x-positions that move all the way up the screen.
+- Bubbles should be removed if they reach the top or if a user taps on them.
+- Use a texture on the bubbles or any other place in the game.
+- Keeping score: tapped bubbles add 1 point, bubbles that reach the top decrease score by one.
+- Showing & updating the score with a label.
+- If the score is less than zero the game ends.
+- Showing a message at the end.
+- Restarting the game. (Stretch challenge)
+
+This project will be graded using [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
+Upload your game to your Github repository.
+
 <!--- https://github.com/Product-College-Labs/pop-the-bubble --->
 
 ## After Class
