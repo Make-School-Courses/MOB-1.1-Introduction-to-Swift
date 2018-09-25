@@ -40,7 +40,7 @@ To pass this course you must meet the following requirements:
 - No more than four excused absences
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
-- Complete at least 30% of first Independent study. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Complete at least 30% of first Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 - Pass the final exam (summative assessment) with >=80%
 
 ## Lessons
