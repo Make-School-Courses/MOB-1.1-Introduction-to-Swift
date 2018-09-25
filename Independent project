@@ -1,0 +1,37 @@
+Independent Project Overview
+
+# Requirements
+Complete an independent project using what you already know from classes in the MOB track and additional resources
+you study in your own.  The project’s main goal is to become a learning experience but you can also solve a real
+problem with it. 
+
+The project should meet the following requirements:
+
+* Demonstrate knowledge using Swift fundamentals. 
+	— Variables
+	— Types
+	— Functions
+	— Arrays
+	— Loops
+	— Dictionaries
+	— Classes
+	— Structs
+	— Enums 
+  
+* Make use of OOP.
+* Use SpriteKit if making a game.
+* Use UIKit  if not making a game.
+* Define the project’s goal.
+* Define the project’s milestones and expectations.
+* Have its own unique look, feel and functionality.
+* The project should have original features.
+* Use external resources (libraries).
+* The source code should be uploaded to GitHub, with public visibility.
+* Project should be well documented  (comments,  appropriate variable and method names).
+* Include a README file.
+* Establish milestones, assessing risks and measures on how to avoid them.
+* Project should be live on the App Store.
+* Demonstrate progress of the project using a backlog.
+
+
+Make sure to submit the project to your personal portfolio.
