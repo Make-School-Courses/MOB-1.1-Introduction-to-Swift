@@ -172,6 +172,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 - [Arrays](https://repl.it/classroom/invite/YcJWOag)
 - [Structs](https://repl.it/classroom/invite/YcKZNKj)
 - [Enums](https://repl.it/classroom/invite/YcL2Lkm)
+- [OOP](https://repl.it/classroom/invite/ZpclEej)
 
 ## Make School Course Policies
 
