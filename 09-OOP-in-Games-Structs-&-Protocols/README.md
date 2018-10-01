@@ -6,11 +6,11 @@
 | ------------- | ---------------------------               |
 | 5             | Intro & Objectives                        |
 | 10            | TT on Subclassing (uses cases, pros, cons)|
-| 30            | Playground OOP                            |
+| 30            | Playground POP                            |
 | 10            | Break                                     |
 | 10            | TT Protocol conformance vs inheritance    |
-| 5             | TT How protocols help in OOP              |
-| 30            | OOP Challenges(Protocol Section)          |
+| 5             | TT How protocols help in POP              |
+| 30            | POP Challenges(Protocol Section)          |
 | 5             | Wrap up & Q&A                             |
 
 ## Objectives & Competencies
@@ -30,4 +30,4 @@ Slides: [Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNL
 ## Baseline Challenges
 
 Download or clone this repo:
-[OOP Playgrounds & Challenges](https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git)
+[POP Playgrounds & Challenges](https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git)
