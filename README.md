@@ -40,8 +40,8 @@ To pass this course you must meet the following requirements:
 - No more than four excused absences
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
-- Pass the final exam (summative assessment) with >=80%
-- Complete the description for yout first Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Pass the final exam (summative assessment) with >=70%
+- Complete the description for your first Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
 
 ## Lessons
@@ -166,7 +166,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 ## Repl.it links (MOB 1.1 - 3:30 only)
 
-- [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)
+- [Variables & Functions](https://repl.it/classroom/invite/YcFKUQ4)
 - [Conditionals](https://repl.it/classroom/invite/YcGNSq7)
 - [Optionals](https://repl.it/classroom/invite/YhH356u)
 - [Loops](https://repl.it/classroom/invite/YcITQAd)
