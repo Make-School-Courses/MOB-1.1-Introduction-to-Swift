@@ -38,8 +38,11 @@ Worksheet questions
 [RPG Game](https://github.com/Product-College-Labs/oop-rpg/archive/master.zip)
 
 ## External Resources
+
 [Article about protocols](https://medium.com/@abhimuralidharan/all-about-protocols-in-swift-11a72d6ea354)
+
 [Article on POP](https://medium.com/nsistanbul/protocol-oriented-programming-in-swift-ad4a647daae2)
+
 [More on Protocols](https://dev.to/abelagoi/protocol-in-swift-with-practical-examples-3iif)
 
 
