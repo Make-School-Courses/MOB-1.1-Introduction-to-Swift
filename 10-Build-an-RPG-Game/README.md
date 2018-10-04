@@ -24,14 +24,14 @@ By the end of this lesson, students should be able to:
 
 Worksheet questions
 
-What is a protocol in Swift?
-What does it mean when a class conforms to a protocol?
-Why is there a limitation when using OOP when it comes to inheritance?
-How does POP solves this limitation?
-What are protocol extensions? How do they help with redundant code?
-What is the difference between a get/set property and a get only property?
-What does the word mutating before a function declaration mean?
-When is it best to use a protocol instead of class inheritance?
+1. What is a protocol in Swift?
+1. What does it mean when a class conforms to a protocol?
+1. Why is there a limitation when using OOP when it comes to inheritance?
+1. How does POP solves this limitation?
+1. What are protocol extensions? How do they help with redundant code?
+1. What is the difference between a get/set property and a get only property?
+1. What does the word mutating before a function declaration mean?
+1. When is it best to use a protocol instead of class inheritance?
 
 ## Baseline Challenges
 
