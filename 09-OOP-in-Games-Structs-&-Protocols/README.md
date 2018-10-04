@@ -31,3 +31,7 @@ Slides: [Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNL
 
 Download or clone this repo:
 [POP Playgrounds & Challenges](https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git)
+
+## After Class
+
+- Begin tutorial Sushi Neko
