@@ -18,8 +18,28 @@ By the end of this lesson, students should be able to:
 - Use `Protocols` and classes/structs to build a character creation system
 - Identify the pros and cons of POP vs OOP
 
+## Class Material
+
+[Slides](https://docs.google.com/presentation/d/1HJ0U6NqxcL2WQbIOGpai25JvNpIQNtM2tqTFXfAmW14/edit?usp=sharing)
+
+Worksheet questions
+
+What is a protocol in Swift?
+What does it mean when a class conforms to a protocol?
+Why is there a limitation when using OOP when it comes to inheritance?
+How does POP solves this limitation?
+What are protocol extensions? How do they help with redundant code?
+What is the difference between a get/set property and a get only property?
+What does the word mutating before a function declaration mean?
+When is it best to use a protocol instead of class inheritance?
+
 ## Baseline Challenges
 
 [RPG Game](https://github.com/Product-College-Labs/oop-rpg/archive/master.zip)
+
+## External Resources
+[Article about protocols](https://medium.com/@abhimuralidharan/all-about-protocols-in-swift-11a72d6ea354)
+[Article on POP](https://medium.com/nsistanbul/protocol-oriented-programming-in-swift-ad4a647daae2)
+[More on Protocols](https://dev.to/abelagoi/protocol-in-swift-with-practical-examples-3iif)
 
 
