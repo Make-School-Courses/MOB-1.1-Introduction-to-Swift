@@ -41,7 +41,7 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Pass the final exam (summative assessment) with >=70%
-- Complete the description for your first Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
 
 | Class |          Date          |                 Topics                  |
