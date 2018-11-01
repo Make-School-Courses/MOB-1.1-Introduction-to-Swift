@@ -12,7 +12,7 @@ Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
-Class Sessions:  13 classes, 7 labs
+Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites:
 
@@ -43,6 +43,25 @@ To pass this course you must meet the following requirements:
 - Pass the final exam (summative assessment) with >=70%
 - Complete the description for your first Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
+
+| Class |          Date          |                 Topics                  |
+|:-----:|:----------------------:|:---------------------------------------:|
+|  1  |  Tuesday, October 23    | Variables, Types & Functions |
+|  2   | Thursday, October 25    | Optionals & Conditionals |
+|  3   |  Tuesday, October 30  | Arrays, Loops & Dictionaries |
+|  4   | Thursday, November 1  | Classes, Structs & Enums |
+|   5   |  Tuesday, November 6 | Introduction to SpriteKit |
+|   6   | Thursday, November 8 |  Building an iOS Game |
+|   7   |  Tuesday, November 13 | Building an iOS Game Pt.2 |
+|   8   | Thursday, November 15 | OOP - Structs & Protocols |
+|      |  Tuesday, November 20 | **Don Rags** |
+|     | Thursday, November 22 | **Fall Break** |
+|  9   |  Tuesday, November 27    | Building an RPG Game |
+|  10   | Thursday, November 29    | Introduction to UIKit |
+|  11     |  Tuesday, December 4    | Workshop |
+|  12   | Thursday, December 6   | Inspecting and Debugging Your Code |
+|  13   | Tuesday, December 11   | Final Exams |
+|  14   | Thursday, December 13   | Final Class (presentations) |
 
 ## Lessons
 
@@ -132,23 +151,19 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **After Class**
       - Begin Tutorial: Sushi Neko
 
-1. Concentration Game
-    - **Swift in Games**
-      - Build grids with loops
-      - Display color in Sprites
-      - Use subclassing to customize
-      - State management
-      - SKActions
-      - Touch events
+ 1. Introduction to iOS App Development and UIKit
+    - **Mobile Development & UIKit**
+      - What does mobile application development entail?
+      - General use cases and pro's and cons
+      - Platform and ecosystem
+    - **In Class Activities**
+      - Identifying common elements in featured apps
+    - **After Class**
+      - Begin Magic 8 Ball Tutorial
 
-1. Concentration Game - Logic
-    - **Swift in Games**
-      - Using Enums, Functions, Structs & Protocols in Games
-      - Game Matching logic
-      - Game Reseting logic
-      - Game State logic
+1. Workshop day
 
-1. Inspecting and Debugging Your Code (Extra Lesson)
+1. Inspecting and Debugging Your Code 
     - **Debugging**
       - Setting breakpoints
       - Printing objects in the debugger
@@ -162,7 +177,8 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 - [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
 - [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
 - Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
-- Independent Project [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+
 
 ## Repl.it links (MOB 1.1 - 3:30 only)
 
@@ -177,10 +193,20 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 - [OOP](https://repl.it/classroom/invite/ZpclEej)
 - [POP](https://repl.it/classroom/invite/0FruFZO)
 
+## Attendance
+Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
+
+Attendance requirements for scheduled sessions are:
+- No more than two no call no shows per term in any scheduled session.
+- No more than four excused absences per term in any scheduled session.
+
+Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School. 
+
 ## Make School Course Policies
 
 [Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Accommodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Attendance Policy]()  
 [Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
 [Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
 <br>
