@@ -43,6 +43,11 @@ To pass this course you must meet the following requirements:
 - Pass the final exam (summative assessment) with >=70%
 - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
+## Schedule
+
+**Course Dates:** Tuesday, October 23 – Thursday, December 13, 2018 (7 weeks)
+
+**Class Times:** Tuesday and Thursday at 3:30–5:20pm (13 class sessions)
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
