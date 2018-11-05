@@ -51,131 +51,36 @@ To pass this course you must meet the following requirements:
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1  |  Tuesday, October 23    | Variables, Types & Functions |
-|  2   | Thursday, October 25    | Optionals & Conditionals |
-|  3   |  Tuesday, October 30  | Arrays, Loops & Dictionaries |
-|  4   | Thursday, November 1  | Classes, Structs & Enums |
-|   5   |  Tuesday, November 6 | Introduction to SpriteKit |
-|   6   | Thursday, November 8 |  Building an iOS Game |
-|   7   |  Tuesday, November 13 | Building an iOS Game Pt.2 |
-|   8   | Thursday, November 15 | OOP - Structs & Protocols |
+|  1  |  Tuesday, October 23    | [Variables, Types & Functions] |
+|  2   | Thursday, October 25    | [Optionals & Conditionals] |
+|  3   |  Tuesday, October 30  | [Arrays, Loops & Dictionaries] |
+|  4   | Thursday, November 1  | [Classes, Structs & Enums] |
+|   5   |  Tuesday, November 6 | [Introduction to SpriteKit] |
+|   6   | Thursday, November 8 |  [Building an iOS Game] |
+|   7   |  Tuesday, November 13 | [Building an iOS Game Pt.2] |
+|   8   | Thursday, November 15 | [OOP - Structs & Protocols] |
 |      |  Tuesday, November 20 | **Don Rags** |
 |     | Thursday, November 22 | **Fall Break** |
-|  9   |  Tuesday, November 27    | Building an RPG Game |
-|  10   | Thursday, November 29    | Introduction to UIKit |
-|  11     |  Tuesday, December 4    | Workshop |
-|  12   | Thursday, December 6   | Inspecting and Debugging Your Code |
+|  9   |  Tuesday, November 27    | [Building an RPG Game] |
+|  10   | Thursday, November 29    | [More on OOP] |
+|  11     |  Tuesday, December 4    | [Introduction to UIKit] |
+|  12   | Thursday, December 6   | [Inspecting and Debugging Your Code] |
 |  13   | Tuesday, December 11   | Final Exams |
 |  14   | Thursday, December 13   | Final Class (presentations) |
 
-## Lessons
+[Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions
+[Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals
+[Arrays, Loops & Dictionaries]: Lessons/03-Arrays-Loops-Dictionaries
+[Classes, Structs & Enums]: Lessons/04-Classes-Structs-Enums
+[Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit
+[Building an iOS Game]: Lessons/06-Building-an-iOS-Game
+[Building an iOS Game Pt.2]: Lessons/07-Building-an-iOS-Game-Part-2
+[OOP - Structs & Protocols]: Lessons/08-Introduction-To-OOP-In-Games
+[Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols
+[More on OOP]: Lessons/10-Build-an-RPG-Game
+[Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit
+[Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code
 
-Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
-
-1. Variables, Types & Functions
-    - **Before Class**
-      - Complete all course pre-work
-    - **Introduction to Mobile Development**
-      - Why are we learning about Mobile Development?
-      - Identify mobile Development in the scope of Software Development
-    - **Variables and Types**
-      - Variables and Constants (declaration, assigning values, usage)
-      - Types in Swift
-    - **Functions**
-      - Functions and code encapsulation
-    - **After Class**
-      - Complete Classrooms in Repl.it on Variables, Types & Functions
-
-1. Optionals & Conditionals
-    - **Optionals**
-      - Working with optionals (identifying them, unwrapping & binding)
-    - **Logic Statements in Swift**
-      - Writing logic statements in Swift
-    - **After Class**
-      - Complete Classrooms in Repl.it on Optionals & Conditionals
-
-1. Arrays, Loops & Dictionaries
-    - **Arrays**
-      - What is an array?
-      - Working with arrays (create, append, delete, iterate)
-    - **Loops**
-      - While loop
-      - For lop
-    - **Dictionaries**
-      - Working with dictionaries (create, append, delete, iterate)
-    - **After Class**
-      - Complete Classrooms in Repl.it on Optionals & Conditionals
-
-1. Classes, Structs & Enums
-    - **Classes, Structs**
-      - Differentiate between classes & structs
-      - Identify when to use classes & structs
-    - **Enums**
-      - Identify and learn how to implement enums
-    - **After Class**
-      - Complete Classrooms in Repl.it on Structs & Enums
-
-1. Introduction to SpriteKit
-    - **Introduction to SpriteKit**
-      - Navigating a SpriteKit project
-      - Nodes, Scenes, Sprites, Textures, UIColor, CGSize
-    - **Activities**
-      - First sprites (creation & positioning)
-    - **After Class**
-      - Begin Tutorial: Orange Tree
-
-1. Building an iOS Game
-    - **Pop the Bubble Game**
-      - Creating multiple assets & positioning
-      - Random numbers
-    - **Activities**
-      - Work on Pop the Bubble game
-
-1. Building an iOS Game Pt.2
-    - **Pop the Bubble Game**
-      - Using RemoveFromParent
-      - Options for running actions (sequence, repeat, group)
-      - Run action, Block action, Wait action
-      - Touch events
-    - **Activities**
-      - Work on Pop the Bubble game
-
-1. Introduction to OOP in Games
-    - **Building Characters & Abilities**
-      - Subclass SKSpriteNode, add features
-      - Initializers - default, required, and convenience
-
-1. OOP - Structs & Protocols
-    - **Remodeling with Structs & Protocols**
-      - Inheritance
-      - Protocol conformance vs inheritance
-
-1. Building an RPG Game
-    - **Use Swift constructs to build an RPG Game**
-      - Using Protocols and structs/classes to build a character system
-    - **After Class**
-      - Begin Tutorial: Sushi Neko
-
- 1. Introduction to iOS App Development and UIKit
-    - **Mobile Development & UIKit**
-      - What does mobile application development entail?
-      - General use cases and pro's and cons
-      - Platform and ecosystem
-    - **In Class Activities**
-      - Identifying common elements in featured apps
-    - **After Class**
-      - Begin Magic 8 Ball Tutorial
-
-1. Workshop day
-
-1. Inspecting and Debugging Your Code 
-    - **Debugging**
-      - Setting breakpoints
-      - Printing objects in the debugger
-      - Moving through code in the debugger
-      - Finding and fixing errors with the debugger
-    - **In Class Activities**
-      - Find and fix the bug in sample code
 
 ## Tutorials & Projects
 
@@ -205,7 +110,7 @@ Attendance requirements for scheduled sessions are:
 - No more than two no call no shows per term in any scheduled session.
 - No more than four excused absences per term in any scheduled session.
 
-Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School. 
+Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
 
 ## Make School Course Policies
 
