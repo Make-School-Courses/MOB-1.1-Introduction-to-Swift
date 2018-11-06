@@ -41,7 +41,7 @@ To pass this course you must meet the following requirements:
 - Make up all classwork from all absences
 - Finish all required tutorials and projects
 - Pass the final exam (summative assessment) with >=70%
-- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
 ## Schedule
 
@@ -87,7 +87,7 @@ To pass this course you must meet the following requirements:
 - [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
 - [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
 - Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
-- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
 
 ## Repl.it links (MOB 1.1 - 3:30 only)
