@@ -27,7 +27,7 @@ Students by the end of the course will be able to ...
 1. Apply OOP principles in Swift.
 1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game.
 1. Use Xcode & SpriteKit to build and run an iOS Game.
-1. Set breakpoints to inspect and debug code.
+1. Identify basic UIKit elements in iOS apps.
 
 
 ## Evaluation
