@@ -16,9 +16,9 @@
 ## Objectives & Competencies
 By the end of this lesson, students should be able to:
 
-- Create and use Structs in combination with `Protocols`
+- Create and use Structs in combination with Protocols
 - Create subclasses of an existing class
-- Distinguish between `Protocol` conformance vs `Inheritance`
+- Distinguish between Protocol conformance vs Inheritance
 - Use protocols to describe properties and behaviors(methods) of a conforming class/struct
 
 ## Class Materials
