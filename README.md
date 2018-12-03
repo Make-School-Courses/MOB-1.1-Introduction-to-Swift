@@ -22,10 +22,8 @@ Prework <br>
 
 Students by the end of the course will be able to ...
 
-1. Write working Swift code.
-1. Identify Swift keywords and constructs.
-1. Choose when to use variables and constants in Swift.
-1. Learn how and when to use optionals.
+1. Write working Swift code using basic elements: variables, constants, optionals, identifying keywords.
+1. Store and manipulate elements in arrays and dictionaries.
 1. Apply OOP principles in Swift.
 1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game.
 1. Use Xcode & SpriteKit to build and run an iOS Game.
