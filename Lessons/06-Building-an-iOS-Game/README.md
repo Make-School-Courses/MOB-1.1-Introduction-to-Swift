@@ -1,6 +1,6 @@
 # Building an iOS Game
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                     |
 | ------------- | ---------------------------      |
@@ -13,7 +13,7 @@
 | 15            | Activity on Random Numbers       |
 | 25            | Challenge on Moving boxes        |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 - Use SKActions to move sprites
@@ -22,7 +22,7 @@ By the end of this lesson, students should be able to:
 - Work with random numbers in Swift
 - Identify & apply the different ways to run actions (block, sequence, repeat)
 
-## Class Materials
+## Initial Exercise
 
 Solution to The Grid
 
@@ -35,10 +35,11 @@ for col in -1 ... 1 {
   }
 }
 ```
+## Overview
 
 Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRczeBZJme8hF_7iQ34QMaP2B4zQINFcymXpuY/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activities
 
 1. In pairs:
 - Draw the diagrams for each of the following animations in a mini whiteboard.
@@ -55,10 +56,10 @@ Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRcz
 
 <!--- https://github.com/Product-College-Labs/pop-the-bubble --->
 
-## After Class
+## Wrap Up
 - Continue working on Orange Tree
 
-## Resources
+## Additional Resources
 
 - [Apple's documentation on SKActions](https://developer.apple.com/documentation/spritekit/skaction)
 - [Article on SKActions](https://hackernoon.com/a-guide-to-spritekit-actions-c20b079f5398)

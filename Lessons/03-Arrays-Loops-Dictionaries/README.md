@@ -1,6 +1,6 @@
 # Array's Loops & Dictionaries
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                |
 | ------------- | --------------------------- |
@@ -12,7 +12,7 @@
 | 30            | Playground on Dictionaries  |
 | 5             | Wrap up & Q&A               |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 - Construct and use Arrays to store collections of data
@@ -20,22 +20,22 @@ By the end of this lesson, students should be able to:
 - Declare and use Arrays and Dictionaries
 - Apply Optionals in creating and using Dictionaries
 
-## Class Materials
+## Overview
 
 Slides:
 
 [Arrays Loops & Dictionaries](https://docs.google.com/presentation/d/1-QFzAVF7x2pDSOAnifyH7NfqdDzIr99CRlTcma5KcrQ/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activity
 
 1. [Array's & Loops Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Arrays-Loops-Swift-Playground/archive/swift4.zip)
 1. [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
 
-## After Class
+## Wrap Up
 
 - Complete the exercises on Repl.it for Arrays, Loops & Dictionaries
 
-## Resources
+## Additional Resources
 
 - [Apple's documentation on Arrays & Dictionaries](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 - [Video on For Loops](https://www.youtube.com/watch?v=vxyrLbmm9Oo)

@@ -1,6 +1,6 @@
 # Optionals & Conditionals
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**               |
 | ------------- | ---------------------------|
@@ -14,7 +14,7 @@
 | 5             | Wrap up & Q&A              |
 
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 1. Use logic statements in Swift
@@ -26,7 +26,7 @@ By the end of this lesson, students should be able to:
 1. List & apply ways for unwrapping an optional value
 1. Explain the implications of  `Implicitly Unwrapped Optionals`
 
-## Xcode Tips - shortcuts
+## Initial Exercise
 
 | **Action**            | **Shortcut**                            |
 | ----------            | ---------------------------             |
@@ -38,23 +38,23 @@ By the end of this lesson, students should be able to:
 | Minimize functions    | ⌘⇧⌥⬅ CMD + shift + option + left arrow |
 
 
-## Class Materials
+## Overview
 
 Slides:
 
 [Optionals & conditionals](https://docs.google.com/presentation/d/1mGFfmfmUR36PVpOQDSGlCvTjjpBmR6MMiWG8SmKZkAE/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activities
 
 1. [Conditionals - Swift Playgrounds](assets/conditionals.zip)
 1. [Optionals - Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
 1. [Another playground on optionals](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground)
 
-## After Class
+## Wrap Up
 
 - Complete the exercises on Repl.it for Optionals
 
-## Resources
+## Additional Resources
 
 - [Article on Optionals](https://hackernoon.com/swift-optionals-explained-simply-e109a4297298)
 - [Explaining the `guard` statement](https://thatthinginswift.com/guard-statement-swift/)

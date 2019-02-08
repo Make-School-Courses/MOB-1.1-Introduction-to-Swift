@@ -1,6 +1,6 @@
 # Introduction to SpriteKit
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                             |
 | ------------- | ---------------------------              |
@@ -12,7 +12,7 @@
 | 45            | Activity: The Grid                       |
 | 5             | Wrap up & Q&A                            |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 - Setup an Xcode Game Project
@@ -21,11 +21,11 @@ By the end of this lesson, students should be able to:
 - Place assets and views on a screen
 - Describe how the rendering loop works
 
-## Class Materials
+## Overview
 
 Slides: [Building an iOS Game](https://docs.google.com/presentation/d/17AR52Hkqp1Lid4BohnvcHnZJ5cK3w1j7yusMJQkaRKI/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activities
 
 [Empty Starter project](https://github.com/Product-College-Labs/Game-Starter-Empty/tree/master)
 
@@ -33,10 +33,10 @@ Using what you already know, complete each step in the image to build a grid. Tr
 
 ![The Grid](assets/thegrid.png)
 
-## After Class
+## Wrap Up
 - Start Tutorial: [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
 
 
-## Resources
+## Additional Resources
 - [Article - Quick Intro to SpriteKit](https://hackernoon.com/swift-spritekit-basics-94b1798ab639)
 - [A more detailed Explanation of SpriteKit](https://code.tutsplus.com/tutorials/introducing-spritekit--cms-28648)

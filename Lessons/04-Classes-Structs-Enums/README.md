@@ -1,6 +1,6 @@
 # Classes, Structs & Enums
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                        |
 | ------------- | ---------------------------         |
@@ -15,7 +15,7 @@
 | 5             | Wrap up & Q&A                       |
 
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 1. Understand the differences between Classes & Structs in Swift
 1. Create data models with both Classes & Structs
 1. Identify and list reasons for encapsulating code in Structs, Classes & Functions
@@ -23,11 +23,11 @@
 1. Identify and use pattern matching in enums
 1. Model finite state with enums
 
-## Class Materials
+## Overview
 
 Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DAPCZtCvwxohwgjXY1zDHmAfdfQlZvQYSnA9Fbyw/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activities
 
 1. Analogy
     - In groups, think in how you can explain how classes or structs work with an analogy. (5 min)
@@ -60,10 +60,10 @@ Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DA
       - a. Chapter 12 on Initializers
       - b. Chapter 10 on Enums
 
-## After Class
+## Wrap Up
 - Complete the exercises on Repl.it for Structs & Enums
 
-## Resources
+## Additional Resources
 
 - [Apple Docs - When to use structs vs classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
 - [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)

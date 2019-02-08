@@ -1,6 +1,6 @@
 # Variables, Types & Functions
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**               |
 | ------------- | ---------------------------|
@@ -12,7 +12,8 @@
 | 30            | Playground on Functions    |
 | 5             | Wrap up                    |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
+
 By the end of this lesson, students should be able to:
 
 1. Identify and create variables & constants
@@ -23,13 +24,13 @@ By the end of this lesson, students should be able to:
 1. Return values from a function
 1. Identify and write comments in code
 
-## Class Materials
+## Overview
 
 Slides:
 
 [Swift Variables, Types & Functions](https://docs.google.com/presentation/d/1EEPlP2v0bUeqSfXHjcSO_5zSbRY6ZDh_0noaXkXHdRg/edit?usp=sharing)
 
-## Baseline Challenges
+## In Class Activity
 
 **Variables & Functions**
 1. Analogy for types in Swift
@@ -38,11 +39,11 @@ Slides:
 1. [Variables - Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 1. [Functions - Swift Playgrounds](https://github.com/soggybag/Draw-Mac)
 
-## After Class
+## Wrap Up
 
 - Complete the exercises on Repl.it for Variables, Types & Functions
 
-## Resources
+## Additional Resources
 
 - [Apple's documentation on Variables & Constants](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)
 - [Video on Types in Swift](https://www.youtube.com/watch?v=BlXrMgmvNBI)

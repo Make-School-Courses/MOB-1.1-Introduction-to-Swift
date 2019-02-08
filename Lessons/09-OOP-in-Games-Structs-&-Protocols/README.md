@@ -1,6 +1,6 @@
 # Structs & Protocols
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                              |
 | ------------- | ---------------------------               |
@@ -13,7 +13,7 @@
 | 30            | POP Challenges(Protocol Section)          |
 | 5             | Wrap up & Q&A                             |
 
-## Objectives & Competencies
+## Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 - Create and use Structs in combination with Protocols
@@ -21,17 +21,17 @@ By the end of this lesson, students should be able to:
 - Distinguish between Protocol conformance vs Inheritance
 - Use protocols to describe properties and behaviors(methods) of a conforming class/struct
 
-## Class Materials
+## Overview
 
 Slides: [Structs & Protocols](https://docs.google.com/presentation/d/1vnxnocalNLBCuqV_tRG9yq2ikxCYBXZnSi1peFW7pvM/edit?usp=sharing)
 
 [Walkthrough](https://github.com/Product-College-Labs/protocols-introduction-ios/archive/master.zip)
 
-## Baseline Challenges
+## In Class Activity
 
 Download or clone this repo:
 [POP Playgrounds & Challenges](https://github.com/Product-College-Labs/object-oriented-programming-in-swift.git)
 
-## After Class
+## Wrap Up
 
 - Begin tutorial Sushi Neko

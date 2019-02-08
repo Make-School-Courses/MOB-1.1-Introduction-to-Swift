@@ -1,6 +1,6 @@
 # Build an RPG Game
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                              |
 | ------------- | ---------------------------               |
@@ -11,14 +11,14 @@
 | 40            | Work on challenges in RPG Game            |
 | 5             | Wrap up & Q&A                             |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 
 By the end of this lesson, students should be able to:
 
 - Use `Protocols` and classes/structs to build a character creation system
 - Identify the pros and cons of POP vs OOP
 
-## Class Material
+## Overview
 
 [Slides](https://docs.google.com/presentation/d/1HJ0U6NqxcL2WQbIOGpai25JvNpIQNtM2tqTFXfAmW14/edit?usp=sharing)
 
@@ -33,16 +33,14 @@ Worksheet questions
 1. What does the word mutating before a function declaration mean?
 1. When is it best to use a protocol instead of class inheritance?
 
-## Baseline Challenges
+## In Class Activity
 
 [RPG Game](https://github.com/Product-College-Labs/oop-rpg/archive/master.zip)
 
-## External Resources
+## Additional Resources
 
 [Article about protocols](https://medium.com/@abhimuralidharan/all-about-protocols-in-swift-11a72d6ea354)
 
 [Article on POP](https://medium.com/nsistanbul/protocol-oriented-programming-in-swift-ad4a647daae2)
 
 [More on Protocols](https://dev.to/abelagoi/protocol-in-swift-with-practical-examples-3iif)
-
-

@@ -1,6 +1,6 @@
 # Building an iOS Game Part 2
 
-## Lesson Overview
+## Minute-by-Minute
 
 | **Time(min)** | **Activity**                     |
 | ------------- | ---------------------------      |
@@ -12,18 +12,18 @@
 | 30            | Continue with challenge          |
 | 10            | Checking on Tutorial's progress  |
 
-## Objectives & Competencies
+## Class Learning Objectives/Competencies
 By the end of this lesson, students should be able to:
 
 - Assign and handle touch events in SpriteKit
 - Design and code game mechanics for a simple game in Swift.
 - Manipulate SKLabelNode
 
-## Class Materials
+## Overview
 
 Slides: [Building an iOS Game](https://docs.google.com/presentation/d/10THRpODPR8kXrsU1I5yAKETj2Hym1PXs-eaYj8tCkxo/edit#slide=id.p)
 
-## Baseline Challenges
+## In Class Activities
 
 Using what you already know, complete each step in the image.
 
@@ -44,5 +44,6 @@ Upload your game to your Github repository. This project will be graded using [t
 
 <!--- https://github.com/Product-College-Labs/pop-the-bubble --->
 
-## After Class
+## Wrap Up
+
 - Finish working on Orange Tree
