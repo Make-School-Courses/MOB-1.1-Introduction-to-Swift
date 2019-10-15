@@ -43,27 +43,18 @@ Students by the end of the course will be able to ...
 |  14   |   Mon, Dec 9	   | Final Exam                           |
 |  15   |   Wed, Dec 11    | Final Class (presentations)          |
 
-[Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions
-[Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals
-[Arrays, Loops & Dictionaries]: Lessons/03-Arrays-Loops-Dictionaries
-[Classes, Structs & Enums]: Lessons/04-Classes-Structs-Enums
-[Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit
-[Building an iOS Game]: Lessons/06-Building-an-iOS-Game
-[Building an iOS Game Pt.2]: Lessons/07-Building-an-iOS-Game-Part-2
-[OOP - Structs & Protocols]: Lessons/08-Introduction-To-OOP-In-Games
-[Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols
-[More on OOP]: Lessons/10-Build-an-RPG-Game
-[Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit
-[Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code
-
-## Tutorials & Class Assignments
-
-Tutorials are to help you get started in a topic. They are graded on completion only.
-
-- [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
-- [Orange Tree](https://www.makeschool.com/academy/track/learn-to-clone-angry-birds-with-spritekit-and-swift-4)
-- Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
-<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
+[Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
+[Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
+[Arrays, Loops & Dictionaries]: Lessons/03-Arrays-Loops-Dictionaries/README.md
+[Classes, Structs & Enums]: Lessons/04-Classes-Structs-Enums/README.md
+[Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit/README.md
+[Building an iOS Game]: Lessons/06-Building-an-iOS-Game/README.md
+[Building an iOS Game Pt.2]: Lessons/07-Building-an-iOS-Game-Part-2/README.md
+[OOP - Structs & Protocols]: Lessons/08-Introduction-To-OOP-In-Games/README.md
+[Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols/README.md
+[More on OOP]: Lessons/10-Build-an-RPG-Game/README.md
+[Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit/README.md
+[Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
 
 ## Assignment Schedule
 
@@ -84,8 +75,6 @@ Tutorials are to help you get started in a topic. They are graded on completion 
 | Pop the bubble                                                   | day, Date | day, Date | Github link in tracker |
 | Course project                                                   | day, Date | day, Date | Github link in tracker |
 
-## Class Assignments
-
 ### Tutorials
 
 - [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
@@ -95,6 +84,7 @@ Tutorials are to help you get started in a topic. They are graded on completion 
 
 - Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
 - [Course project]()
+<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
 ## Evaluation
 
