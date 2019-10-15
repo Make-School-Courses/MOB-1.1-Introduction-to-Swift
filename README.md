@@ -2,17 +2,7 @@
 
 ## Course Description
 
-This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games in Swift and complete exercises online.
-
-## Course Specifics
-
-Weeks to Completion:  7 <br>
-Total Seat Hours:  37.5 hours <br>
-Total Out-of-Class Hours: 75 hours <br>
-Total Hours: 112.5 hours <br>
-Units:  3 units <br>
-Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs
+This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games and simple apps in Swift and complete exercises online.
 
 ## Prerequisites:
 
@@ -22,37 +12,36 @@ Prework <br>
 
 Students by the end of the course will be able to ...
 
-1. Write working Swift code using basic elements: variables, constants, optionals, identifying keywords.
+1. Write Swift code using basic constructs and data types.
 1. Store and manipulate elements in arrays and dictionaries.
 1. Apply OOP principles in Swift.
-1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game.
-1. Use Xcode & SpriteKit to build and run an iOS Game.
-1. Identify basic UIKit elements in iOS apps.
+1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game and simple apps.
+1. Identify basic UIKit elements and navigation in iOS apps.
 
 ## Schedule
 
-**Course Dates:** Tuesday, October 23 – Thursday, December 13, 2018 (7 weeks)
+**Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (8 weeks)
 
-**Class Times:** Tuesday and Thursday at 3:30–5:20pm (13 class sessions)
+**Class Times:** Monday and Wednesday at 3:30–5:20pm (15 class sessions)
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1  |  Tuesday, October 23    | [Variables, Types & Functions] |
-|  2   | Thursday, October 25    | [Optionals & Conditionals] |
-|  3   |  Tuesday, October 30  | [Arrays, Loops & Dictionaries] |
-|  4   | Thursday, November 1  | [Classes, Structs & Enums] |
-|   5   |  Tuesday, November 6 | [Introduction to SpriteKit] |
-|   6   | Thursday, November 8 |  [Building an iOS Game] |
-|   7   |  Tuesday, November 13 | [Building an iOS Game Pt.2] |
-|   8   | Thursday, November 15 | [OOP - Structs & Protocols] |
-|      |  Tuesday, November 20 | **Don Rags** |
-|     | Thursday, November 22 | **Fall Break** |
-|  9   |  Tuesday, November 27    | [Building an RPG Game] |
-|  10   | Thursday, November 29    | [More on OOP] |
-|  11     |  Tuesday, December 4    | [Introduction to UIKit] |
-|  12   | Thursday, December 6   | [Inspecting and Debugging Your Code] |
-|  13   | Tuesday, December 11   | Final Exams |
-|  14   | Thursday, December 13   | Final Class (presentations) |
+|  1    |   Mon, Oct 21    | [Variables, Types & Functions]       |
+|  2    |   Wed, Oct 23    | [Optionals & Conditionals]           |
+|  3    |   Mon, Oct 28    | [Arrays, Loops & Dictionaries]       |
+|  4    |   Wed, Oct 30    | [Classes, Structs & Enums]           |
+|  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
+|  6    |   Wed, Nov 6     | [Building an iOS Game]               |
+|  7    |   Mon, Nov 11    | [Building an iOS Game Pt.2]          |
+|  8    |   Wed, Nov 13	   | [OOP - Structs & Protocols]          |
+|  9    |   Mon, Nov 18    | [Building an RPG Game]               |
+|  10   |   Wed, Nov 20    | [More on OOP]                        |
+|  11   |   Mon, Nov 25    | [Introduction to UIKit]              |
+|       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
+|  12   |   Mon, Dec 2     | [Inspecting and Debugging Your Code] |
+|  13   |   Wed, Dec 4     |                                      |
+|  14   |   Mon, Dec 9	   | Final Exam                           |
+|  15   |   Wed, Dec 11    | Final Class (presentations)          |
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals
@@ -76,66 +65,55 @@ Tutorials are to help you get started in a topic. They are graded on completion 
 - Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
-## Repl.it links (MOB 1.1 - 3:30 only)
+## Assignment Schedule
 
-- [Variables & Functions](https://repl.it/classroom/invite/YcFKUQ4)
-- [Conditionals](https://repl.it/classroom/invite/YcGNSq7)
-- [Optionals](https://repl.it/classroom/invite/YhH356u)
-- [Loops](https://repl.it/classroom/invite/YcITQAd)
-- [Arrays](https://repl.it/classroom/invite/YcJWOag)
-- [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
-- [Structs](https://repl.it/classroom/invite/YcKZNKj)
-- [Enums](https://repl.it/classroom/invite/YcL2Lkm)
-- [OOP](https://repl.it/classroom/invite/ZpclEej)
-- [POP](https://repl.it/classroom/invite/0FruFZO)
+|            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
+|:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
+| [Variables & Functions](https://repl.it/classroom/invite/YcFKUQ4)| day, Date | day, Date | Repl.it site & tracker |
+| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | day, Date | day, Date | Repl.it site & tracker |
+| [Optionals](https://repl.it/classroom/invite/YhH356u)            | day, Date | day, Date | Repl.it site & tracker |
+| [Loops](https://repl.it/classroom/invite/YcITQAd)                | day, Date | day, Date | Repl.it site & tracker |
+| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | day, Date | day, Date | Repl.it site & tracker |
+| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | day, Date | day, Date | Repl.it site & tracker |
+| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | day, Date | day, Date | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | day, Date | day, Date | Repl.it site & tracker |
+| [OOP](https://repl.it/classroom/invite/ZpclEej)                  | day, Date | day, Date | Repl.it site & tracker |
+| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
+| Sushi Neko                                                       | day, Date | day, Date | Github link in tracker |
+| Magic 8 ball                                                     | day, Date | day, Date | Github link in tracker |
+| Pop the bubble                                                   | day, Date | day, Date | Github link in tracker |
+| Course project                                                   | day, Date | day, Date | Github link in tracker |
+
+## Class Assignments
+
+### Tutorials
+
+- [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
+- [Magic 8 ball](https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball)
 
 ### Projects
-**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
 
-- **Good Example:** 40+ commits throughout the length of the course, looking for a healthy spattering of commits each week (such as 3-5 per day).
-- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not passing the class.
-- **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class.
-
-#### Why are we doing this?
-
-We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
-
-- It's much easier to retrace your steps if you break your project/product/code up into smaller pieces
-- It helps with being able to comprehend the larger problem, and also will help with your debugging (i.e. finding exactly when you pushed that piece of broken code)
-- It allows for more streamlined, iterative communication in your team, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
-
-Through this requirement, we hope to encourage you to think about projects with an iterative, modular mindset. Doing so will allow you to break projects down into smaller milestones that come together to make your fully-realized solution.
-
-Projects are a chance for you to build and ship code that is based on class concepts.  Many are open ended allowing you to be creative and to have individual work for your portfolio.
-
+- Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
+- [Course project]()
 
 ## Evaluation
 
-- Complete all required tutorials
+To pass this course you must meet the following requirements:
+
+- Complete 80% of all assignments
+- Complete both tutorials
 - Pass all projects according to the associated project rubric
-- Pass the final summative assessment >=75%
+- Pass the final summative assessment according with more than 70%. [Study guide](ADD_STUDY_GUIDE_LNK)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
-<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
-
-
-## Attendance
-Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
-
-Attendance requirements for scheduled sessions are:
-- No more than two no call no shows per term in any scheduled session.
-- No more than four excused absences per term in any scheduled session.
-
-Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
-
 
 ## Make School Course Policies
 
-[Academic Honesty](https://make.sc/academic-honesty)<br>
-[Accommodations for Students](https://make.sc/accommodations-for-students)<br>
-[Attendance Policy](https://make.sc/attendance-policy)  
-[Diversity and Inclusion Policy](https://make.sc/diversity-and-inclusion-policy)<br>
-[Grading System](https://make.sc/grading-system)
-<br>
-[Title IX Policy](https://make.sc/title-ix-policy)<br>
-[Program Learning Outcomes](https://make.sc/program-learning-outcomes)
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
