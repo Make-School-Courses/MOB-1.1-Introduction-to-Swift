@@ -183,13 +183,95 @@ let yCoordinate = coordinates.y  // 2
 
 ## Functions
 
+Functions are part of many programming languages. They let you enclose a block of code that performs a task. Then when you need to execute that block of code you can call the function to do it. You can call the function as many times as you need from different places, instead of repeating code all over.
+
+Here's one way to write a function in Swift.
+
+```swift
+func sayHello() {
+  print("Hello World, this is me.")
+}
+```
+
+We declare functions with the keyword *func* followed by the name of the function (something meaningful) and followed by parenthesis. Inside we can have zero or more input parameters. In this case there aren't any. Then comes the body of the function enclosed by braces.
+
+We call the function like this:
+
+```swift
+sayHello() // prints "Hello World, this is me."
+```
+
+Sometimes we need to pass in values to be used inside the function. These are input **parameters** and go inside the parenthesis, specifying their type, like this:
+
+```swift
+func printSumOf(value:Int, andValue:Int) {
+  print("\(value) + \(andValue) = \(value + andValue )")
+}
+```
+
+When we call the function, we send the **arguments** it needs to work.
+```swift
+printSumOf(value:4, andValue:8)
+```
+Try to make your functions read as sentences. This makes it easier to understand what they do. You'll see a lot of Swift documentation written like this.
+
+"Print sum of value 4 and value 8"
+
+We can make it more readable if we use external names.
+
+```swift
+func printSumOf(value:Int, and value:Int) {
+  print("\(value) + \(andValue) = \(value + andValue )")
+}
+printSumOf(value: 4, and: 8)
+```
+
+*and* is the external name that we use when calling the function, while *value* remains as the internal name that we use in the body of the function.
+
+Now it reads as "Print sum of value 4 and 8"
+
+You can also opt to have no external names and use an underscore.
+
+```swift
+func printSumOf(_ firstValue:Int, _ secondValue:Int) {
+  print("\(firstValue) + \(secondValue) = \(firstValue + secondValue )")
+}
+printSumOf(4,8)
+```
+
+You can also give parameters default values.
+
+```swift
+func printSumOf(_ firstValue:Int, _ secondValue:Int = 10) {
+  print("\(firstValue) + \(secondValue) = \(firstValue + secondValue )")
+}
+```
+
+**Q:** Can you figure out how to call the function to use the default value?
+
+## Return values
+
+So far we've seen functions that print out to console. But in most real life situations we'll need functions that return a value, so we can store it in a variable or use it directly in another operation.
+
+```swift
+func sumOf(_ firstValue:Int, and secondValue:Int) -> Int {
+  return firstValue + secondValue
+}
+
+let result = sumOf(4, and: 8)
+```
+
+We use -> followed by the type of the return value. Then inside the function we use a return statement to give back the resulting value.
+
 ## In Class Activity
 
 1. [Functions - Swift Playgrounds](https://github.com/soggybag/Draw-Mac)
 
-## Wrap Up
+## After Class
 
-- Complete the exercises on Repl.it for Variables, Types & Functions
+- Complete today's activities and mark your progress in the tracker.
+- [Variables and types Repl.it]()
+- [Functions Repl.it]()
 
 ## Additional Resources
 
