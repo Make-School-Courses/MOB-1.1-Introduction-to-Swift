@@ -46,10 +46,12 @@ Before we start writing code, it's important to know how you can document what y
 
 `// This is a single line comment`
 
-`/* This is a comment that can
+```swift
+/* This is a comment that can
      span over many lines.
      Like this.
- */`
+ */
+ ```
 
 ## Print to console
 
@@ -63,7 +65,7 @@ When we handle data in our code, we can give it a name and a type. This makes it
 
 `let months: Int = 12`
 
-This is a constant. We declare a constant using `let` followed by the name we want to give that data, here it's `months`. We also set it's type to `Int` and assigned a value of 12. What comes after the colon is called a `type annotation`, you use this to be clear about the kind of values the constant can store.
+This is a constant. We declare a constant using `let` followed by the name we want to give that data, here it's `months`. We also set it's type to `Int` and assigned a value of 12. What comes after the colon is called a *type annotation*, you use this to be clear about the kind of values the constant can store.
 
 The type **Int** can store integers.
 
@@ -108,9 +110,37 @@ In this playground we review the concepts learned so far, experiment using arith
 
 [Variables - Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
 
+## Type casting
+
+There can be times when we have data of a certain type but need to convert it to another.
+
+```swift
+var integer: Int = 20
+var decimal: Double = 8.5”
+
+integer = Int(decimal)
+```
+With these we say we want to convert from the original type, Double, to the new type, Int.
+
 ## Type inference
 
-## Type casting
+Every time we declare a new variable or constant we add a type annotation. If we do not include it and still assign a value, the Swift compiler can deduce the type. This is called *type inference*
+
+`let inferredInt = 20`
+
+We can find something like this and assume that the compiler knows it's an Int. We can double check this by holding down the **Option key  ⌥** and clicking on the variable or constant name. Then we should see a popover telling us the inferred type.
+
+Sometimes we need a variable to be a certain type even when assigning something different. Let's say we have this:
+
+`let needADouble = 8`
+
+This would be assigned as an Int by the compiler. Here are several ways to fix it:
+
+```swift
+let nowADouble = Double(8)
+let nowADouble : Double = 8
+let nowADouble = 8 as Double
+```
 
 ## Functions
 
