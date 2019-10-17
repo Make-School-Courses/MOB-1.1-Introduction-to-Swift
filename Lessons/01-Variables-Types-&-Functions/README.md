@@ -44,12 +44,14 @@ To learn a lot of the course content we will be using Playgrounds. It will be ea
 
 Before we start writing code, it's important to know how you can document what you do. This is helpful for people who will later work with your code, or just you in the future. We can write comments to help us know *why* we wrote some code and this will be ignored by the compiler.
 
-`// This is a single line comment`
+```swift
+// This is a single line comment
+```
 
 ```swift
 /* This is a comment that can
-     span over many lines.
-     Like this.
+   span over many lines.
+   Like this.
  */
  ```
 
@@ -57,32 +59,42 @@ Before we start writing code, it's important to know how you can document what y
 
 It's also useful to see what our code is doing. For this we use print statements. The results will print in the debug area or console.
 
-`print("Hello, you are ready to write some Swift")`
+```swift
+print("Hello, you are ready to write some Swift")
+```
 
 ## Constants
 
 When we handle data in our code, we can give it a name and a type. This makes it easier to reference it later and manipulate it.
 
-`let months: Int = 12`
+```swift
+let months: Int = 12
+```
 
 This is a constant. We declare a constant using `let` followed by the name we want to give that data, here it's `months`. We also set it's type to `Int` and assigned a value of 12. What comes after the colon is called a *type annotation*, you use this to be clear about the kind of values the constant can store.
 
 The type **Int** can store integers.
 
-`let average: Double = 8.88`
+```swift
+let average: Double = 8.88
+```
 
 The type **Double** can store decimals with high precision.
 The type **Float** can store decimals with less precision but takes up less memory.
 
 Once we've declared a constant we can't change it's data. So this makes them useful for values that we know they won't change. If by mistake you try to change the value of a constant, Xcode will throw an error message to let you know.
 
-`Cannot assign to value: 'number' is a 'let' constant`
+```swift
+Cannot assign to value: 'number' is a 'let' constant
+```
 
 ## Variables
 
 What if we need to change the value? For example if we are tracking our bank account balance. Then we use Variables.
 
-`var accountBalance: Double = 8000.80`
+```swift
+var accountBalance: Double = 8000.80
+```
 
 It's very similar as a constant, but we declare it with the keyword `var`.
 
@@ -116,7 +128,7 @@ There can be times when we have data of a certain type but need to convert it to
 
 ```swift
 var integer: Int = 20
-var decimal: Double = 8.5”
+var decimal: Double = 8.5
 
 integer = Int(decimal)
 ```
@@ -126,13 +138,17 @@ With these we say we want to convert from the original type, Double, to the new 
 
 Every time we declare a new variable or constant we add a type annotation. If we do not include it and still assign a value, the Swift compiler can deduce the type. This is called *type inference*
 
-`let inferredInt = 20`
+```swift
+let inferredInt = 20
+```
 
 We can find something like this and assume that the compiler knows it's an Int. We can double check this by holding down the **Option key  ⌥** and clicking on the variable or constant name. Then we should see a popover telling us the inferred type.
 
 Sometimes we need a variable to be a certain type even when assigning something different. Let's say we have this:
 
-`let needADouble = 8`
+```swift
+let needADouble = 8
+```
 
 This would be assigned as an Int by the compiler. Here are several ways to fix it:
 
@@ -140,6 +156,29 @@ This would be assigned as an Int by the compiler. Here are several ways to fix i
 let nowADouble = Double(8)
 let nowADouble : Double = 8
 let nowADouble = 8 as Double
+```
+## Other types
+
+```swift
+let char: Character = "a"
+let string: String = "a string"
+let cheesecakeLover: Bool = true
+let coordinates: (Int, Int) = (1, 2)
+```
+This last example is a **tuple**. A tuple is a type that represents data made up  of more than one value of any type. Since a tuple has several values, there's a special way to accessing them:
+
+```swift
+let xCoordinate = coordinates.0  // 1
+let yCoordinate = coordinates.1  // 2
+```
+
+Here's a variation that let's you add names to better reference the data.
+
+```swift
+let coordinates = (x: 1, y: 2)
+
+let xCoordinate = coordinates.x  // 1
+let yCoordinate = coordinates.y  // 2
 ```
 
 ## Functions
