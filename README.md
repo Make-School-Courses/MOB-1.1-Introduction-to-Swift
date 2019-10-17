@@ -60,7 +60,8 @@ Students by the end of the course will be able to ...
 
 |            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
 |:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Variables & Functions](https://repl.it/classroom/invite/YcFKUQ4)| day, Date | day, Date | Repl.it site & tracker |
+| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | day, Date | day, Date | Repl.it site & tracker |
+| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | day, Date | day, Date | Repl.it site & tracker |
 | [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | day, Date | day, Date | Repl.it site & tracker |
 | [Optionals](https://repl.it/classroom/invite/YhH356u)            | day, Date | day, Date | Repl.it site & tracker |
 | [Loops](https://repl.it/classroom/invite/YcITQAd)                | day, Date | day, Date | Repl.it site & tracker |

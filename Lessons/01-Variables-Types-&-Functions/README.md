@@ -270,8 +270,8 @@ We use -> followed by the type of the return value. Then inside the function we 
 ## After Class
 
 - Complete today's activities and mark your progress in the tracker.
-- [Variables and types Repl.it]()
-- [Functions Repl.it]()
+- [Variables and types Repl.it](https://repl.it/classroom/invite/YcFKUQ4)
+- [Functions Repl.it](https://repl.it/classroom/invite/ghUSdYG)
 
 ## Additional Resources
 
