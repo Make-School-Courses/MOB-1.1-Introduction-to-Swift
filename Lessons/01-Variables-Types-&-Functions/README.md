@@ -1,17 +1,24 @@
+<!-- Run this slideshow via the following command: -->
+<!-- reveal-md README.md -w -->
+
+
+<!-- .slide: class="header" -->
 # Variables, Types & Functions
 
-## Minute-by-Minute
+<!-- > -->
 
-| **Time(min)** | **Activity**               |
-| ------------- | ---------------------------|
-| 10            | Intro to course            |
-| 5             | Learning Objectives        |
-| 15            | Variables, Constants, Types|
-| 30            | Playground on Variables    |
-| 10            | Break                      |
-| 10            | TT on Functions            |
-| 30            | Playground on Functions    |
-| 5             | Wrap up                    |
+## Agenda
+
+- Intro to course
+- Learning Objectives
+- Variables and Constants
+- Activity on Variables
+- Types
+- Break
+- Functions
+- Activity on Functions
+
+<!-- > -->
 
 ## Learning Objectives
 
@@ -22,15 +29,25 @@ By the end of this lesson, students should be able to:
 1. Formulate and use functions to encapsulate code with parameters and return values
 1. Identify and write comments in code
 
+<!-- > -->
+
 ## Swift Intro
 
-Swift is a programming language to write software for phones, wearables, desktops, servers, and much more. It was released in June 2014 by Apple. The language is a combination of years of Apple engineering development and the contribution of an open-source community.
+Swift is a programming language to write software for phones, wearables, desktops, servers, and much more.
 
-Swift is beginner friendly, safe, fast, interactive and optimized for performance and development.
+It was released in June 2014 by Apple. The language is a combination of years of Apple engineering development and the contribution of an open-source community.
+
+Swift is **beginner friendly, safe, fast, interactive** and optimized for **performance** and **development**.
+
+<!-- > -->
 
 ## Playgrounds
 
-To learn a lot of the course content we will be using Playgrounds. It will be easy and fast to experiment without having to set up an app in Xcode. Xcode is the environment where we build apps.
+To learn a lot of the course content we will be using Playgrounds. It will be easy and fast to experiment without having to set up an app in Xcode.
+
+**Xcode** is the environment where we build apps.
+
+<!-- v -->
 
 ### Playground sections
 
@@ -40,9 +57,9 @@ To learn a lot of the course content we will be using Playgrounds. It will be ea
 - Activity viewer: shows status of the playground
 - Panel controls: toggle them on or off from the screen
 
-## Comments
+<!-- > -->
 
-Before we start writing code, it's important to know how you can document what you do. This is helpful for people who will later work with your code, or just you in the future. We can write comments to help us know *why* we wrote some code and this will be ignored by the compiler.
+## Comments
 
 ```swift
 // This is a single line comment
@@ -52,8 +69,14 @@ Before we start writing code, it's important to know how you can document what y
 /* This is a comment that can
    span over many lines.
    Like this.
- */
+*/
  ```
+
+<aside class="notes">
+Before we start writing code, it's important to know how you can document what you do. This is helpful for people who will later work with your code, or just you in the future. We can write comments to help us know *why* we wrote some code and this will be ignored by the compiler.
+</aside>
+
+<!-- > -->
 
 ## Print to console
 
@@ -63,6 +86,8 @@ It's also useful to see what our code is doing. For this we use print statements
 print("Hello, you are ready to write some Swift")
 ```
 
+<!-- > -->
+
 ## Constants
 
 When we handle data in our code, we can give it a name and a type. This makes it easier to reference it later and manipulate it.
@@ -71,7 +96,11 @@ When we handle data in our code, we can give it a name and a type. This makes it
 let months: Int = 12
 ```
 
+<aside class="notes">
 This is a constant. We declare a constant using `let` followed by the name we want to give that data, here it's `months`. We also set it's type to `Int` and assigned a value of 12. What comes after the colon is called a *type annotation*, you use this to be clear about the kind of values the constant can store.
+</aside>
+
+<!-- v -->
 
 The type **Int** can store integers.
 
@@ -80,13 +109,20 @@ let average: Double = 8.88
 ```
 
 The type **Double** can store decimals with high precision.
+
 The type **Float** can store decimals with less precision but takes up less memory.
 
-Once we've declared a constant we can't change it's data. So this makes them useful for values that we know they won't change. If by mistake you try to change the value of a constant, Xcode will throw an error message to let you know.
+<!-- v -->
+
+Once we've declared a constant we can't change it's data. So this makes them useful for values that we know they won't change.
+
+If by mistake you try to change the value of a constant, Xcode will throw an error message to let you know.
 
 ```swift
 Cannot assign to value: 'number' is a 'let' constant
 ```
+
+<!-- > -->
 
 ## Variables
 
@@ -95,10 +131,15 @@ What if we need to change the value? For example if we are tracking our bank acc
 ```swift
 var accountBalance: Double = 8000.80
 ```
+<!-- v -->
 
+<aside class="notes">
 It's very similar as a constant, but we declare it with the keyword `var`.
 
 Constants are useful in cases when we know our data can change.
+</aside>
+
+<!-- v -->
 
 ### Naming
 
@@ -110,17 +151,24 @@ Choose names for your variables and constants that reflect what they are. This w
 | username     |     usrnm     |
 | borderColor  |     temp      |
 
+<!-- v -->
+
 In Swift is common to use **camel case**.
 
 - Start with lower case
 - If the name has more than one word, start the next words with uppercase
 - If there is an abbreviation, use the same case for it
 
+<!-- > -->
+
+
 ## In Class Activity
 
 In this playground we review the concepts learned so far, experiment using arithmetic operations and also learn about a new type: Strings.
 
 [Variables - Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Variables-Swift-Playground/archive/swift4.zip)
+
+<!-- > -->
 
 ## Type casting
 
@@ -132,7 +180,11 @@ var decimal: Double = 8.5
 
 integer = Int(decimal)
 ```
+<aside class="notes">
 With these we say we want to convert from the original type, Double, to the new type, Int.
+</aside>
+
+<!-- > -->
 
 ## Type inference
 
@@ -141,8 +193,11 @@ Every time we declare a new variable or constant we add a type annotation. If we
 ```swift
 let inferredInt = 20
 ```
-
+<aside class="notes">
 We can find something like this and assume that the compiler knows it's an Int. We can double check this by holding down the **Option key  ⌥** and clicking on the variable or constant name. Then we should see a popover telling us the inferred type.
+</aside>
+
+<!-- v -->
 
 Sometimes we need a variable to be a certain type even when assigning something different. Let's say we have this:
 
@@ -157,20 +212,32 @@ let nowADouble = Double(8)
 let nowADouble : Double = 8
 let nowADouble = 8 as Double
 ```
+
+<!-- > -->
+
 ## Other types
 
 ```swift
 let char: Character = "a"
 let string: String = "a string"
 let cheesecakeLover: Bool = true
-let coordinates: (Int, Int) = (1, 2)
+let coordinates: (Int, Int) = (1, 2) // tuple
 ```
-This last example is a **tuple**. A tuple is a type that represents data made up  of more than one value of any type. Since a tuple has several values, there's a special way to accessing them:
+
+<aside class="notes">
+This last example is a **tuple**. A tuple is a type that represents data made up  of more than one value of any type.
+</aside>
+
+<!-- v -->
+
+Since a tuple has several values, there's a special way to accessing them:
 
 ```swift
 let xCoordinate = coordinates.0  // 1
 let yCoordinate = coordinates.1  // 2
 ```
+
+<!-- v -->
 
 Here's a variation that let's you add names to better reference the data.
 
@@ -181,9 +248,13 @@ let xCoordinate = coordinates.x  // 1
 let yCoordinate = coordinates.y  // 2
 ```
 
+<!-- > -->
+
 ## Functions
 
 Functions are part of many programming languages. They let you enclose a block of code that performs a task. Then when you need to execute that block of code you can call the function to do it. You can call the function as many times as you need from different places, instead of repeating code all over.
+
+<!-- v -->
 
 Here's one way to write a function in Swift.
 
@@ -192,14 +263,18 @@ func sayHello() {
   print("Hello World, this is me.")
 }
 ```
-
+<aside class="notes">
 We declare functions with the keyword *func* followed by the name of the function (something meaningful) and followed by parenthesis. Inside we can have zero or more input parameters. In this case there aren't any. Then comes the body of the function enclosed by braces.
+</aside>
+
+<!-- v -->
 
 We call the function like this:
 
 ```swift
 sayHello() // prints "Hello World, this is me."
 ```
+<!-- v -->
 
 Sometimes we need to pass in values to be used inside the function. These are input **parameters** and go inside the parenthesis, specifying their type, like this:
 
@@ -209,13 +284,19 @@ func printSumOf(value:Int, andValue:Int) {
 }
 ```
 
+<!-- v -->
+
 When we call the function, we send the **arguments** it needs to work.
+
 ```swift
 printSumOf(value:4, andValue:8)
 ```
+
 Try to make your functions read as sentences. This makes it easier to understand what they do. You'll see a lot of Swift documentation written like this.
 
 "Print sum of value 4 and value 8"
+
+<!-- v -->
 
 We can make it more readable if we use external names.
 
@@ -225,10 +306,13 @@ func printSumOf(value:Int, and value:Int) {
 }
 printSumOf(value: 4, and: 8)
 ```
-
+<aside class="notes">
 *and* is the external name that we use when calling the function, while *value* remains as the internal name that we use in the body of the function.
 
 Now it reads as "Print sum of value 4 and 8"
+</aside>
+
+<!-- v -->
 
 You can also opt to have no external names and use an underscore.
 
@@ -239,6 +323,8 @@ func printSumOf(_ firstValue:Int, _ secondValue:Int) {
 printSumOf(4,8)
 ```
 
+<!-- v -->
+
 You can also give parameters default values.
 
 ```swift
@@ -248,6 +334,8 @@ func printSumOf(_ firstValue:Int, _ secondValue:Int = 10) {
 ```
 
 **Q:** Can you figure out how to call the function to use the default value?
+
+<!-- > -->
 
 ## Return values
 
@@ -261,17 +349,25 @@ func sumOf(_ firstValue:Int, and secondValue:Int) -> Int {
 let result = sumOf(4, and: 8)
 ```
 
+<aside class="notes">
 We use -> followed by the type of the return value. Then inside the function we use a return statement to give back the resulting value.
+</aside>
+
+<!-- > -->
 
 ## In Class Activity
 
 1. [Functions - Swift Playgrounds](https://github.com/soggybag/Draw-Mac)
+
+<!-- > -->
 
 ## After Class
 
 - Complete today's activities and mark your progress in the tracker.
 - [Variables and types Repl.it](https://repl.it/classroom/invite/YcFKUQ4)
 - [Functions Repl.it](https://repl.it/classroom/invite/ghUSdYG)
+
+<!-- > -->
 
 ## Additional Resources
 
