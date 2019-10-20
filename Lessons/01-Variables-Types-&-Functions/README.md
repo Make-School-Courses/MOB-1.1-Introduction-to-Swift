@@ -73,7 +73,7 @@ To learn a lot of the course content we will be using Playgrounds. It will be ea
  ```
 
 <aside class="notes">
-Before we start writing code, it's important to know how you can document what you do. This is helpful for people who will later work with your code, or just you in the future. We can write comments to help us know *why* we wrote some code and this will be ignored by the compiler.
+Before we start writing code, it's important to know how you can document what you do. This is helpful for people who will later work with your code, or just you in the future. We can write comments to help us know why we wrote some code and this will be ignored by the compiler.
 </aside>
 
 <!-- > -->
