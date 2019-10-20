@@ -357,7 +357,7 @@ We use -> followed by the type of the return value. Then inside the function we 
 
 ## In Class Activity
 
-1. [Functions - Swift Playgrounds](https://github.com/soggybag/Draw-Mac)
+1. [Functions - Swift Playgrounds](https://github.com/amelinagzz/Draw)
 
 <!-- > -->
 
