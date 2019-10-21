@@ -359,7 +359,7 @@ We use -> followed by the type of the return value. Then inside the function we 
 
 Complete the next playgrounds on today's topics.
 
-- [Variables and Constants](assets/VarsLets.playground.zip)
+- [Variables and Constants](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/01-Variables-Types-%26-Functions/assets/VarsLets.playground.zip)
 - [Types]()
 - [Tuples]()
 - [Functions]()
