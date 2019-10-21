@@ -179,8 +179,8 @@ The ternary operator takes a condition and returns one of two values, depending 
 
 ## In Class Activity
 
-[Conditionals - Playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/conditionals-fixed.zip)
-[Conditionals - Repl.it](https://repl.it/classroom/invite/YcGNSq7)
+- [Conditionals - Playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/conditionals-fixed.zip)
+- [Conditionals - Repl.it](https://repl.it/classroom/invite/YcGNSq7)
 
 <!-- > -->
 
@@ -410,7 +410,7 @@ if let unwrapped = optionalNumber {
 ## In Class Activity
 
 - [Optionals - Repl.it](https://repl.it/classroom/invite/YhH356u)
-- For more practice: [Optionals - playground]()
+- For more practice: [Optionals - playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/Optionals.playground.zip)
 
 <!-- > -->
 
