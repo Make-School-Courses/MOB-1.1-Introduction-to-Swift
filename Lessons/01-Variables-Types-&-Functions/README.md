@@ -357,7 +357,12 @@ We use -> followed by the type of the return value. Then inside the function we 
 
 ## In Class Activity
 
-1. [Functions - Swift Playgrounds](https://github.com/amelinagzz/Draw)
+Complete the next playgrounds on today's topics.
+
+- [Variables and Constants](assets/VarsLets.playground.zip)
+- [Types]()
+- [Tuples]()
+- [Functions]()
 
 <!-- > -->
 
