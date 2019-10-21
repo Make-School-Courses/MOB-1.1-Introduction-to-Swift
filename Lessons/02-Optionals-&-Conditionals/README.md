@@ -178,6 +178,8 @@ The ternary operator takes a condition and returns one of two values, depending 
 <!-- > -->
 
 ## In Class Activity
+
+[Conditionals - Playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/conditionals-fixed.zip)
 [Conditionals - Repl.it](https://repl.it/classroom/invite/YcGNSq7)
 
 <!-- > -->
@@ -407,9 +409,8 @@ if let unwrapped = optionalNumber {
 
 ## In Class Activity
 
-1. [Conditionals - Swift Playgrounds](assets/conditionals.zip)
-1. [Optionals - Swift Playgrounds - Chapter 4 on Optionals](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
-1. [Another playground on optionals](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground)
+- [Optionals - Repl.it](https://repl.it/classroom/invite/YhH356u)
+- For more practice: [Optionals - playground]()
 
 <!-- > -->
 
@@ -417,6 +418,7 @@ if let unwrapped = optionalNumber {
 
 - Check out the **toggle** function that you can apply to booleans directly.
 - Find out how you can unwrap several values at the same time to avoid something called **pyramid of doom**.
+- Complete classwork and mark progress in tracker.
 
 <!-- > -->
 
