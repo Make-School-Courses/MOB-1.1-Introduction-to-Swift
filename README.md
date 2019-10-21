@@ -60,10 +60,10 @@ Students by the end of the course will be able to ...
 
 |            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
 |:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | day, Date | day, Date | Repl.it site & tracker |
-| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | day, Date | day, Date | Repl.it site & tracker |
-| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | day, Date | day, Date | Repl.it site & tracker |
-| [Optionals](https://repl.it/classroom/invite/YhH356u)            | day, Date | day, Date | Repl.it site & tracker |
+| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Mon 21 | Friday 25 | Repl.it site & tracker |
+| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Mon 21 | Friday 25 | Repl.it site & tracker |
+| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Wed 23 | Friday 25 | Repl.it site & tracker |
+| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Wed 23 | Friday 25 | Repl.it site & tracker |
 | [Loops](https://repl.it/classroom/invite/YcITQAd)                | day, Date | day, Date | Repl.it site & tracker |
 | [Arrays](https://repl.it/classroom/invite/YcJWOag)               | day, Date | day, Date | Repl.it site & tracker |
 | [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | day, Date | day, Date | Repl.it site & tracker |
