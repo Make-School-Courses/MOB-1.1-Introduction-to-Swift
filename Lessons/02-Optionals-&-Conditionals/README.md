@@ -36,13 +36,17 @@ By the end of this lesson, students should be able to:
 
 Questions from the Repl.its?
 
-Progress on challenges from last class?
+General questions?
 
 <!-- > -->
 
 ## Conditionals
 
 Swift has several constructs to handle control flow in a program. Using comparison operators and the type Boolean we can manipulate the flow of our apps.
+
+<aside class="notes">
+When we have a program and want to tell it to go through a specific path, we evaluate a condition before choosing the path. This is how we manage control flow in our programs.
+</aside>
 
 <!-- v -->
 
@@ -70,7 +74,7 @@ Swift has several constructs to handle control flow in a program. Using comparis
 
 <!-- v -->
 
-(4 < 8 && 6 > 8) || 1 < 2
+### (4 < 8 && 6 > 8) || 1 < 2
 
 <aside class="notes">
 quick check: is this true or false?
@@ -138,12 +142,8 @@ Nested if statements test multiple conditions one by one until a condition is tr
 
 <aside class="notes">
 Sometimes we want to check one condition after another. We use the else-if clause to nest an if statement in the else clause of a previous if statement.
+The last else clause is optional. We might not always need it.
 </aside>
-
-
-<!-- v -->
-
-Note: the last else clause is optional. We might not always need it.
 
 <!-- v -->
 
@@ -220,7 +220,7 @@ That’s what the empty string would be in the example. But this way of represen
 
 ## Nil
 
-We need an explicit way to represent the absence of a value. This would be using **nil**.And Swift gives us optionals, that can handle the possibility of a value to be **nil**.
+We need an explicit way to represent the absence of a value. This would be using **nil**. Swift gives us optionals, that can handle the possibility of a value to be **nil**.
 
 Handling a **non-optional** - we're guaranteed to have a value
 
@@ -394,17 +394,17 @@ This is called nil-coalescing.
 
 ```swift
 var optionalNumber: Int? = 8
-var result = optionalNumber ?? 0
-```
-
-```swift
-var optionalNumber: Int? = 10
 var result: Int
 if let unwrapped = optionalNumber {
   result = unwrapped
 } else {
   result = 0
 }
+```
+
+```swift
+var optionalNumber: Int? = 8
+var result = optionalNumber ?? 0
 ```
 
 <!-- > -->
