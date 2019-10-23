@@ -5,6 +5,8 @@
 <!-- .slide: class="header" -->
 # Optionals and Conditionals
 
+## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/02-Optionals-&-Conditionals/README.html ':ignore')
+
 <!-- > -->
 
 ## Agenda
