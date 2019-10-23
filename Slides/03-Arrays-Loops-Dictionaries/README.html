@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Syllabus Template Slides</title>
+    <link rel="stylesheet" href="./../css/reveal.css" />
+    <link rel="stylesheet" href="./../css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./../css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./../assets/Reveal/makeschool.css" />
+
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># Array's Loops & Dictionaries
+
+## Minute-by-Minute
+
+| **Time(min)** | **Activity**                |
+| ------------- | --------------------------- |
+| 5             | Intro & Objectives          |
+| 10            | TT on Arrays and Loops      |
+| 35            | Playground on Arrays & Loops|
+| 10            | Break                       |
+| 10            | TT on Dictionaries          |
+| 30            | Playground on Dictionaries  |
+| 5             | Wrap up & Q&A               |
+
+## Class Learning Objectives/Competencies
+By the end of this lesson, students should be able to:
+
+- Construct and use Arrays to store collections of data
+- Differentiate & use the various types of loops in Swift
+- Declare and use Arrays and Dictionaries
+- Apply Optionals in creating and using Dictionaries
+
+## Overview
+
+Slides:
+
+[Arrays Loops & Dictionaries](https://docs.google.com/presentation/d/1-QFzAVF7x2pDSOAnifyH7NfqdDzIr99CRlTcma5KcrQ/edit?usp=sharing)
+
+## In Class Activity
+
+1. [Array's & Loops Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Arrays-Loops-Swift-Playground/archive/swift4.zip)
+1. [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
+
+## Wrap Up
+
+- Complete the exercises on Repl.it for Arrays, Loops & Dictionaries
+
+## Additional Resources
+
+- [Apple's documentation on Arrays & Dictionaries](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
+- [Video on For Loops](https://www.youtube.com/watch?v=vxyrLbmm9Oo)
+- [Video on While Loops](https://www.youtube.com/watch?v=XDJXLw0Y3Hs)
+</script></section></div>
+    </div>
+
+    <script src="./../js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './../plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './../plugin/zoom-js/zoom.js', async: true },
+        { src: './../plugin/notes/notes.js', async: true },
+        { src: './../plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"autoPlayMedia":false,"slideNumber":"c/t","showSlideNumber":"all","controlsTutorial":true,"controlsLayout":"edges","transition":"slide","transitionSpeed":"medium","minScale":0.5,"maxScale":3}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

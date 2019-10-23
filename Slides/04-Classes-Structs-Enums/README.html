@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Syllabus Template Slides</title>
+    <link rel="stylesheet" href="./../css/reveal.css" />
+    <link rel="stylesheet" href="./../css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./../css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./../assets/Reveal/makeschool.css" />
+
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"># Classes, Structs & Enums
+
+## Minute-by-Minute
+
+| **Time(min)** | **Activity**                        |
+| ------------- | ---------------------------         |
+| 5             | Intro & Objectives                  |
+| 10            | TT on Classes & Structs             |
+| 10            | Analogy activity                    |
+| 20            | Activity: Defining a class & struct |
+| 10            | Break                               |
+| 10            | TT on Enums                         |
+| 10            | Activity: Defining an Enum          |
+| 25            | Playground Enums & Initializers     |
+| 5             | Wrap up & Q&A                       |
+
+
+## Class Learning Objectives/Competencies
+1. Understand the differences between Classes & Structs in Swift
+1. Create data models with both Classes & Structs
+1. Identify and list reasons for encapsulating code in Structs, Classes & Functions
+1. Use Enums to represent finite state
+1. Identify and use pattern matching in enums
+1. Model finite state with enums
+
+## Overview
+
+Slides: [Classes, Structs & Enums](https://docs.google.com/presentation/d/1Ob_DAPCZtCvwxohwgjXY1zDHmAfdfQlZvQYSnA9Fbyw/edit?usp=sharing)
+
+## In Class Activities
+
+1. Analogy
+    - In groups, think in how you can explain how classes or structs work with an analogy. (5 min)
+    - Share with the rest of the class. (5 min)
+
+1. Defining a Struct
+    - List all the elements that can be part of a specification for a house.
+    - Model everything on the list with a struct for a house.
+    - Examples:
+      - a. Number of rooms
+      - b. Number of kitchens
+      - c. Number of bathrooms
+      - d. It might have a garage or not
+
+1. Defining a Class
+    - List all the elements that can be part of a specification for a house owner.
+    - Model everything on the list with a class for a house owner.
+    - Examples:
+      - a. Sleep in a room
+      - b. Enter/Exit the house
+      - c. If there is a garage, they can park
+      - d. They own a house, use your previous struct
+
+1. Defining an Enum
+    - Individually, think in a concept that can be represented as an enum. Define an enum with your list of options for that concept. (5 min)
+    - Share with the rest of the class. (5 min)
+
+1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
+    - Complete:
+      - a. Chapter 12 on Initializers
+      - b. Chapter 10 on Enums
+
+## Wrap Up
+- Complete the exercises on Repl.it for Structs & Enums
+
+## Additional Resources
+
+- [Apple Docs - When to use structs vs classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
+- [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)
+</script></section></div>
+    </div>
+
+    <script src="./../js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './../plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './../plugin/zoom-js/zoom.js', async: true },
+        { src: './../plugin/notes/notes.js', async: true },
+        { src: './../plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"autoPlayMedia":false,"slideNumber":"c/t","showSlideNumber":"all","controlsTutorial":true,"controlsLayout":"edges","transition":"slide","transitionSpeed":"medium","minScale":0.5,"maxScale":3}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
