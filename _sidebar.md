@@ -1,3 +1,4 @@
 - **[MOB 1.1](README.md)**
 - **[Day 1](Lessons/01-Variables-Types-&-Functions/README.md)**
 - **[Day 2](Lessons/02-Optionals-&-conditionals/README.md)**
+- **[Day 3](Lessons/03-Arrays-Loops-Dictionaries/README.md)**

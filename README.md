@@ -64,14 +64,14 @@ Students by the end of the course will be able to ...
 | [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Mon 21 | Friday 25 | Repl.it site & tracker |
 | [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Wed 23 | Friday 25 | Repl.it site & tracker |
 | [Optionals](https://repl.it/classroom/invite/YhH356u)            | Wed 23 | Friday 25 | Repl.it site & tracker |
-| [Loops](https://repl.it/classroom/invite/YcITQAd)                | day, Date | day, Date | Repl.it site & tracker |
-| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | day, Date | day, Date | Repl.it site & tracker |
-| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | day, Date | day, Date | Repl.it site & tracker |
-| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | day, Date | day, Date | Repl.it site & tracker |
-| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | day, Date | day, Date | Repl.it site & tracker |
+| [Loops](https://repl.it/classroom/invite/YcITQAd)                | Mon 28 | Friday 1  | Repl.it site & tracker |
+| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Mon 28 | Friday 1  | Repl.it site & tracker |
+| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Mon 28 | Friday 1  | Repl.it site & tracker |
+| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Wed 30 | Friday 1  | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Wed 30 | Friday 1  | Repl.it site & tracker |
+| Sushi Neko                                                       | Wed 30 | Monday 11 | Github link in tracker |
 | [OOP](https://repl.it/classroom/invite/ZpclEej)                  | day, Date | day, Date | Repl.it site & tracker |
 | [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
-| Sushi Neko                                                       | day, Date | day, Date | Github link in tracker |
 | Magic 8 ball                                                     | day, Date | day, Date | Github link in tracker |
 | Pop the bubble                                                   | day, Date | day, Date | Github link in tracker |
 | Course project                                                   | day, Date | day, Date | Github link in tracker |

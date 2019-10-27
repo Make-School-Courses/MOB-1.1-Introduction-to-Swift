@@ -441,9 +441,9 @@ for i in 1...10 where i % 2 == 1 {
 
 This for loop has a `where` clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
 
-<!-- v -->
+<!-- > -->
 
-## Challenge
+## Challenges
 
 ![grid](assets/grid.png)
 
@@ -452,6 +452,22 @@ This for loop has a `where` clause. It will loop through all of the values in th
 ![grid2](assets/grid2.png)
 
 <!-- v -->
+
+Write a program that prints the first N Fibonacci numbers.
+
+1,1,2,3,5,8,13
+
+`func fibo(n: Int) -> [Int]`
+
+fibo(n: 7) -> [1,1,2,3,5,8,13]
+
+fibo(n: 5) -> [1,1,2,3,5]
+
+<!-- v -->
+
+Write a program that prints the powers of 2 that are less than or equal to N
+
+<!-- > -->
 
 ## In Class Activity
 
