@@ -1,42 +1,474 @@
-# Array's Loops & Dictionaries
+<!-- Run this slideshow via the following command: -->
+<!-- reveal-md README.md -w -->
 
-## Minute-by-Minute
 
-| **Time(min)** | **Activity**                |
-| ------------- | --------------------------- |
-| 5             | Intro & Objectives          |
-| 10            | TT on Arrays and Loops      |
-| 35            | Playground on Arrays & Loops|
-| 10            | Break                       |
-| 10            | TT on Dictionaries          |
-| 30            | Playground on Dictionaries  |
-| 5             | Wrap up & Q&A               |
+<!-- .slide: class="header" -->
+# Collection types & Control Flow
 
-## Class Learning Objectives/Competencies
+## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/03-Arrays-Loops-Dictionaries/README.html ':ignore')
+
+<!-- > -->
+
+## Agenda
+
+- Learning Objectives
+- Collection Types
+- Activity on Arrays & Dictionaries
+- Break
+- Control Flow
+- Activity on Control Flow
+- Wrap Up
+
+<!-- > -->
+
+## Learning Objectives
+
 By the end of this lesson, students should be able to:
 
 - Construct and use Arrays to store collections of data
-- Differentiate & use the various types of loops in Swift
 - Declare and use Arrays and Dictionaries
-- Apply Optionals in creating and using Dictionaries
+- Differentiate & use the various types of loops in Swift
+- Apply Optionals in creating and using different collection types
 
-## Overview
+<!-- > -->
 
-Slides:
+## Arrays
 
-[Arrays Loops & Dictionaries](https://docs.google.com/presentation/d/1-QFzAVF7x2pDSOAnifyH7NfqdDzIr99CRlTcma5KcrQ/edit?usp=sharing)
+The most common collection type in Swift. Collections are containers that let us store multiple values together.
+
+Arrays are typed and they store multiple values in a list.
+
+<!-- v -->
+
+An **ordered** collection of values **of the same type**
+
+Arrays are **zero-indexed**.
+
+![array](assets/array.png)
+
+<aside class="notes">
+Zero-indexed means the index of the first element is always 0, the second is 1, third is 2 and so on.
+
+The last element has an index equal to the number of values in the array minus one.
+
+In the example above, there are 4 elements of type String. Their indices go from 0 to 3.
+</aside>
+
+<!-- v -->
+
+### Creating an array
+
+Using an **array literal**
+
+```swift
+let concentrations = ["MOB", "BEW", "FEW", "DS"]
+```
+
+The type is `[Int]`
+
+<aside class="notes">
+An array literal is a list of values separated by commas, inside square brackets.
+
+The type inside the square brackets tell us the type of values the array can store.
+</aside>
+
+<!-- v -->
+
+### Creating an empty array
+
+`let concentrations = []`
+
+```swift
+Empty collection literal requires an explicit type
+```
+If we need an empty array, we need to specify it's type since Xcode can't infer it.
+
+Here's two ways to do it.
+
+`var concentrations : [String] = []`
+
+`var concentrations = [String]()`
+
+<!-- v -->
+
+## Appending elements
+
+We can add elements to an array using different methods:
+
+```swift
+concentrations.append("ROB")
+concentrations += ["ROB"]
+concentrations.insert("ROB", at: 2)
+```
+<aside class="notes">
+- The append method will add the new element at the end of the array.
+- += operator will also add it at the end.
+- The insert method lets us define the position in the array where we want the new element.
+</aside>
+
+<!-- v -->
+
+## Removing elements
+
+There are several alternatives to remove elements.
+
+```swift
+concentrations.removeLast()
+concentrations.remove(at:4)
+```
+
+<aside class="notes">
+Both methods will do two things, they will remove the element while also returning it in case you need to store it and use it.
+</aside>
+
+<!-- v -->
+
+## Updating elements
+
+There are several alternatives to remove elements.
+
+```swift
+concentrations[0] = "MOBILE"
+```
+
+<aside class="notes">
+Here we use the **subscript syntax** to update the content.
+
+Important: Be sure to NOT use an index that goes beyond the bounds of the array. Or else the program will crash.
+</aside>
+
+<!-- v -->
+
+## Swapping
+
+```swift
+concentrations.swap(1,2)
+```
+
+<aside class="notes">
+The swap method lets us exchange the position of two elements.
+</aside>
+
+<!-- v -->
+
+## Sorting
+
+```swift
+concentrations.sort()
+concentrations.sorted()
+```
+<aside class="notes">
+- The sort method will order the elements in the array.
+- The sorted method will return a sorted copy of the array.
+</aside>
+
+<!-- > -->
 
 ## In Class Activity
 
-1. [Array's & Loops Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Arrays-Loops-Swift-Playground/archive/swift4.zip)
-1. [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
+<!-- > -->
 
-## Wrap Up
+## Dictionaries
 
-- Complete the exercises on Repl.it for Arrays, Loops & Dictionaries
+An **unordered** collection of **pairs**.
+
+Each pair has a **key** and a **value**.
+
+![dictionary](assets/dictionary.png)
+
+<aside class="notes">
+- Keys are unique. The same key can't appear more than once in a dictionary.
+- All keys have to be of the same type and all values have to be of the same type.
+
+Dictionaries are useful when when want to look up values given an identifier. Just like looking up words in a dictionary.
+</aside>
+
+<!-- v -->
+
+### How are dictionaries and arrays different?
+
+<!-- v -->
+
+## Creating a dictionary
+
+Using a **dictionary literal**.
+
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+```
+
+The type is `[String:Int]`
+
+<aside class="notes">
+A list of key-value pairs separated by commas inside square brackets.
+</aside>
+
+<!-- v -->
+
+## Creating an empty dictionary
+
+```swift
+var coursesAndStudents : [String:Int] = [:]
+```
+
+<!-- v -->
+
+## Accessing values in a dictionary
+
+We can use subscripting just like in arrays. But since elements are not ordered, instead of looking for an index, we look for a key.
+
+```swift
+print(coursesAndStudents["FEW"]!)
+```
+
+Why are we using force unwrapping?
+
+<aside class="notes">
+The return type is an optional. Meaning the dictionary will first check if there is a value with the key provided. If there is it will return the value, nil otherwise.
+</aside>
+
+<!-- v -->
+
+### When should I use an array over a dictionary?
+### Are there any advantages for each?
+
+<!-- v -->
+
+## Adding and Updating to a dictionary
+
+```swift
+coursesAndStudents.updateValue(15, forKey: "ROB")
+coursesAndStudents["ROB"] = 15
+```
+
+<aside class="notes">
+These both serve as a way to add a new pair and also to update an existing pair. The code will update the value for the key given or create a new pair if it can't find it.
+</aside>
+
+<!-- v -->
+
+## Warming up
+
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+```
+
+Write a function that prints how many students belong to a given track.
+
+<!-- v -->
+
+## Removing elements
+
+```swift
+coursesAndStudents.removeValue(forKey:"ROB")
+coursesAndStudents["ROB"] = nil
+```
+
+<aside class="notes">
+These will remove the key and the corresponding value from the dictionary.
+
+There is a difference between the two methods. Assigning a key to nil will remove the value and the key entirely. If we wanted to keep the key and set the value to nil (in case we are dealing with optionals) we should use the removeValue method.
+</aside>
+
+<!-- > -->
+
+## Sets
+
+An **unordered** collection of **unique** values of the same type.
+
+```swift
+let plantCollection: Set<String> = ["Pothos", "Monstera", "Calathea"]
+let plantCollection = Set(["Pothos", "Monstera", "Calathea"])
+```
+
+<aside class="notes">
+The first option uses a type annotation while the second one let's the compiler infer the type.
+</aside>
+
+<!-- v -->
+
+```swift
+let plantCollection: Set<String> = ["Pothos", "Monstera", "Calathea", "Pothos"]
+
+print(uniquePlants)
+```
+
+What will be the result in the console?
+
+<aside class="notes">
+The result will be an unordered list and it will also show unique values. So even if we added the same plant twice, the set will make sure all the elements are unique.
+</aside>
+
+<!-- v -->
+
+## Finding elements in a Set
+
+```swift
+print(plantCollection.contains("Monstera"))
+```
+
+<!-- v -->
+
+## Adding and removing elements
+
+```swift
+plantCollection.insert("Ficus")
+
+let removedPlant = plantCollection.remove("Calathea")
+```
+
+<!-- > -->
+
+## Loops
+
+<!-- > -->
+
+## while loop
+
+```swift
+while <CONDITION> {
+  // code that will loop
+}
+```
+
+The loop checks the condition for every iteration. When the condition is false, it will stop.
+
+<!-- > -->
+
+## repeat-while loops
+
+```swift
+repeat {
+  // code that will loop
+} while <CONDITION>
+```
+
+The condition is evaluated at the end of the loop.
+
+<!-- v -->
+
+```swift
+var result = 0
+
+while result < 5{
+  result = result + (result - 1)
+}
+```
+
+```swift
+var result = 0
+
+repeat{
+  result = result + (result - 1)
+} while result < 5
+```
+
+<aside class="notes">
+What will be the result in each loop?
+</aside
+
+<!-- v -->
+
+```swift
+var result = 0
+
+while true{
+  result = result + (result - 1)
+  if result >= 10{
+    break
+  }
+}
+```
+
+We can end the loop using the `break` statement. It will stop the execution of the loop and continue with the code after the loop.
+
+<!-- > -->
+
+## Countable ranges
+
+`let closedRange = 0...8`
+
+Goes from 0 to 8 inclusive.
+
+
+`let halfOpenRange = 0..<8`
+
+Goes from 0 up to, but not including 8.
+
+<!-- > -->
+
+## For loop
+
+```swift
+for <CONSTANT> in <RANGE> {
+  // code that will loop
+}
+```
+
+```swift
+let count = 5
+var result = 0
+for i in 1...count{
+  result += i
+}
+```
+<aside class= "notes">
+The for loop iterates from 1 tp 5, and each time it will update the value of `result`.
+
+When working with loops that update the value of a variable it is useful to do a whiteboard test and check what is its value in each iteration.
+
+Its important to notice that the constant `i` is only visible inside the scope of the for loop.
+</aside>
+
+<!-- v -->
+
+Sometimes we don't weed the loop constant, we just want to run a block of code certain number of times.
+
+```swift
+for _ in 0..count{
+  // code that will loop
+}
+```
+
+<!-- v -->
+
+```swift
+var result = 0
+for i in 1...10 where i % 2 == 1 {
+  result += i
+}
+````
+
+This for loop has a `where` clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
+
+<!-- v -->
+
+## Challenge
+
+![grid](assets/grid.png)
+
+<!-- v -->
+
+![grid2](assets/grid2.png)
+
+<!-- v -->
+
+## In Class Activity
+
+- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
+- [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
+
+Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
+
+<!-- > -->
+
+## After class
+
+- [Repl.it for Loops](https://repl.it/classroom/invite/YcITQAd)
+
+<!-- > -->
 
 ## Additional Resources
 
 - [Apple's documentation on Arrays & Dictionaries](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
-- [Video on For Loops](https://www.youtube.com/watch?v=vxyrLbmm9Oo)
-- [Video on While Loops](https://www.youtube.com/watch?v=XDJXLw0Y3Hs)
+1. For more practice, try this out: [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
