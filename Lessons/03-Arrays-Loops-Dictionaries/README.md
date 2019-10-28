@@ -176,9 +176,12 @@ var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
 
 Write a function that takes in an array and prints all the available tracks
 
+Output:
+
 ```swift
 We offer these concentrations: MOB,BEW,FEW,DS
 ```
+Done early? Get ahead on this [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
 
 <!--
 ```swift
@@ -256,7 +259,7 @@ Why are we using force unwrapping?
 The return type is an optional. Meaning the dictionary will first check if there is a value with the key provided. If there is it will return the value, nil otherwise.
 </aside>
 
-<!-- > -->
+<!-- v -->
 
 ## Adding to and Updating a dictionary
 
@@ -268,26 +271,6 @@ coursesAndStudents["ROB"] = 15
 <aside class="notes">
 These both serve as a way to add a new pair and also to update an existing pair. The code will update the value for the key given or create a new pair if it can't find it.
 </aside>
-
-<!-- v -->
-
-## Warming up
-
-```swift
-var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
-```
-
-Write a function that prints how many students belong to a given track.
-
-<!--
-```swift
-var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
-
-for i in coursesAndStudents{
-    print("There are \(i.1) students in the \(i.0) track")
-}
-```
--->
 
 <!-- v -->
 
@@ -303,6 +286,47 @@ These will remove the key and the corresponding value from the dictionary.
 
 There is a difference between the two methods. Assigning a key to nil will remove the value and the key entirely. If we wanted to keep the key and set the value to nil (in case we are dealing with optionals) we should use the removeValue method.
 </aside>
+
+<!-- v -->
+
+## Warming up
+
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+```
+
+Write a function that takes in a dictionary and prints how many students belong to a given track.
+
+Output
+
+```swift
+There are 30 students in the MOB track
+There are 40 students in the BEW track
+There are 30 students in the FEW track
+There are 40 students in the DS track
+```
+
+Done early? Get ahead on this - [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
+
+<!--
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+func printStudentcount(dictionary:[String:Int]){
+    print("There are \(dictionary["MOB"]!) students in the MOB track")
+    print("There are \(dictionary["BEW"]!) students in the BEW track")
+    print("There are \(dictionary["FEW"]!) students in the FEW track")
+    print("There are \(dictionary["DS"]!) students in the DS track")
+}
+printStudentcount(dictionary: coursesAndStudents)
+
+func printStudentcount(dictionary:[String:Int]){
+  dictionary.forEach {
+    print("There are \($0.value) students in the \($0.key) track")
+    }
+}
+printStudentcount(dictionary: coursesAndStudents)
+```
+-->
 
 <!-- > -->
 
@@ -517,6 +541,16 @@ There are 40 students in the BEW track
 There are 30 students in the FEW track
 There are 40 students in the DS track
 ```
+
+<!--
+```swift
+var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
+
+for i in coursesAndStudents{
+    print("There are \(i.1) students in the \(i.0) track")
+}
+```
+-->
 
 <!-- > -->
 
