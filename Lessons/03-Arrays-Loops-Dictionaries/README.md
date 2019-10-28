@@ -168,9 +168,33 @@ The sorted method will return a sorted copy of the array.
 
 <!-- > -->
 
-## In Class Activity
+## Warming up
 
-- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
+```swift
+var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
+```
+
+Write a function that takes in an array and prints all the available tracks
+
+```swift
+We offer these concentrations: MOB,BEW,FEW,DS
+```
+
+<!--
+```swift
+var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
+
+func printConcentrations(concentrationsArray:[String]){
+    var currentString = ""
+    for i in coursesAndStudents{
+        currentString += "\(i),"
+    }
+    print("We offer these concentrations: \(currentString.dropLast())")
+}
+
+printConcentrations(concentrationsArray: coursesAndStudents)
+```
+-->
 
 <!-- > -->
 
@@ -544,15 +568,16 @@ fibo(n: 5) -> [1,1,2,3,5]
 
 ## In Class Activity
 
+- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
 - [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
-
-Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
 
 <!-- > -->
 
 ## After class
 
 - [Repl.it for Loops](https://repl.it/classroom/invite/YcITQAd)
+
+Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
 
 <!-- > -->
 
