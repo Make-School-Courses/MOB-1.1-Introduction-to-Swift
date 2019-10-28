@@ -166,6 +166,8 @@ concentrations.sorted()
 
 ## In Class Activity
 
+- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
+
 <!-- > -->
 
 ## Dictionaries
@@ -182,10 +184,6 @@ Each pair has a **key** and a **value**.
 
 Dictionaries are useful when when want to look up values given an identifier. Just like looking up words in a dictionary.
 </aside>
-
-<!-- v -->
-
-### How are dictionaries and arrays different?
 
 <!-- v -->
 
@@ -227,12 +225,7 @@ Why are we using force unwrapping?
 The return type is an optional. Meaning the dictionary will first check if there is a value with the key provided. If there is it will return the value, nil otherwise.
 </aside>
 
-<!-- v -->
-
-### When should I use an array over a dictionary?
-### Are there any advantages for each?
-
-<!-- v -->
+<!-- > -->
 
 ## Adding and Updating to a dictionary
 
@@ -319,6 +312,30 @@ let removedPlant = plantCollection.remove("Calathea")
 
 <!-- > -->
 
+## In Class Activity
+
+Individually answer:
+
+- How are Dictionaries and Arrays different?
+- When would you use a Dictionary vs an Array? Are there advantages/disadvantages when using each?
+- When would you use a Set vs an Array? Are there advantages/disadvantages when using each?
+- When should we use a type annotation vs type inference?
+
+<!-- v -->
+
+Discuss your answers with a neighbor.
+
+- Do you share the same answers?
+- Any disagreements?
+- A question you both have for the instructor? Raise your hand to get help.
+
+<!-- > -->
+
+<!-- .slide: data-background="#087CB8" -->
+## [**10m**] BREAK
+
+<!-- > -->
+
 ## Loops
 
 <!-- > -->
@@ -351,7 +368,7 @@ The condition is evaluated at the end of the loop.
 var result = 0
 
 while result < 5{
-  result = result + (result - 1)
+  result = result + (result + 1)
 }
 ```
 
@@ -359,8 +376,8 @@ while result < 5{
 var result = 0
 
 repeat{
-  result = result + (result - 1)
-} while result < 5
+  result = result + (result + 1)
+} while result < 10
 ```
 
 <aside class="notes">
@@ -373,7 +390,7 @@ What will be the result in each loop?
 var result = 0
 
 while true{
-  result = result + (result - 1)
+  result = result + (result + 1)
   if result >= 10{
     break
   }
@@ -443,6 +460,25 @@ This for loop has a `where` clause. It will loop through all of the values in th
 
 <!-- > -->
 
+## Warming up
+
+```swift
+var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
+```
+
+Write a function that prints how many students belong to each track.
+
+Output:
+
+```swift
+There are 30 students in the MOB track
+There are 40 students in the BEW track
+There are 30 students in the FEW track
+There are 40 students in the DS track
+```
+
+<!-- > -->
+
 ## Challenges
 
 ![grid](assets/grid.png)
@@ -450,6 +486,24 @@ This for loop has a `where` clause. It will loop through all of the values in th
 <!-- v -->
 
 ![grid2](assets/grid2.png)
+
+<!--
+```swift
+var sum = 0
+
+for row in 0..<5 {
+  if row % 2 != 0 {
+    continue
+  }
+
+  for column in 0..<5 {
+    sum += row * column
+  }
+}
+
+print(sum)
+```
+-->
 
 <!-- v -->
 
@@ -471,7 +525,6 @@ Write a program that prints the powers of 2 that are less than or equal to N
 
 ## In Class Activity
 
-- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
 - [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
 
 Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
