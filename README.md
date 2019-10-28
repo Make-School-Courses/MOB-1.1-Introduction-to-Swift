@@ -28,7 +28,7 @@ Students by the end of the course will be able to ...
 |:-----:|:----------------------:|:---------------------------------------:|
 |  1    |   Mon, Oct 21    | [Variables, Types & Functions]       |
 |  2    |   Wed, Oct 23    | [Optionals & Conditionals]           |
-|  3    |   Mon, Oct 28    | [Arrays, Loops & Dictionaries]       |
+|  3    |   Mon, Oct 28    | [Collection types & Control Flow]    |
 |  4    |   Wed, Oct 30    | [Classes, Structs & Enums]           |
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
@@ -45,7 +45,7 @@ Students by the end of the course will be able to ...
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
-[Arrays, Loops & Dictionaries]: Lessons/03-Arrays-Loops-Dictionaries/README.md
+[Collection types & Control Flow]: Lessons/03-Arrays-Loops-Dictionaries/README.md
 [Classes, Structs & Enums]: Lessons/04-Classes-Structs-Enums/README.md
 [Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit/README.md
 [Building an iOS Game]: Lessons/06-Building-an-iOS-Game/README.md
