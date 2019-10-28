@@ -219,7 +219,7 @@ Why are we using force unwrapping?
 The return type is an optional. Meaning the dictionary will first check if there is a value with the key provided. If there is it will return the value, nil otherwise.
 </aside>
 </script></section></section><section ><section data-markdown><script type="text/template">
-## Adding and Updating to a dictionary
+## Adding to and Updating a dictionary
 
 ```swift
 coursesAndStudents.updateValue(15, forKey: "ROB")
@@ -237,6 +237,16 @@ var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
 ```
 
 Write a function that prints how many students belong to a given track.
+
+<!--
+```swift
+var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
+
+for i in coursesAndStudents{
+    print("There are \(i.1) students in the \(i.0) track")
+}
+```
+-->
 </script></section><section data-markdown><script type="text/template">
 ## Removing elements
 
@@ -437,6 +447,8 @@ There are 40 students in the DS track
 </script></section><section data-markdown><script type="text/template">
 ![grid2](assets/grid2.png)
 
+#### 1. Write a function that returns the sum of all cells but exclude all odd rows
+
 <!--
 ```swift
 var sum = 0
@@ -455,7 +467,7 @@ print(sum)
 ```
 -->
 </script></section><section data-markdown><script type="text/template">
-Write a program that prints the first N Fibonacci numbers.
+#### 2. Write a program that prints the first N Fibonacci numbers.
 
 1,1,2,3,5,8,13
 
@@ -465,7 +477,7 @@ fibo(n: 7) -> [1,1,2,3,5,8,13]
 
 fibo(n: 5) -> [1,1,2,3,5]
 </script></section><section data-markdown><script type="text/template">
-Write a program that prints the powers of 2 that are less than or equal to N
+#### 3. Write a program that prints the powers of 2 that are less than or equal to N
 </script></section></section><section  data-markdown><script type="text/template">
 ## In Class Activity
 

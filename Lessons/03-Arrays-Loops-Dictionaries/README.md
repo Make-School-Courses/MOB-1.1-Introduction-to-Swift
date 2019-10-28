@@ -234,7 +234,7 @@ The return type is an optional. Meaning the dictionary will first check if there
 
 <!-- > -->
 
-## Adding and Updating to a dictionary
+## Adding to and Updating a dictionary
 
 ```swift
 coursesAndStudents.updateValue(15, forKey: "ROB")
@@ -504,6 +504,8 @@ There are 40 students in the DS track
 
 ![grid2](assets/grid2.png)
 
+#### 1. Write a function that returns the sum of all cells but exclude all odd rows
+
 <!--
 ```swift
 var sum = 0
@@ -524,7 +526,7 @@ print(sum)
 
 <!-- v -->
 
-Write a program that prints the first N Fibonacci numbers.
+#### 2. Write a program that prints the first N Fibonacci numbers.
 
 1,1,2,3,5,8,13
 
@@ -536,7 +538,7 @@ fibo(n: 5) -> [1,1,2,3,5]
 
 <!-- v -->
 
-Write a program that prints the powers of 2 that are less than or equal to N
+#### 3. Write a program that prints the powers of 2 that are less than or equal to N
 
 <!-- > -->
 
