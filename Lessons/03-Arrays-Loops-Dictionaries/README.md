@@ -255,6 +255,16 @@ var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
 
 Write a function that prints how many students belong to a given track.
 
+<!--
+```swift
+var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
+
+for i in coursesAndStudents{
+    print("There are \(i.1) students in the \(i.0) track")
+}
+```
+-->
+
 <!-- v -->
 
 ## Removing elements
