@@ -81,6 +81,7 @@ The type inside the square brackets tell us the type of values the array can sto
 ```swift
 Empty collection literal requires an explicit type
 ```
+
 If we need an empty array, we need to specify it's type since Xcode can't infer it.
 
 Here's two ways to do it.
@@ -101,9 +102,11 @@ concentrations += ["ROB"]
 concentrations.insert("ROB", at: 2)
 ```
 <aside class="notes">
-- The append method will add the new element at the end of the array.
-- += operator will also add it at the end.
-- The insert method lets us define the position in the array where we want the new element.
+The append method will add the new element at the end of the array.
+
++= operator will also add it at the end.
+
+The insert method lets us define the position in the array where we want the new element.
 </aside>
 
 <!-- v -->
@@ -132,7 +135,7 @@ concentrations[0] = "MOBILE"
 ```
 
 <aside class="notes">
-Here we use the **subscript syntax** to update the content.
+Here we use the subscript syntax to update the content.
 
 Important: Be sure to NOT use an index that goes beyond the bounds of the array. Or else the program will crash.
 </aside>
@@ -158,8 +161,9 @@ concentrations.sort()
 concentrations.sorted()
 ```
 <aside class="notes">
-- The sort method will order the elements in the array.
-- The sorted method will return a sorted copy of the array.
+The sort method will order the elements in the array.
+
+The sorted method will return a sorted copy of the array.
 </aside>
 
 <!-- > -->
@@ -179,8 +183,11 @@ Each pair has a **key** and a **value**.
 ![dictionary](assets/dictionary.png)
 
 <aside class="notes">
-- Keys are unique. The same key can't appear more than once in a dictionary.
-- All keys have to be of the same type and all values have to be of the same type.
+Keys are unique.
+
+The same key can't appear more than once in a dictionary.
+
+All keys have to be of the same type and all values have to be of the same type.
 
 Dictionaries are useful when when want to look up values given an identifier. Just like looking up words in a dictionary.
 </aside>
@@ -430,11 +437,11 @@ for i in 1...count{
 }
 ```
 <aside class= "notes">
-The for loop iterates from 1 tp 5, and each time it will update the value of `result`.
+The for loop iterates from 1 tp 5, and each time it will update the value of result.
 
 When working with loops that update the value of a variable it is useful to do a whiteboard test and check what is its value in each iteration.
 
-Its important to notice that the constant `i` is only visible inside the scope of the for loop.
+Its important to notice that the constant i is only visible inside the scope of the for loop.
 </aside>
 
 <!-- v -->
@@ -456,7 +463,7 @@ for i in 1...10 where i % 2 == 1 {
 }
 ````
 
-This for loop has a `where` clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
+This for loop has a where clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
 
 <!-- > -->
 
