@@ -168,7 +168,7 @@ The sorted method will return a sorted copy of the array.
 
 <!-- > -->
 
-## Warming up
+## Challenge
 
 ```swift
 var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
@@ -183,21 +183,25 @@ We offer these concentrations: MOB,BEW,FEW,DS
 ```
 Done early? Get ahead on this [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
 
-<!--
+<!-- v -->
+
+Solution
+
 ```swift
 var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
 
 func printConcentrations(concentrationsArray:[String]){
     var currentString = ""
-    for i in coursesAndStudents{
-        currentString += "\(i),"
+    for course in coursesAndStudents{
+        currentString += "\(course),"
     }
     print("We offer these concentrations: \(currentString.dropLast())")
 }
 
 printConcentrations(concentrationsArray: coursesAndStudents)
 ```
--->
+
+Find out what `dropLast` is doing and how you can use it with collections.
 
 <!-- > -->
 
@@ -287,9 +291,9 @@ These will remove the key and the corresponding value from the dictionary.
 There is a difference between the two methods. Assigning a key to nil will remove the value and the key entirely. If we wanted to keep the key and set the value to nil (in case we are dealing with optionals) we should use the removeValue method.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
-## Warming up
+## Challenge
 
 ```swift
 var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
@@ -308,7 +312,12 @@ There are 40 students in the DS track
 
 Done early? Get ahead on this - [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
 
-<!--
+<!-- v -->
+
+Solution
+
+First approach implementation
+
 ```swift
 var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
 func printStudentcount(dictionary:[String:Int]){
@@ -318,7 +327,23 @@ func printStudentcount(dictionary:[String:Int]){
     print("There are \(dictionary["DS"]!) students in the DS track")
 }
 printStudentcount(dictionary: coursesAndStudents)
+```
 
+<!-- v -->
+
+For loop implementation
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+for (course, countStudents) in coursesAndStudents {
+  print("There are \(countStudents) students in the \(course) track")
+}
+```
+
+Notice the use of more than one variable iterating in the for loop.
+
+Built in `.forEach` method
+
+```swift
 func printStudentcount(dictionary:[String:Int]){
   dictionary.forEach {
     print("There are \($0.value) students in the \($0.key) track")
@@ -326,7 +351,6 @@ func printStudentcount(dictionary:[String:Int]){
 }
 printStudentcount(dictionary: coursesAndStudents)
 ```
--->
 
 <!-- > -->
 
@@ -348,7 +372,7 @@ The first option uses a type annotation while the second one let's the compiler 
 ```swift
 let plantCollection: Set<String> = ["Pothos", "Monstera", "Calathea", "Pothos"]
 
-print(uniquePlants)
+print(plantCollection)
 ```
 
 What will be the result in the console?
@@ -523,9 +547,29 @@ for i in 1...10 where i % 2 == 1 {
 
 This for loop has a where clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
 
+<!-- v -->
+
+Looping items in an array
+
+```swift
+var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
+for course in coursesAndStudents {
+  print(course)
+}
+````
+
+Looping items in a dictionary
+
+```swift
+var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
+for (course, countStudents) in coursesAndStudents {
+  print("\(course): \(countStudents)")
+}
+````
+
 <!-- > -->
 
-## Warming up
+## Challenge
 
 ```swift
 var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
@@ -542,19 +586,21 @@ There are 30 students in the FEW track
 There are 40 students in the DS track
 ```
 
-<!--
+<!-- v -->
+
+Solution
+
 ```swift
 var coursesAndStudents = [("MOB", 30), ("BEW", 40), ("FEW", 30), ("DS", 40)]
 
 for course in coursesAndStudents{
-    print("There are \(i.1) students in the \(i.0) track")
+    print("There are \(course.1) students in the \(course.0) track")
 }
 ```
--->
 
 <!-- > -->
 
-## Challenges
+## Challenges for next class
 
 ![grid](assets/grid.png)
 
@@ -600,16 +646,11 @@ fibo(n: 5) -> [1,1,2,3,5]
 
 <!-- > -->
 
-## In Class Activity
-
-- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
-- [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
-
-<!-- > -->
-
 ## After class
 
 - [Repl.it for Loops](https://repl.it/classroom/invite/YcITQAd)
+- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
+- [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
 
 Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
 
