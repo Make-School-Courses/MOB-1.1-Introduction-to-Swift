@@ -187,6 +187,22 @@ Done early? Get ahead on this [Repl.it for Arrays](https://repl.it/classroom/inv
 
 Solution
 
+First approach solution
+
+```swift
+var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
+
+func printConcentrations(concentrationsArray:[String]){
+    print("We offer these concentrations: \(coursesAndStudents[0]),\(coursesAndStudents[1]),\(coursesAndStudents[2]),\(coursesAndStudents[3])")
+}
+
+printConcentrations(concentrationsArray: coursesAndStudents)
+```
+
+<!-- v -->
+
+For loop solution
+
 ```swift
 var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
 
