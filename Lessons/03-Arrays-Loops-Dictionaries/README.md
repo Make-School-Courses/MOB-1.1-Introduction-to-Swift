@@ -559,7 +559,7 @@ var result = 0
 for i in 1...10 where i % 2 == 1 {
   result += i
 }
-````
+```
 
 This for loop has a where clause. It will loop through all of the values in the range but will only execute the block then the where condition is true.
 
@@ -572,7 +572,7 @@ var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
 for course in coursesAndStudents {
   print(course)
 }
-````
+```
 
 Looping items in a dictionary
 
@@ -581,7 +581,7 @@ var coursesAndStudents = ["MOB":30, "BEW":40, "FEW":30, "DS":40]
 for (course, countStudents) in coursesAndStudents {
   print("\(course): \(countStudents)")
 }
-````
+```
 
 <!-- > -->
 
