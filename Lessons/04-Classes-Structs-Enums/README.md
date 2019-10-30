@@ -14,10 +14,8 @@
 - Challenges from last class
 - Classes
 - Structs
-- Activity
 - Break
 - Enums
-- Activity on Initializers
 
 <!-- > -->
 
