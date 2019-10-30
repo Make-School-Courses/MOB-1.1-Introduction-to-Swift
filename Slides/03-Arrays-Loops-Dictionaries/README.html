@@ -209,6 +209,22 @@ printConcentrations(concentrationsArray: coursesAndStudents)
 ```
 
 Find out what `dropLast` is doing and how you can use it with collections.
+</script></section><section data-markdown><script type="text/template">
+Another solution
+
+```swift
+var coursesAndStudents = ["MOB", "BEW", "FEW", "DS"]
+
+func printConcentrations(concentrationsArray:[String]){
+    for (index, course) in concentrationsArray.enumerated() {
+      print("\(index + 1). \(course)")
+    }
+}
+
+printConcentrations(concentrationsArray: coursesAndStudents)
+```
+
+This option will not print the same sentence, it's mainly to see how you can use the method `enumerated` to get a tuple with both the index and the value of the element.
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Dictionaries
 

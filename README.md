@@ -33,7 +33,7 @@ Students by the end of the course will be able to ...
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
 |  7    |   Mon, Nov 11    | [Building an iOS Game Pt.2]          |
-|  8    |   Wed, Nov 13	   | [OOP - Structs & Protocols]          |
+|  8    |   Wed, Nov 13	   | [OOP]                                |
 |  9    |   Mon, Nov 18    | [Building an RPG Game]               |
 |  10   |   Wed, Nov 20    | [More on OOP]                        |
 |  11   |   Mon, Nov 25    | [Introduction to UIKit]              |
@@ -50,7 +50,7 @@ Students by the end of the course will be able to ...
 [Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit/README.md
 [Building an iOS Game]: Lessons/06-Building-an-iOS-Game/README.md
 [Building an iOS Game Pt.2]: Lessons/07-Building-an-iOS-Game-Part-2/README.md
-[OOP - Structs & Protocols]: Lessons/08-Introduction-To-OOP-In-Games/README.md
+[OOP]: Lessons/08-Introduction-To-OOP-In-Games/README.md
 [Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols/README.md
 [More on OOP]: Lessons/10-Build-an-RPG-Game/README.md
 [Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit/README.md
