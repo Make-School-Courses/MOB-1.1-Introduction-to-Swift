@@ -12,8 +12,8 @@
 ## Agenda
 
 - Challenges from last class
-- Classes
 - Structs
+- Classes
 - Break
 - Enums
 
