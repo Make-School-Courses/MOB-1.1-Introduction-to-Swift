@@ -19,6 +19,13 @@
 
 <!-- > -->
 
+<!-- .slide: data-background="#087CB8" -->
+## Challenges from last class
+
+Compare your solutions with the person sitting next to you.
+
+<!-- > -->
+
 ## Learning Objectives
 1. Understand the differences between Classes & Structs in Swift
 1. Create data models with both Classes & Structs
@@ -31,8 +38,7 @@
 
 So far, we have learned about different types (Int, String, Array). Almost every time we will need to create our custom types to suit the purpose of our programs. We can create our own types with Classes & Structs in Swift.
 
-
-<iframe src="https://giphy.com/embed/Kd5XdzdEhNqhYWe14S" width="240" height="240" frameBorder="0"></iframe><p><a href="https://giphy.com/stickers/yummy-cute-dog-corgiyolk-Kd5XdzdEhNqhYWe14S"></a></p>
+<iframe src="https://giphy.com/embed/YiUredNQ5OdxzAaXbV" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/aminalstickers-aminals-aminal-stickers-YiUredNQ5OdxzAaXbV"></a></p>
 
 <aside class="notes">
 Context for the examples in this lesson: we need to build a program that helps a Boba Tea shop to implement an "order ahead" system, because they constantly have long lines. We need to model how it will work using Swift. Eventually it might become an app.
