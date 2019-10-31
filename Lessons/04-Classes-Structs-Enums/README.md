@@ -1,7 +1,6 @@
 <!-- Run this slideshow via the following command: -->
 <!-- reveal-md README.md -w -->
 
-
 <!-- .slide: class="header" -->
 # Classes, Structs & Enums
 
@@ -241,6 +240,7 @@ This time we see the word self. In Swift, self is a property of an instance that
 </aside>
 
 <!-- v -->
+
 ### Challenge 4
 
 1. Add the class Customer and refactor your code to use it
@@ -453,7 +453,7 @@ Finish the implementation of the Boba Tea shop.
 
 <!-- > -->
 
-Find the solutions to each step of the challenges [here](/assignments/challenges.md).
+Find the solutions to each step of the challenges [here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/04-Classes-Structs-Enums/assignments/challenges.md).
 
 <!-- > -->
 

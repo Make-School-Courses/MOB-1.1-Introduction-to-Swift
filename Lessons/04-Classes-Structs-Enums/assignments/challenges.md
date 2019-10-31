@@ -1,5 +1,4 @@
 
-
 # Challenge 1
 
 1. Write the enum BobaTea
@@ -21,7 +20,6 @@ struct Order {
 }
 
 ```
-
 
 # Challenge 2
 1. Write a function that given input parameters returns an order of type Order (the enum you created before is new type!).
@@ -58,7 +56,7 @@ print("\(newOrder.name) ordered \(newOrder.boba.tea) boba tea, \(newOrder.boba.s
 ```
 
 
-## # Challenge 3
+# Challenge 3
 
 Improvement with method inside the struct
 
@@ -89,7 +87,7 @@ newOrder.printDescription()
 ```
 
 
-## # Challenge 4
+# Challenge 4
 
 1. Add the class Customer and refactor your code to use it
 2. Using a class to represent the customer, instead of just using a String for the name.
