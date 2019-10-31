@@ -133,7 +133,7 @@ newOrder.printDescription()
 
 Finish the implementation of the Boba Tea shop.
 
-1.Use enums to represent the tea types
+1. Use enums to represent the tea types
 2. Add an option to customize milk too: whole, almond, oat
 3. Include the `makeOrder` to practice using associated values
 4. Experiment, break things 🤓
