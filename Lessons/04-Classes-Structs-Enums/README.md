@@ -155,6 +155,8 @@ What if we want to able to display the complete order of a customer every time? 
 
 <!-- v -->
 
+### Challenge 3
+
 ```swift
 struct Order {
   var boba: BobaTea
@@ -237,6 +239,12 @@ Accessing the value of properties is also using dot syntax.
 
 This time we see the word self. In Swift, self is a property of an instance that holds the instance itself.
 </aside>
+
+<!-- v -->
+### Challenge 4
+
+1. Add the class Customer and refactor your code to use it
+2. Using a class to represent the customer, instead of just using a String for the name.
 
 <!-- v -->
 
@@ -434,15 +442,18 @@ We used let bindings to read associated values.
 
 <!-- > -->
 
-### Challenge 3
+### Challenge 5
 
 Finish the implementation of the Boba Tea shop.
 
 - Use enums to represent the tea types
 - Add an option to customize milk too: whole, almond, oat
-- Add the class `Customer` and refactor your code to use it
 - Include the `makeOrder` to practice using associated values
 - Experiment, break things 🤓
+
+<!-- > -->
+
+Find the solutions to each step of the challenges [here](/assignments/challenges.md).
 
 <!-- > -->
 
