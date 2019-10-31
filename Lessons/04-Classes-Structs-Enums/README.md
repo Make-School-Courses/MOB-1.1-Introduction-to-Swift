@@ -152,7 +152,7 @@ Functions that are members of types are called **methods**.
 
 What if we want to able to display the complete order of a customer every time? It might be useful to include a method inside the Order struct.
 
-<!-- v -->
+<!-- > -->
 
 ### Challenge 3
 
@@ -239,14 +239,14 @@ Accessing the value of properties is also using dot syntax.
 This time we see the word self. In Swift, self is a property of an instance that holds the instance itself.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
 ### Challenge 4
 
 1. Add the class Customer and refactor your code to use it
 2. Using a class to represent the customer, instead of just using a String for the name.
 
-<!-- v -->
+<!-- > -->
 
 ## Classes as reference types
 

@@ -142,7 +142,7 @@ let newOrder = createOrder(withTea: "black", sweetness: 25, forCustomer: "Adrian
 print("\(newOrder.name) ordered \(newOrder.boba.tea) boba tea, \(newOrder.boba.sweetness)% sweetness, \(newOrder.boba.hasBoba ? "with boba" : "no boba")")
 ```
 -->
-</script></section><section ><section data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ## Methods
 
 We know now that structures can have constants and variables. They can also have their own functions. And every instance will have access to them, to execute them.
@@ -150,7 +150,7 @@ We know now that structures can have constants and variables. They can also have
 Functions that are members of types are called **methods**.
 
 What if we want to able to display the complete order of a customer every time? It might be useful to include a method inside the Order struct.
-</script></section><section data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ### Challenge 3
 
 ```swift
@@ -170,7 +170,7 @@ newOrder.printDescription()
 ```
 
 Do the same improvement in your implementation.
-</script></section></section><section  data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ## Structures as value types
 
 A value type is a type whose instances are copied when assigned.
@@ -200,7 +200,7 @@ Many of the standard Swift types are structures:
 - Dictionary
 
 You can confirm this by looking at the documentation 🤓 (command+click -> jump to definition)
-</script></section><section ><section data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ## Classes
 
 Classes are also named types with properties and methods.
@@ -229,12 +229,12 @@ Accessing the value of properties is also using dot syntax.
 
 This time we see the word self. In Swift, self is a property of an instance that holds the instance itself.
 </aside>
-</script></section><section data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ### Challenge 4
 
 1. Add the class Customer and refactor your code to use it
 2. Using a class to represent the customer, instead of just using a String for the name.
-</script></section><section data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ## Classes as reference types
 
 While structs are *value types*, classes are *reference types*.
@@ -242,7 +242,7 @@ While structs are *value types*, classes are *reference types*.
 This means than a variable of a class doesn't store an instance but a reference to a location in memory, and that location stores the instance.
 
 <img data-src="https://miro.medium.com/max/940/1*oiSNPErZHJ40FcWNTxAM0A.gif">
-</script></section></section><section  data-markdown><script type="text/template">
+</script></section><section  data-markdown><script type="text/template">
 ## Read & Discuss
 
 Read [this article](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
