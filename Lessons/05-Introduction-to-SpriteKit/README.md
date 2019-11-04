@@ -10,7 +10,7 @@
 
 ## Agenda
 
-- Quick check in until now
+- Quick check-in 
 - What is SpriteKit
 - Creating our first sprite
 - Animations with Actions
