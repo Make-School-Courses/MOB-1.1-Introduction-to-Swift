@@ -69,7 +69,7 @@ Students by the end of the course will be able to ...
 | [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Mon 28 | Fri 1  | Repl.it site & tracker |
 | [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Wed 30 | Fri 1  | Repl.it site & tracker |
 | [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Wed 30 | Fri 1  | Repl.it site & tracker |
-| Pop the bubble                                                   | Mon 4 | Monday 11 | Github link in tracker |
+| Pop the squares                                                  | Mon 4 | Monday 11 | Github link in tracker |
 | Sushi Neko                                                       | Wed 30 | Wed 13 | Github link in tracker |
 | [OOP](https://repl.it/classroom/invite/ZpclEej)                  | day, Date | day, Date | Repl.it site & tracker |
 | [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
@@ -83,7 +83,7 @@ Students by the end of the course will be able to ...
 
 ### Projects
 
-- Pop The Bubble Project - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
+- POP the squares game - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
 - [Course project]()
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
