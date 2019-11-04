@@ -10,7 +10,7 @@
 
 ## Agenda
 
-- Quick check-in 
+- Quick check-in
 - What is SpriteKit
 - Creating our first sprite
 - Animations with Actions
@@ -20,27 +20,24 @@
 
 ## Check in
 
-Up to know we've seen Swift's main building blocks:
-
 - Variables & constants
 - Types & optionals
 - Functions
 - Classes, Structs & Enums
-- Conditionals
-- Control flow (for loops, switch statements, while loops)
+- Conditionals & Control flow (loops and switch statements)
 
-**1 minute** Think about one thing that's not 100% clear to you, regarding any of these topics.<br>
-**5 minute** Get in groups of 2 or 3 and share your doubts, see if you can get them answered by your classmates.<br>
-**1 minute** Only if no one in the group can answer a doubt, write it down. And give it to the instructor.
+**1 min** Think about one thing that's not 100% clear to you, regarding any of these topics.<br>
+**5 min** Get in groups of 2 or 3 and share your doubts, see if you can get them answered by your classmates.<br>
+**1 min** Only if no one in the group can answer a doubt, write it down. And give it to the instructor.
 
 <!-- > -->
 
 ## Learning Objectives
-By the end of this lesson, students should be able to:
+By the end of this lesson, we should be able to:
 
 - Setup an Xcode Game Project
-- Identify and use SpriteKit to build and run a simple project
-- Place assets and views on a screen
+- Use SpriteKit to build and run a simple project
+- Learn how to use SKActions & SKNodes
 - Create a simple game with help from starter code
 
 <!-- > -->
