@@ -4,7 +4,7 @@
 <!-- .slide: class="header" -->
 # Introduction to SpriteKit
 
-## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/05-Introduction-to-spriteKit/README.html ':ignore')
+## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/05-Introduction-to-SpriteKit/README.html ':ignore')
 
 <!-- > -->
 
