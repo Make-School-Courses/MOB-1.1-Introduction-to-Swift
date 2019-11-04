@@ -179,7 +179,7 @@ Create a simple sprite in the middle of the screen in a new Xcode project.
 
 `SKAction` is a powerful class used to bring nodes to life.
 
-You can use `SKAction` objects to make *any* node in the scene perform an action. An action is something that changes one or more properties &mdash; like position, size, transparency, color, etc. &mdash; of *any* node in your scene &mdash; including the scene node itself. <sup>6</sup>
+You can use `SKAction` objects to make *any* node in the scene perform an action. An action is something that changes one or more properties &mdash; like position, size, transparency, color, etc. &mdash; of *any* node in your scene &mdash; including the scene node itself.
 
 <!-- v -->
 
