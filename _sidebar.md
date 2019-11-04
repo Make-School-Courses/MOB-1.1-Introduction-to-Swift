@@ -3,3 +3,4 @@
 - **[Day 2](Lessons/02-Optionals-&-Conditionals/README.md)**
 - **[Day 3](Lessons/03-Arrays-Loops-Dictionaries/README.md)**
 - **[Day 4](Lessons/04-Classes-Structs-Enums/README.md)**
+- **[Day 5](Lessons/05-Introduction-to-SpriteKit/README.md)**
