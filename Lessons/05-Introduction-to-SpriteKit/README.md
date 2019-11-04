@@ -93,7 +93,7 @@ SpriteKit offers many different node types, but they all share a common set of k
 
 A few of the most important properties of `SKNode` and its subclasses that you can manipulate.
 
-About the types: In Swift, CGFloat is a struct wrapper around either Float on 32-bit architectures or Double on 64-bit ones. CG comes from Core Graphics.
+About the types: In Swift, CGFloat is a struct wrapper around either Float on 32-bit architectures or Double on 64-bit ones. CG comes from Core Graphics (C-based graphics API on iOS)
 
 https://code.tutsplus.com/tutorials/spritekit-from-scratch-fundamentals--cms-26326
 </aside>
