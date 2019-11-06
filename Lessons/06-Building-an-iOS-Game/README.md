@@ -100,18 +100,62 @@ And then what? For our specific purpose in the game, we want to see if there is 
 
 <!-- v -->
 
+### Name your nodes
+
+We need to have a way to identify the nodes.
+
+A node’s name property should be an alphanumeric string without any punctuation.
+
+`playerNode.name = "player"`
+
+Think about their uniqueness. Is it necessary? (example: main player vs power ups)
+
+<!-- v -->
+
 ### Finding nodes
 
-We need to have a way to find and identify the nodes.
+We need to have a way to find the nodes.
 
 We can use `name` property! Search the node tree for a node with a specific name.
 
 `childNode(withName:)` - searches the children of a node for a specific name<br>
 `enumerateChildNodes(withName:using:)` - searches a node's children and calls the block once for each match found.<br>
 `subscript(_:)` - returns an array of nodes that match the name<br>
-`atPoint( location:CGPoint)` - returns the node at the location<br>
 
 <!-- v -->
+
+```swift
+func findTheEnemy(){
+  if (self.childNode(withName: "enemy") != nil) {
+      print ("Found it!")    
+  } else {
+      print ("Not found")
+  }
+}
+```
+
+When this method is called on the scene, the scene searches its children for a node whose name property matches the search string, then returns the node.
+
+<!-- v -->
+
+```swift
+enumerateChildNodes(withName: "enemy") { node, _ in
+  let enemy = node as! SKSpriteNode
+  // do something with each enemy found
+}
+```
+
+This method enumerates the child array in order, searching for nodes whose names match the search parameter. The block is called once for each node that matches the name parameter.
+
+<!-- v -->
+
+### A different type of search
+
+`atPoint( location:CGPoint)` - returns the node at the location<br>
+
+Returns a descendant in the subtree that intersects the point, or the receiver if no nodes intersect the point.
+
+<!-- > -->
 
 ## Combining nodes and touches
 
@@ -188,4 +232,12 @@ It should have **at least** the following:
 
 - Complete today's activities.
 - Continue tutorial: [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4) (we will go over it next class to check on doubts and progress)
-- Finish your game implementation. It will be graded later in the course with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing). Check the due date in the main page of the course.
+- Finish your game implementation. It will be graded later in the course with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5). Check the due date in the main page of the course.
+
+<!-- > -->
+
+## External resources
+
+- [Apple Docs - touch event](https://developer.apple.com/documentation/uikit/uiresponder/1621142-touchesbegan)
+- [Searching the node tree](https://developer.apple.com/documentation/spritekit/sknode/searching_the_node_tree)
+- [Finding nodes](https://developer.apple.com/documentation/spritekit/sknode/1483024-enumeratechildnodes)

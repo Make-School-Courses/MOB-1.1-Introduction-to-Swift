@@ -83,7 +83,7 @@ Students by the end of the course will be able to ...
 
 ### Projects
 
-- POP the squares game - will be graded with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing)
+- POP the squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
 - [Course project]()
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
