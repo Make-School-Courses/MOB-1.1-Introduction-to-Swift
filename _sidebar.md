@@ -4,3 +4,4 @@
 - **[Day 3](Lessons/03-Arrays-Loops-Dictionaries/README.md)**
 - **[Day 4](Lessons/04-Classes-Structs-Enums/README.md)**
 - **[Day 5](Lessons/05-Introduction-to-SpriteKit/README.md)**
+- **[Day 6](Lessons/06-Building-an-iOS-Game/README.md)**

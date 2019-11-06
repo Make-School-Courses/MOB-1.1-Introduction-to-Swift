@@ -17,72 +17,165 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"># Building an iOS Game
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- Run this slideshow via the following command: -->
+<!-- reveal-md README.md -w -->
 
-## Minute-by-Minute
+<!-- .slide: class="header" -->
+# Building an iOS game
 
-| **Time(min)** | **Activity**                     |
-| ------------- | ---------------------------      |
-| 5             | Review & Solution of The Grid    |
-| 5             | Objectives                       |
-| 10            | TT on Actions for the challenge  |
-| 30            | Challenge                        |
-| 10            | Break                            |
-| 5             | TT Finding & Removing Nodes      |
-| 15            | Activity on Random Numbers       |
-| 25            | Challenge on Moving boxes        |
+## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/06-Building-an-iOS-Game/README.html ':ignore')
+</script></section><section  data-markdown><script type="text/template">
+## Agenda
 
-## Class Learning Objectives/Competencies
+- Quiz 🤓
+- SKLabel
+- Touch events with SpriteKit
+- Finding & removing nodes
+- Game mechanics
+</script></section><section  data-markdown><script type="text/template">
+## Quiz
+
+<!--- https://docs.google.com/document/d/1eUn07IC0Njl8XVVjjzaq_jTJNJtXd7Jk7XglhL8W5Pk/edit?usp=sharing -->
+
+- **15 min** Answer quiz
+- **10 min** Exchange with a partner and grade as the whole class goes through the answers
+</script></section><section  data-markdown><script type="text/template">
+## Learning Objectives
 By the end of this lesson, students should be able to:
 
-- Use SKActions to move sprites
+- Add labels to show game progress
 - Delete sprites from scenes using `RemoveFromParent`
 - Find sprites by their name property
-- Work with random numbers in Swift
-- Identify & apply the different ways to run actions (block, sequence, repeat)
+- Add game mechanics to the game
+</script></section><section ><section data-markdown><script type="text/template">
+## SKLabel
 
-## Initial Exercise
+`SKLabelNode` class is a fast and efficient way to draw text in SpriteKit games.
 
-Solution to The Grid
-
+- Show current score
+- Show instructions
+- Game over messages
+- Next level messages
+- Everything that can be a text 🔤
+</script></section><section data-markdown><script type="text/template">
+```swift
+var currentScore: SKLabelNode!
+currentScore = SKLabelNode(fontNamed: "Helvetica")
+currentScore.text = "Score: 0"
+currentScore.horizontalAlignmentMode = .left
+currentScore.position = CGPoint(x: 20, y: 100)
+addChild(currentScore)
 ```
-for col in -1 ... 1 {
-  for row in -1 ... 1 {
-    // make a box
-    // center x + space * col
-    // center y + space * row
+</script></section><section data-markdown><script type="text/template">
+```swift
+var score: Int = 0 {
+    didSet {
+        currentScore.text = "Score: \(score)"
+    }
+}
+```
+
+<aside class="notes">
+Here we use a property observer to update the label when the score changes. We'll see more about properties when we get to OOP.
+
+The starter code doesn't have this approach. Try to implement it!
+</aside>
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Touch events
+
+How can we make the player interact with our game?
+
+We need to handle user actions - using gyroscope, touch events, camera, microphone.
+
+We'll learn about touch events.
+
+![touch](assets/touches.png)
+</script></section><section data-markdown><script type="text/template">
+### touchesBegan
+
+To register event handlers, we need the method `touchesBegan`.
+
+```swift
+override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {}
+```
+
+And then what? For our specific purpose in the game, we want to see if there is a node where we tapped.
+</script></section><section data-markdown><script type="text/template">
+### Finding nodes
+
+We need to have a way to find and identify the nodes.
+
+We can use `name` property! Search the node tree for a node with a specific name.
+
+`childNode(withName:)` - searches the children of a node for a specific name<br>
+`enumerateChildNodes(withName:using:)` - searches a node's children and calls the block once for each match found.<br>
+`subscript(_:)` - returns an array of nodes that match the name<br>
+`atPoint( location:CGPoint)` - returns the node at the location<br>
+</script></section><section data-markdown><script type="text/template">
+## Combining nodes and touches
+
+1. Get the `touchLocation` within the scene from the `location` property of the touch.
+
+2. Figure out which node was touched by invoking `atPoint(_:)` and passing in the `touchLocation`.
+
+3. Check if name matches the string.
+</script></section><section data-markdown><script type="text/template">
+```swift
+override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+  if let touch = touches.first {
+      let touchLocation = touch.location(in: self)
+      let node = atPoint(touchLocation)
+      if node.name == "square" {
+         // Do something
+      }
   }
 }
 ```
-## Overview
+</script></section></section><section  data-markdown><script type="text/template">
+## Removing nodes
 
-Slides: [Building an iOS Game](https://docs.google.com/presentation/d/1rfq34aRczeBZJme8hF_7iQ34QMaP2B4zQINFcymXpuY/edit?usp=sharing)
+Now that we can identify nodes by their names using `name` property, we can use it to remove nodes from the scene.
 
-## In Class Activities
+- If they go off screen and are no longer visible. 👻
+- If they should disappear after we tap on them. 💥
 
-1. In pairs:
-- Draw the diagrams for each of the following animations in a mini whiteboard.
-- Then code them in Xcode.
-- Then create one diagram for your partner to code.
+`removeFromParent` - Creates an action that removes the node from its parent.
 
-![Square path](assets/square.gif) ![Pulse](assets/pulse.gif)  ![Grow](assets/grow.gif)
+```swift
+node.removeFromParent()
+```
+</script></section><section  data-markdown><script type="text/template">
+## Exploring SpriteKit
 
-2. Using what you already know, complete each step in the image.
+SpriteKit has many tools we can use to make games. We've learned the basics to build a functional, simple but still engaging game.
 
-[Empty Starter project](https://github.com/Product-College-Labs/Game-Starter-Empty/tree/master)
+More things available if curious:
 
-![Moving Boxes](assets/movingBoxes.png)
+- Physics with SpriteKit
+- SKActions for sound effects
+- Particle systems
+- Using core motion
+- Many more...
+</script></section><section ><section data-markdown><script type="text/template">
+## For the rest of today's lesson
 
-<!--- https://github.com/Product-College-Labs/pop-the-bubble --->
+See how far into the development of your game you can get. We are missing game mechanics.
 
-## Wrap Up
-- Continue working on Orange Tree
+It should have **at least** the following:
+</script></section><section data-markdown><script type="text/template">
+- Nodes at random x-positions that move all the way across the screen.
+- Nodes should be removed if they reach the edge or if a user taps on them.
+- Keeping score: tapped nodes add 1 point, nodes that reach the top decrease score by one (or your scoring system of preference).
+- Showing & updating the score with a label.
+- Game conditions to end the game (example: if score is < 0).
+- Showing a message when the game ends.
+- Restarting the game.
+</script></section></section><section  data-markdown><script type="text/template">
+## After Class
 
-## Additional Resources
-
-- [Apple's documentation on SKActions](https://developer.apple.com/documentation/spritekit/skaction)
-- [Article on SKActions](https://hackernoon.com/a-guide-to-spritekit-actions-c20b079f5398)
-- [Article on random numbers](https://learnappmaking.com/random-numbers-swift/)
+- Complete today's activities.
+- Continue tutorial: [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4) (we well go over it next class to check on doubts and progress)
+- Finish your game implementation. It will be graded later in the course with [this rubric](https://docs.google.com/document/d/1JEKPGv1ve1Zoq246WEgb9N8WuNkcWasjqnp3CF3kY_g/edit?usp=sharing). Check the due date in the main page of the course.
 </script></section></div>
     </div>
 

@@ -14,6 +14,7 @@
 - What is SpriteKit
 - Creating our first sprite
 - Animations with Actions
+- Break
 - Starting our first game
 
 <!-- > -->
@@ -288,7 +289,7 @@ Using what you already know, complete each step in the image to build a grid. Tr
 
 - Complete today's activities.
 - Continue tutorial: [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
-  (we well go over it next class to check on doubts and progress)
+- Review the content of the course so far for a small quiz next class.
 
 <!-- > -->
 
