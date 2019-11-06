@@ -25,6 +25,8 @@
 - **15 min** Answer quiz
 - **10 min** Exchange with a partner and grade as the whole class goes through the answers
 
+Submit your grade [here](https://forms.gle/V57nWqpZCG88UioE6)
+
 <!-- > -->
 
 ## Learning Objectives
