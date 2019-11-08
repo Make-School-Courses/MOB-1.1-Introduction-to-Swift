@@ -8,8 +8,8 @@ You will be building a Brain Training app! 🧠💪🏼<br>
 Training our brains is a great way to keep our minds active, improve our memory and attention.
 To read more about how research supports this, I encourage you to read [this article](https://www.apa.org/monitor/2014/10/mind-games).
 
-The game required for this project is a Color Matching game 🌈
-Users are shown words of colors (one below the other) and need to identify if the name matches the color at the bottom.<br>
+The game required for this project is a Color Matching game 🌈<br>
+Users are shown words of colors (one below the other) and need to identify if the text in the upper word matches the color of the word at the bottom.<br>
 This is usually an exercise to demonstrate the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect).
 And one of its goals is to help with reaction time.
 
