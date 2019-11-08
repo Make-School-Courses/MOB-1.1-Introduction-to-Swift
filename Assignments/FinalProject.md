@@ -8,8 +8,8 @@ You will be building a Brain Training app! 🧠💪🏼<br>
 Training our brains is a great way to keep our minds active, improve our memory and attention.
 To read more about how research supports this, I encourage you to read [this article](https://www.apa.org/monitor/2014/10/mind-games).
 
-The game required for this project is a Color Matching 🌈 game.
-Users are shown words of colors (one below the other) and need to identify if the name matches the color at the bottom.
+The game required for this project is a Color Matching game 🌈
+Users are shown words of colors (one below the other) and need to identify if the name matches the color at the bottom.<br>
 This is usually an exercise to demonstrate the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect).
 And one of its goals is to help with reaction time.
 
@@ -33,11 +33,10 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 - Week 3: Testing, fix any remaining bugs, make sure your code has helpful comments, and submit the project!
 
 ## Requirements
-List out requirements for the project here
 
 User Stories
 1. Users are shown two words with the name of a color (words are colored).
-1. Users are asked if the name of the first word matches the color in the second word.
+1. Users are asked if the text of first word matches the color in the second word.
 1. Users select an answer: yes or no.
 1. Users get points if they are correct, they get points less if they're wrong.
 1. Users can see a score in the screen.
@@ -59,7 +58,7 @@ Extend your Brain Trainer to include one or more mini games!
 
 Ideas:
 - Add another variation of the Stroop Effect game.
-	Examples to get inspiration:
+	- Examples to get inspiration:
 		- [Color world](https://apps.apple.com/us/app/color-word-match/id1369388320)
 		- [Color switch](https://apps.apple.com/us/app/colorswitch/id923653602)
 		- [Stroopid](https://apps.apple.com/us/app/stroopid/id1254974957)
