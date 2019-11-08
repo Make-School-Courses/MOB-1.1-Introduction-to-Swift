@@ -63,7 +63,7 @@ Ideas:
 		- [Color switch](https://apps.apple.com/us/app/colorswitch/id923653602)
 		- [Stroopid](https://apps.apple.com/us/app/stroopid/id1254974957)
 
-- Game Add-1: Users have to add 111 to a random number between 1000 and 8888.
+- Game Add-1: Users have to add 1111 to a random number between 1000 and 8888.
 	- [Add-1](https://apps.apple.com/us/app/add1/id1469416958)
 
 - A game of your own creation.
