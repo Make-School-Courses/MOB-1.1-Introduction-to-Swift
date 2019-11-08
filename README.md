@@ -32,14 +32,14 @@ Students by the end of the course will be able to ...
 |  4    |   Wed, Oct 30    | [Classes, Structs & Enums]           |
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
-|  7    |   Mon, Nov 11    | [Building an iOS Game Pt.2]          |
+|  7    |   Mon, Nov 11    | [Closures]                           |
 |  8    |   Wed, Nov 13	   | [OOP]                                |
-|  9    |   Mon, Nov 18    | [Building an RPG Game]               |
-|  10   |   Wed, Nov 20    | [More on OOP]                        |
-|  11   |   Mon, Nov 25    | [Introduction to UIKit]              |
+|  9    |   Mon, Nov 18    | [Introduction to UIKit]              |
+|  10   |   Wed, Nov 20    | [Building an RPG Game - Navigation]  |
+|  11   |   Mon, Nov 25    | [POP]                                |
 |       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
 |  12   |   Mon, Dec 2     | [Inspecting and Debugging Your Code] |
-|  13   |   Wed, Dec 4     |                                      |
+|  13   |   Wed, Dec 4     | []                                   |
 |  14   |   Mon, Dec 9	   | Final Exam                           |
 |  15   |   Wed, Dec 11    | Final Class (presentations)          |
 
@@ -84,7 +84,7 @@ Students by the end of the course will be able to ...
 ### Projects
 
 - POP the squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
-- [Course project]()
+- [Course project](Assignments/FinalProject.d)
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
 ## Evaluation
@@ -93,7 +93,7 @@ To pass this course you must meet the following requirements:
 
 - Complete 80% of all assignments
 - Complete both tutorials
-- Pass all projects according to the associated project rubric
+- Pass all projects according to the associated project rubrics
 - Pass the final summative assessment according with more than 70%. [Study guide](ADD_STUDY_GUIDE_LNK)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
