@@ -273,7 +273,7 @@ class Person {
 
 ## Hotel activity
 
-[Instructions](/hotel.md)
+[Instructions](hotel.md)
 
 <!-- > -->
 
@@ -303,7 +303,7 @@ final class Person {
 
 - Bubble Pop Game Challenges. Use OOP to improve your game.
 
-[Instructions](/challenge.md)
+[Instructions](challenge.md)
 
 <!-- > -->
 
