@@ -273,7 +273,7 @@ class Person {
 
 ## Hotel activity
 
-[Instructions](hotel.md)
+[Instructions](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/08-OOP/hotel.md)
 
 <!-- > -->
 
@@ -303,7 +303,7 @@ final class Person {
 
 - Bubble Pop Game Challenges. Use OOP to improve your game.
 
-[Instructions](challenge.md)
+[Instructions](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/08-OOP/challenge.md)
 
 <!-- > -->
 
