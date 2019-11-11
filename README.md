@@ -32,14 +32,14 @@ Students by the end of the course will be able to ...
 |  4    |   Wed, Oct 30    | [Classes, Structs & Enums]           |
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
-|  7    |   Mon, Nov 11    | [Closures]                           |
-|  8    |   Wed, Nov 13	   | [OOP]                                |
-|  9    |   Mon, Nov 18    | [Introduction to UIKit]              |
+|  7    |   Mon, Nov 11    | [OOP]                                |
+|  8    |   Wed, Nov 13	   | [Introduction to UIKit]              |
+|  9    |   Mon, Nov 18    | [POP]                                |
 |  10   |   Wed, Nov 20    | [Building an RPG Game - Navigation]  |
-|  11   |   Mon, Nov 25    | [POP]                                |
+|  11   |   Mon, Nov 25    | [Closures]                           |
 |       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
-|  12   |   Mon, Dec 2     | [Inspecting and Debugging Your Code] |
-|  13   |   Wed, Dec 4     | []                                   |
+|  12   |   Mon, Dec 2     | [Unit Tests & Debug techniques]      |
+|  13   |   Wed, Dec 4     | Lab & Review                         |
 |  14   |   Mon, Dec 9	   | Final Exam                           |
 |  15   |   Wed, Dec 11    | Final Class (presentations)          |
 
@@ -50,7 +50,7 @@ Students by the end of the course will be able to ...
 [Introduction to SpriteKit]: Lessons/05-Introduction-to-SpriteKit/README.md
 [Building an iOS Game]: Lessons/06-Building-an-iOS-Game/README.md
 [Building an iOS Game Pt.2]: Lessons/07-Building-an-iOS-Game-Part-2/README.md
-[OOP]: Lessons/08-Introduction-To-OOP-In-Games/README.md
+[OOP]: Lessons/08-OOP/README.md
 [Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols/README.md
 [More on OOP]: Lessons/10-Build-an-RPG-Game/README.md
 [Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit/README.md
