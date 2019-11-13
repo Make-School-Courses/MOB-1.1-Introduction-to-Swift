@@ -308,7 +308,7 @@ final class Person {
 <!-- > -->
 
 ## After Class
-1. POP Repl.it
+1. OOP Repl.it
 1. Research about Instance vs Type methods
 1. Look up what static properties are
 
