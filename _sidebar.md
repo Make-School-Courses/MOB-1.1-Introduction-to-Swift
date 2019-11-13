@@ -7,3 +7,4 @@
 - **[Day 6](Lessons/06-Building-an-iOS-Game/README.md)**
 - **[Day 7](Lessons/07-Building-an-iOS-Game-Part-2/README.md)**
 - **[Day 8](Lessons/08-OOP/README.md)**
+- **[Day 9](Lessons/11-Intro-to-UIKit/README.md)**
