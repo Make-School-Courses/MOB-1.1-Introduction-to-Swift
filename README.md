@@ -33,7 +33,7 @@ Students by the end of the course will be able to ...
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
 |  7    |   Mon, Nov 11    | [OOP]                                |
-|  8    |   Wed, Nov 13	   | [Introduction to UIKit]              |
+|  8    |   Wed, Nov 13	   | [Intro to UIKit]              |
 |  9    |   Mon, Nov 18    | [POP]                                |
 |  10   |   Wed, Nov 20    | [Building an RPG Game - Navigation]  |
 |  11   |   Mon, Nov 25    | [Closures]                           |
@@ -53,7 +53,7 @@ Students by the end of the course will be able to ...
 [OOP]: Lessons/08-OOP/README.md
 [Building an RPG Game]: Lessons/09-OOP-in-Games-Structs-&-Protocols/README.md
 [More on OOP]: Lessons/10-Build-an-RPG-Game/README.md
-[Introduction to UIKit]: Lessons/11-Introduction-to-iOS-App-Development-and-UIKit/README.md
+[Intro to UIKit]: Lessons/11-Intro-to-UIKit/README.md
 [Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
 
 ## Assignment Schedule
