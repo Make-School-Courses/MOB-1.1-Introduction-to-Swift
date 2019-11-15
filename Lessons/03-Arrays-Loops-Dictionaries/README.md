@@ -562,7 +562,7 @@ Its important to notice that the constant i is only visible inside the scope of 
 
 <!-- v -->
 
-Sometimes we don't weed the loop constant, we just want to run a block of code certain number of times.
+Sometimes we don't need the loop constant, we just want to run a block of code certain number of times.
 
 ```swift
 for _ in 0..count{
