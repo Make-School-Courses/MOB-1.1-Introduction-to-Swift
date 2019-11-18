@@ -55,26 +55,30 @@ Students by the end of the course will be able to ...
 [More on OOP]: Lessons/10-Build-an-RPG-Game/README.md
 [Intro to UIKit]: Lessons/11-Intro-to-UIKit/README.md
 [Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
+[POP]: Lessons/09-POP/README.md
+
 
 ## Assignment Schedule
 
 |            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
 |:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Mon 21 | Fri 25 | Repl.it site & tracker |
-| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Mon 21 | Fri 25 | Repl.it site & tracker |
-| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Wed 23 | Fri 25 | Repl.it site & tracker |
-| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Wed 23 | Fri 25 | Repl.it site & tracker |
-| [Loops](https://repl.it/classroom/invite/YcITQAd)                | Mon 28 | Fri 1  | Repl.it site & tracker |
-| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Mon 28 | Fri 1  | Repl.it site & tracker |
-| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Mon 28 | Fri 1  | Repl.it site & tracker |
-| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Wed 30 | Fri 1  | Repl.it site & tracker |
-| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Wed 30 | Fri 1  | Repl.it site & tracker |
-| Pop the squares                                                  | Mon 4 | Monday 11 | Github link in tracker |
-| Sushi Neko                                                       | Wed 30 | Wed 13 | Github link in tracker |
-| [OOP](https://repl.it/classroom/invite/ZpclEej)                  | day, Date | day, Date | Repl.it site & tracker |
-| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
-| Magic 8 ball                                                     | day, Date | day, Date | Github link in tracker |
-| Course project                                                   | day, Date | day, Date | Github link in tracker |
+| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Oct Mon 21 | Oct Fri 25 | Repl.it site & tracker |
+| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Oct Mon 21 | Oct Fri 25 | Repl.it site & tracker |
+| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Oct Wed 23 | Oct Fri 25 | Repl.it site & tracker |
+| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Oct Wed 23 | Oct Fri 25 | Repl.it site & tracker |
+| [Loops](https://repl.it/classroom/invite/YcITQAd)                | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
+| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
+| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
+| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Oct Wed 30 | Nov Fri 1  | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Oct 30 | Nov Fri 1  | Repl.it site & tracker |
+| Pop the squares                                                  | Nov Mon 4 | Oct Monday 11 | Github link in tracker |
+| Sushi Neko                                                       | Oct Wed 30 | Oct Wed 13 | Github link in tracker |
+| [OOP](https://repl.it/classroom/invite/ZpclEej)                  | Nov Mon 11 | TBD | Repl.it site & tracker |
+| Magic 8 ball                                                     | Nov Wed 13 | Nov Mon 18 | Github link in tracker |
+| Course project                                                   | Nov Mon 18 | Dec Wed 11 | Github link in tracker |
+
+<!--| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
+-->
 
 ### Tutorials
 
@@ -83,7 +87,7 @@ Students by the end of the course will be able to ...
 
 ### Projects
 
-- POP the squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
+- Pop the Squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
 - [Course project](Assignments/FinalProject.md)
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 

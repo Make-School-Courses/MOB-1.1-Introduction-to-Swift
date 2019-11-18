@@ -34,16 +34,13 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 
 ## Requirements
 
-User Stories
 1. Users are shown two words with the name of a color (words are colored).
 1. Users are asked if the text of first word matches the color in the second word.
 1. Users select an answer: yes or no.
-1. Users get points if they are correct, they get points less if they're wrong.
+1. Users get 10 points if they are correct, they get 10 points less if they're wrong.
 1. Users can see a score in the screen.
-1. Users go on for x amount of seconds before the game ends.
+1. Users go on for 60 seconds before the game ends.
 1. Users can restart the game.
-
-Technical Requirements
 1. You can either use SpriteKit or UIKit for the project. (UIKit is advised)
 1. Use Swift's basic building blocks
 	-	variables & constants
