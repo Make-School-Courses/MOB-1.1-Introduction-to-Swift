@@ -33,9 +33,9 @@ Students by the end of the course will be able to ...
 |  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
 |  6    |   Wed, Nov 6     | [Building an iOS Game]               |
 |  7    |   Mon, Nov 11    | [OOP]                                |
-|  8    |   Wed, Nov 13	   | [Intro to UIKit]              |
+|  8    |   Wed, Nov 13	   | [Intro to UIKit]                     |
 |  9    |   Mon, Nov 18    | [POP]                                |
-|  10   |   Wed, Nov 20    | [Building an RPG Game - Navigation]  |
+|  10   |   Wed, Nov 20    | [POP 2]                              |
 |  11   |   Mon, Nov 25    | [Closures]                           |
 |       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
 |  12   |   Mon, Dec 2     | [Unit Tests & Debug techniques]      |
@@ -56,6 +56,7 @@ Students by the end of the course will be able to ...
 [Intro to UIKit]: Lessons/11-Intro-to-UIKit/README.md
 [Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
 [POP]: Lessons/09-POP/README.md
+[POP 2]: Lessons/10-POP2/README.md
 
 
 ## Assignment Schedule

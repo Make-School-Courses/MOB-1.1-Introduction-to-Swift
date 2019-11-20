@@ -15,7 +15,6 @@
 - Protocols vs Inheritance
 - Protocols in the Swift Standard Library
 - Break
-- Extensions
 - Final project specifications
 
 <!-- > -->
@@ -26,7 +25,6 @@
 - Distinguish between Protocol Conformance and Inheritance
 - Use protocols to describe properties and behaviors of a conforming type
 - Identify common protocols in the Swift Standard Library
-- Work with extensions
 
 <!-- > -->
 
@@ -145,7 +143,7 @@ Add a circle and a square to an array, print their perimeters.
 
 2. Generalize the car, create a model for a vehicle which will represent all vehicles, a truck, motorcycle & bus are vehicles
 
-3. Create a model(struct or class or enum) an instances of each a truck, motorcycle and bus.
+3. Create a model(struct) and instances of each a truck, motorcycle and bus.
 
 <!-- > -->
 
@@ -155,11 +153,13 @@ Swift uses protocols extensively. We won't learn every single aspect of the Swif
 
 In groups of X, get together to research about one of the following protocols. **One per group.**
 
-- Sequence Protocol
-- Collection Protocol
-- Equatable Protocol
-- Hashable Protocol
-- CaseIterable Protocol
+- [Sequence Protocol](https://swiftdoc.org/v4.2/protocol/sequence/)
+- [Collection Protocol](https://swiftdoc.org/v4.2/protocol/collection/)
+- [Equatable Protocol](https://swiftdoc.org/v4.2/protocol/equatable/)
+- [Hashable Protocol](https://swiftdoc.org/v4.2/protocol/hashable/)
+- [CaseIterable Protocol](https://swiftdoc.org/v4.2/protocol/caseiterable/)
+
+<!-- have students number themselves from 1 to 5 and then make groups, it's ok if in the end some groups are smaller -->
 
 <!-- v -->
 
@@ -213,69 +213,6 @@ let andy = Artist(name: "Andy Warhol", style: .popArt, yearBorn: 1928)
 
 <!-- > -->
 
-## Benefits observed
-
-What are some benefits you've seen so far about using protocols?
-
-<section>
-  <p class="fragment fade-in">Behavior similar to multiple-inheritance</p>
-	<p class="fragment fade-in">Adopted by classes, structs & enums</p>
-	<p class="fragment fade-up">Value types = less risk</p>
-</section>
-
-<!-- > -->
-
-## Extensions
-
-Extensions add new functionality to an existing class, structure, enumeration, or protocol type.
-
-- Add computed instance properties and computed type properties
-- Define methods
-- Provide new initializers
-- Make an existing type conform to a protocol
-
-<!-- v -->
-
-Protocols can be extended to provide methods, initializers, and computed property implementations to conforming types.
-
-This allows us to define behavior on protocols themselves, rather than in each type’s individual conformance.
-
-<!-- v -->
-
-```swift
-extension FullName {
-    func printUppercase(){
-        print(fullName.uppercased())
-    }
-}
-
-var me = Person(fullName: "Adriana Gonzalez")
-me.printUppercase()
-```
-
-<!-- v -->
-
-### Providing default functionality
-
-extension FullName {
-    func printToConsole(){
-        print(fullName)
-    }
-}
-
-var me = Person(fullName: "Adriana Gonzalez")
-me.printToConsole()
-
-<!-- Demo what happens if we delete the implementation of the method in the struct. And also if the extensions prints something different. When it overrides? -->
-
-<!-- > -->
-
-### Food for thought
-
-How to know when to use a subclass and an extension?
-
-<!-- > -->
-
 ## After class
 
 Begin your final project. Follow the instructions [here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Assignments/FinalProject.md).
@@ -284,10 +221,7 @@ Begin your final project. Follow the instructions [here](https://github.com/Make
 
 ## External resources
 
-[CaseIterable](https://developer.apple.com/documentation/swift/caseiterable)
-[Iterator](https://developer.apple.com/documentation/swift/iteratorprotocol)
-[Protocols](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html)
-[Protocols - article](https://medium.com/ios-os-x-development/how-protocol-oriented-programming-in-swift-saved-my-day-75737a6af022)
-[Extensions](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
-[Protocols](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521)
-[StackOverFlow answer](https://stackoverflow.com/questions/38827265/class-extension-vs-subclassing-in-swift)
+1. [Iterator](https://developer.apple.com/documentation/swift/iteratorprotocol)
+1. [Protocols](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html)
+1. [Protocols - article](https://medium.com/ios-os-x-development/how-protocol-oriented-programming-in-swift-saved-my-day-75737a6af022)
+1. [Protocols](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521)
