@@ -15,6 +15,8 @@ And one of its goals is to help with reaction time.
 
 An example of implementation [here](https://www.lumosity.com/en/brain-games/color-match/).
 
+![demo](demo.gif)
+
 ## Learning Outcomes
 By completing this project, you should be able to…
 
@@ -51,19 +53,21 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 
 ### Stretch Requirements/Challenges
 
-Extend your Brain Trainer to include one or more mini games!
+1. With the same game:
+	- Make correct answers cumulative and show the user their streak!
 
-Ideas:
-- Add another variation of the Stroop Effect game.
-	- Examples to get inspiration:
-		- [Color world](https://apps.apple.com/us/app/color-word-match/id1369388320)
-		- [Color switch](https://apps.apple.com/us/app/colorswitch/id923653602)
-		- [Stroopid](https://apps.apple.com/us/app/stroopid/id1254974957)
 
-- Game Add-1: Users have to add 1111 to a random number between 1000 and 8888.
-	- [Add-1](https://apps.apple.com/us/app/add1/id1469416958)
+1. Extend your Brain Trainer to include one or more mini games!
+	- Add another variation of the Stroop Effect game.
+		- Examples to get inspiration:
+			- [Color world](https://apps.apple.com/us/app/color-word-match/id1369388320)
+			- [Color switch](https://apps.apple.com/us/app/colorswitch/id923653602)
+			- [Stroopid](https://apps.apple.com/us/app/stroopid/id1254974957)
 
-- A game of your own creation.
+	- Game Add-1: Users have to add 1111 to a random number between 1000 and 8888.
+		- [Add-1](https://apps.apple.com/us/app/add1/id1469416958)
+
+	- A game of your own creation.
 
 ## Rubric
 Find the rubric named: MOB 1.1 - Final Project [here]()
