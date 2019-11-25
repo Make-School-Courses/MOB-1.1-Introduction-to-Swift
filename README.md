@@ -36,9 +36,9 @@ Students by the end of the course will be able to ...
 |  8    |   Wed, Nov 13	   | [Intro to UIKit]                     |
 |  9    |   Mon, Nov 18    | [POP]                                |
 |  10   |   Wed, Nov 20    | [POP 2]                              |
-|  11   |   Mon, Nov 25    | [Closures]                           |
+|  11   |   Mon, Nov 25    | [Basic Navigation]                   |
 |       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
-|  12   |   Mon, Dec 2     | [Unit Tests & Debug techniques]      |
+|  12   |   Mon, Dec 2     | [Closures & Unit Tests]              |
 |  13   |   Wed, Dec 4     | Lab & Review                         |
 |  14   |   Mon, Dec 9	   | Final Exam                           |
 |  15   |   Wed, Dec 11    | Final Class (presentations)          |
@@ -57,7 +57,7 @@ Students by the end of the course will be able to ...
 [Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
 [POP]: Lessons/09-POP/README.md
 [POP 2]: Lessons/10-POP2/README.md
-
+[Basic Navigation]: Lessons/12-Basic-Navigation/README.md
 
 ## Assignment Schedule
 

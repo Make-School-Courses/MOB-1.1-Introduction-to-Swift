@@ -208,6 +208,7 @@ In pairs, go over the following activity where you'll use inheritance and protoc
 
 <!-- v -->
 
+1. [POP usage with UIKit](https://academy.realm.io/posts/appbuilders-natasha-muraschev-practical-protocol-oriented-programming/)
 1. [Extensions](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html)
 1. [Article about protocols](https://medium.com/@abhimuralidharan/all-about-protocols-in-swift-11a72d6ea354)
 1. [Article on POP](https://medium.com/nsistanbul/protocol-oriented-programming-in-swift-ad4a647daae2)
