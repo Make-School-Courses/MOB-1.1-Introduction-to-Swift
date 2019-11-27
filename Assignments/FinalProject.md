@@ -76,6 +76,8 @@ Find the rubric named: MOB 1.1 - Final Project [here]()
 Additional resources that will help with this project, or that can be used as reference
 
 - [A guide to timers in Swift](https://learnappmaking.com/timer-swift-how-to/)
+- [Autolayout introduction](https://www.youtube.com/watch?v=qb05nLPYKz8)
+- [Autolayout & Constraints](https://www.youtube.com/watch?v=m_0_XQEfrGQ)
 
 ## Commit Requirements
 **All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
