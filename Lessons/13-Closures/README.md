@@ -22,6 +22,8 @@ You probably have already used closures by now without noticing or without knowi
 
 <!-- > -->
 
+## Intro
+
 ![gifts](assets/gifts.jpg)
 
 <aside class="notes">
@@ -58,6 +60,8 @@ The package gets passed around (by UPS)
 When you get the gift you use it, just as we would execute the block of code.
 
 <!-- > -->
+
+## Syntax
 
 ![syntax](assets/closureSyntax.png)
 
@@ -236,7 +240,7 @@ reversedNames = names.sorted(by: { $0 > $1 } )
 
 ## Challenges
 
-Complete [these](assignments/challenges.md) challenges on closures.
+Complete [these](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/13-Closures/assignments/challenges.md) challenges on closures.
 
 <!-- > -->
 
@@ -244,7 +248,7 @@ Complete [these](assignments/challenges.md) challenges on closures.
 
 - Complete challenges
 - Read the content listed below if you need more clarity on closures.
-- Go over [this playground](assignments.Closures.playground.zip) if you feel like wanting more practice with closures.
+- Go over [this playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/13-Closures/assignments/Closures.playground.zip) if you feel like wanting more practice with closures.
 
 <!-- > -->
 
