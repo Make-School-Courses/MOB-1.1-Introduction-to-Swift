@@ -257,3 +257,4 @@ Complete [these](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-
 1. [Closures in Swift - an article](https://medium.com/the-andela-way/closures-in-swift-8aef8abc9474)
 1. [From function to closure - article](https://medium.com/ios-os-x-development/introduction-to-closures-in-swift-3-1d46dfaf8a20)
 1. [Apple's documentation on closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
+1. [Closures explained & exercises](https://www.weheartswift.com/closures/)
