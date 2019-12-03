@@ -8,6 +8,7 @@
 Ways we learned about this in the course
 - Class 1 covered variables and constants.
 - Class 2 covered optionals and conditionals.
+- Class 12 covered closures
 
 Ways you can demonstrate your skill / knowledge level of this outcome
 - Defining variables and constants.
@@ -19,6 +20,7 @@ Ways you can demonstrate your skill / knowledge level of this outcome
 - Identify different value types in Swift.
 - Declare functions with entry parameters and return values.
 - Identify conditional operators in Swift.
+- Write a closure following the right syntax.
 
 **Outcome 2:  Store and manipulate elements in arrays and dictionaries.**
 
