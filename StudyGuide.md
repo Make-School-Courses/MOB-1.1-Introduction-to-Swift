@@ -1,9 +1,9 @@
 # Study Guide for MOB 1.1 Final Assessment
 *Overview:* Your final exam will focus on the learning outcomes for this course.  Review each outcome thoroughly and ask questions if you are unclear about the outcome or your level of understanding.
 
-*Final Exam Format:* Your final exam will be on December 11.  It will be a written exam that will take 2 hours to complete.  If you have a disability that requires any accomodation for the final exam, please reach out to Jen or Anne to make sure this is documented according to the Make School Accommodations Policy and clarify with your instructor what accommodations will be made.
+*Final Exam Format:* Your final exam will be on December 11.  It will be a written exam and you'll have 2 hours to complete it.  If you have a disability that requires any accommodation for the final exam, please reach out to Jen or Anne to make sure this is documented according to the Make School Accommodations Policy and clarify with your instructor what accommodations will be made.
 
-**Outcome 1: Write working Swift code using basic elements: variables, constants, optionals, identifying keywords, defining functions, writing conditionals.**
+**Outcome 1: Write Swift code using basic constructs and data types**
 
 Ways we learned about this in the course
 - Class 1 covered variables and constants.
@@ -23,7 +23,7 @@ Ways you can demonstrate your skill / knowledge level of this outcome
 **Outcome 2:  Store and manipulate elements in arrays and dictionaries.**
 
 Ways we learned about this in the course
-- Class 3 covered Arrays, Loops & Dictionaries
+- Class 3 covered Collection Types and Control Flow
 
 Ways you can demonstrate your skill / knowledge level of this outcome
 - Declaring arrays and dictionaries.
@@ -34,7 +34,7 @@ Ways you can demonstrate your skill / knowledge level of this outcome
 - Deleting items from arrays and dictionaries.
 
 
-**Outcome 3: Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game.**
+**Outcome 3: Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game and simple apps.**
 
 Ways we learned about this in the course
 - Class 4 covered Classes, Structs and Enums.
@@ -53,29 +53,20 @@ Ways you can demonstrate your skill / knowledge level of this outcome
 **Outcome 4: Apply OOP principles in Swift.**
 
 Ways we learned about this in the course
-- Class 8 covered Object Oriented Programming.
+- Class 7 covered Object Oriented Programming.
 
 Ways you can demonstrate your skill / knowledge level of this outcome
 - Subclassing.
 - Knowing what inheritance means and how to apply it.
+- Identify OOP principles in Swift's language.
 
-**Outcome 5: Use Xcode & SpriteKit to build and run an iOS Game.**
-
-Ways we learned about this in the course
-- Classes 5 to 7 covered SpriteKit.
-- Orange Tree tutorial.
-
-Ways you can demonstrate your skill / knowledge level of this outcome
-- Know how a game works in SpriteKit
-    - SKScene
-    - SKNodes
-    - Rendering loop
-    - SKActions
-
-**Outcome 6: Identify basic UIKit elements in iOS apps.**
+**Outcome 5: Identify basic UIKit elements and navigation in iOS apps.**
 
 Ways we learned about this in the course
-- Class 11 covered UIKit basics
+- Class 8 covered UIKit basics
+- Class 11 covered Navigation basics
 
 Ways you can demonstrate your skill / knowledge level of this outcome
 - Identifying the basic elements of UIKit that can conform an app.
+- Know at a high level how navigation works in an iOS app both programmatically and using a storyboard.
+- Know the importance of a UINavigationController.

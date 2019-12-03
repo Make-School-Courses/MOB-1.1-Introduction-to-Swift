@@ -100,7 +100,7 @@ To pass this course you must meet the following requirements:
 - Complete 80% of all assignments
 - Complete both tutorials
 - Pass all projects according to the associated project rubrics
-- Pass the final summative assessment according with more than 70%. [Study guide](ADD_STUDY_GUIDE_LNK)
+- Pass the final summative assessment according with more than 70%. [Study guide](StudyGuide.md)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
