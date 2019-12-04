@@ -73,7 +73,7 @@ Students by the end of the course will be able to ...
 | [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
 | [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
 | [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Oct Wed 30 | Nov Fri 1  | Repl.it site & tracker |
-| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Oct 30 | Nov Fri 1  | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Oct 30     | Nov Fri 1  | Repl.it site & tracker |
 | Pop the squares                                                  | Nov Mon 4 | Oct Monday 11 | Github link in tracker |
 | Sushi Neko                                                       | Oct Wed 30 | Oct Wed 13 | Github link in tracker |
 | [OOP](https://repl.it/classroom/invite/ZpclEej)                  | Nov Mon 11 | TBD | Repl.it site & tracker |
