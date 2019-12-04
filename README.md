@@ -39,7 +39,7 @@ Students by the end of the course will be able to ...
 |  11   |   Mon, Nov 25    | [Basic Navigation]                   |
 |       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
 |  12   |   Mon, Dec 2     | [Closures]                           |
-|  13   |   Wed, Dec 4     | [Basic debugging & Review]           |
+|  13   |   Wed, Dec 4     | [Debugging & Review]                 |
 |  14   |   Mon, Dec 9	   | Final Exam                           |
 |  15   |   Wed, Dec 11    | Final Class (presentations)          |
 
@@ -59,6 +59,7 @@ Students by the end of the course will be able to ...
 [POP 2]: Lessons/10-POP2/README.md
 [Basic Navigation]: Lessons/12-Basic-Navigation/README.md
 [Closures]: Lessons/13-Closures/README.md
+[Debugging & Review]: Lessons/14-Debugging/README.md
 
 ## Assignment Schedule
 

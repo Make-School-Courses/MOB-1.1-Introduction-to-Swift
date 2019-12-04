@@ -12,3 +12,4 @@
 - **[Day 11](Lessons/10-POP2/README.md)**
 - **[Day 12](Lessons/12-Basic-Navigation/README.md)**
 - **[Day 13](Lessons/13-Closures/README.md)**
+- **[Day 14](Lessons/14-Debugging/README.md)**
