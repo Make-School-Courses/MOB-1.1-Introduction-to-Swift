@@ -20,28 +20,27 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (8 weeks)
+**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
 
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (15 class sessions)
+**Class Times:** Tuesday and Thursday at 9:30–12:20pm (14 class sessions)
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1    |   Mon, Oct 21    | [Variables, Types & Functions]       |
-|  2    |   Wed, Oct 23    | [Optionals & Conditionals]           |
-|  3    |   Mon, Oct 28    | [Collection types & Control Flow]    |
-|  4    |   Wed, Oct 30    | [Classes, Structs & Enums]           |
-|  5    |   Mon, Nov 4     | [Introduction to SpriteKit]          |
-|  6    |   Wed, Nov 6     | [Building an iOS Game]               |
-|  7    |   Mon, Nov 11    | [OOP]                                |
-|  8    |   Wed, Nov 13	   | [Intro to UIKit]                     |
-|  9    |   Mon, Nov 18    | [POP]                                |
-|  10   |   Wed, Nov 20    | [POP 2]                              |
-|  11   |   Mon, Nov 25    | [Basic Navigation]                   |
-|       |   Wed, Nov 27    | **NO CLASS** Thanksgiving            |
-|  12   |   Mon, Dec 2     | [Closures]                           |
-|  13   |   Wed, Dec 4     | [Debugging & Review]                 |
-|  14   |   Mon, Dec 9	   | Final Exam                           |
-|  15   |   Wed, Dec 11    | Final Class (presentations)          |
+|  1    |   Tue, January 21    | [Variables, Types & Functions]       |
+|  2    |   Thu, January 23    | [Optionals & Conditionals]           |
+|  3    |   Tue, January 28    | [Collection types & Control Flow]    |
+|  4    |   Thu, January 30    | [Classes, Structs & Enums]           |
+|  5    |   Tue, February 4    | [Introduction to SpriteKit]          |
+|  6    |   Thu, February 6    | [Building an iOS Game]               |
+|  7    |   Tue, February 11   | [OOP]                                |
+|  8    |   Thu, February 13 	 | [Intro to UIKit]                     |
+|  9    |   Tue, February 18   | [POP]                                |
+|  10   |   Thu, February 20   | [POP 2]                              |
+|  11   |   Tue, February 25   | [Basic Navigation]                   |
+|  12   |   Thu, February 27   | [Closures]                           |
+|  13   |   ----------         | [Debugging & Review]                 |
+|  14   |   Tue, March 3	     | Final Exam                           |
+|  15   |   Thu, March 5       | Final Class (presentations)          |
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
@@ -65,20 +64,20 @@ Students by the end of the course will be able to ...
 
 |            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
 |:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Oct Mon 21 | Oct Fri 25 | Repl.it site & tracker |
-| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Oct Mon 21 | Oct Fri 25 | Repl.it site & tracker |
-| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Oct Wed 23 | Oct Fri 25 | Repl.it site & tracker |
-| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Oct Wed 23 | Oct Fri 25 | Repl.it site & tracker |
-| [Loops](https://repl.it/classroom/invite/YcITQAd)                | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
-| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
-| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Oct Mon 28 | Nov Fri 1  | Repl.it site & tracker |
-| [Structs](https://repl.it/classroom/invite/YcKZNKj)              | Oct Wed 30 | Nov Fri 1  | Repl.it site & tracker |
-| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                | Oct 30     | Nov Fri 1  | Repl.it site & tracker |
-| Pop the squares                                                  | Nov Mon 4 | Oct Monday 11 | Github link in tracker |
-| Sushi Neko                                                       | Oct Wed 30 | Oct Wed 13 | Github link in tracker |
-| [OOP](https://repl.it/classroom/invite/ZpclEej)                  | Nov Mon 11 | TBD | Repl.it site & tracker |
-| Magic 8 ball                                                     | Nov Wed 13 | Nov Mon 18 | Github link in tracker |
-| Course project                                                   | Nov Mon 18 | Dec Wed 11 | Github link in tracker |
+| [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
+| [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
+| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Jan Tue 23 | Jan Mon 27 | Repl.it site & tracker |
+| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Jan Tue 23 | Jan Mon 27 | Repl.it site & tracker |
+| [Loops](https://repl.it/classroom/invite/YcITQAd)                |  |  | Repl.it site & tracker |
+| [Arrays](https://repl.it/classroom/invite/YcJWOag)               |  |  | Repl.it site & tracker |
+| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         |  |  | Repl.it site & tracker |
+| [Structs](https://repl.it/classroom/invite/YcKZNKj)              |  |   | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                |     |    | Repl.it site & tracker |
+| Pop the squares                                                  |  |   | Github link in tracker |
+| Sushi Neko                                                       |  |  | Github link in tracker |
+| [OOP](https://repl.it/classroom/invite/ZpclEej)                  |  |  | Repl.it site & tracker |
+| Magic 8 ball                                                     |  |  | Github link in tracker |
+| Course project                                                   |  |  | Github link in tracker |
 
 <!--| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
 -->
