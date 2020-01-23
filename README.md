@@ -66,8 +66,8 @@ Students by the end of the course will be able to ...
 |:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
 | [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
-| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Jan Tue 23 | Jan Mon 27 | Repl.it site & tracker |
-| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Jan Tue 23 | Jan Mon 27 | Repl.it site & tracker |
+| [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Jan Thu 23 | Jan Mon 27 | Repl.it site & tracker |
+| [Optionals](https://repl.it/classroom/invite/YhH356u)            | Jan Thu 23 | Jan Mon 27 | Repl.it site & tracker |
 | [Loops](https://repl.it/classroom/invite/YcITQAd)                |  |  | Repl.it site & tracker |
 | [Arrays](https://repl.it/classroom/invite/YcJWOag)               |  |  | Repl.it site & tracker |
 | [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         |  |  | Repl.it site & tracker |
