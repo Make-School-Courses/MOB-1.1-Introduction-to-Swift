@@ -29,18 +29,17 @@ Students by the end of the course will be able to ...
 |  1    |   Tue, January 21    | [Variables, Types & Functions]       |
 |  2    |   Thu, January 23    | [Optionals & Conditionals]           |
 |  3    |   Tue, January 28    | [Collection types & Control Flow]    |
-|  4    |   Thu, January 30    | [Classes, Structs & Enums]           |
-|  5    |   Tue, February 4    | [Introduction to SpriteKit]          |
-|  6    |   Thu, February 6    | [Building an iOS Game]               |
+|  4    |   Thu, January 30    | [Introduction to SpriteKit]          |
+|  5    |   Tue, February 4    | [Building an iOS Game]               |
+|  6    |   Thu, February 6    | [Classes, Structs & Enums]           |
 |  7    |   Tue, February 11   | [OOP]                                |
 |  8    |   Thu, February 13 	 | [Intro to UIKit]                     |
-|  9    |   Tue, February 18   | [POP]                                |
-|  10   |   Thu, February 20   | [POP 2]                              |
-|  11   |   Tue, February 25   | [Basic Navigation]                   |
-|  12   |   Thu, February 27   | [Closures]                           |
-|  13   |   ----------         | [Debugging & Review]                 |
-|  14   |   Tue, March 3	     | Final Exam                           |
-|  15   |   Thu, March 5       | Final Class (presentations)          |
+|  9    |   Tue, February 18   | [POP] [POP 2]                        |
+|  10   |   Thu, February 20   | [Basic Navigation]                   |
+|  11   |   Tue, February 25   | [Closures]                           |
+|  12   |   Thu, February 27   | [Debugging & Review]                 |
+|  13   |   Tue, March 3	     | Final Exam                           |
+|  14   |   Thu, March 5       | Final Class (presentations)          |
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
