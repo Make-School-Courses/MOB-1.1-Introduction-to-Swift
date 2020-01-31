@@ -67,16 +67,16 @@ Students by the end of the course will be able to ...
 | [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
 | [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Jan Thu 23 | Jan Mon 27 | Repl.it site & tracker |
 | [Optionals](https://repl.it/classroom/invite/YhH356u)            | Jan Thu 23 | Jan Mon 27 | Repl.it site & tracker |
-| [Loops](https://repl.it/classroom/invite/YcITQAd)                |  |  | Repl.it site & tracker |
-| [Arrays](https://repl.it/classroom/invite/YcJWOag)               |  |  | Repl.it site & tracker |
-| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         |  |  | Repl.it site & tracker |
+| [Loops](https://repl.it/classroom/invite/YcITQAd)                | Jan Tue 28 | Feb Thu 6 | Repl.it site & tracker |
+| [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Jan Tue 28 | Feb Thu 6| Repl.it site & tracker |
+| [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Jan Tue 28 | Feb Thu 6| Repl.it site & tracker |
+| Sushi Neko                                                       | Jan Thu 30 | Feb Thu 4 | Github link in tracker |
 | [Structs](https://repl.it/classroom/invite/YcKZNKj)              |  |   | Repl.it site & tracker |
-| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                |     |    | Repl.it site & tracker |
+| [Enums](https://repl.it/classroom/invite/YcL2Lkm)                |  |   | Repl.it site & tracker |
 | Pop the squares                                                  |  |   | Github link in tracker |
-| Sushi Neko                                                       |  |  | Github link in tracker |
-| [OOP](https://repl.it/classroom/invite/ZpclEej)                  |  |  | Repl.it site & tracker |
-| Magic 8 ball                                                     |  |  | Github link in tracker |
-| Course project                                                   |  |  | Github link in tracker |
+| [OOP](https://repl.it/classroom/invite/ZpclEej)                  |  |   | Repl.it site & tracker |
+| Magic 8 ball                                                     |  |   | Github link in tracker |
+| Course project                                                   |  |   | Github link in tracker |
 
 <!--| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
 -->
