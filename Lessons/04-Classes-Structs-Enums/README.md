@@ -66,6 +66,16 @@ We'll start simple. Let's say we have a custom type and we call it BobaTea. Righ
 
 <!-- v -->
 
+## Activity: Coffee Struct
+
+1. Create a new playground in Xcode
+1. Create a struct named `Coffee` that has three properties:
+    1. `bean`: a String that says what type of bean the coffee uses
+    1. `sugar`: an Int that says how many sugar packets are in the coffee
+    1. `hasMilk`: a Bool that says whether the coffee has milk or not
+
+<!-- v -->
+
 ## Creating an instance of a struct
 
 ```swift
@@ -78,6 +88,12 @@ To create an instance, we use the name of the type with the needed parameters. T
 <aside class="notes">
 An initializer is generally a method that the struct can use. But we didn't code it. Swift automatically gives an initializer for structs, using all of its properties.
 </aside>
+
+<!-- v -->
+
+## Activity: Coffee Instance
+
+Create an instance of your `Coffee` struct by storing it in a variable named `coffee`. Make sure to provide values for the `bean`, `sugar`, and `hasMilk` properties.
 
 <!-- v -->
 
@@ -98,7 +114,7 @@ applies when considering if the struct should be a constant or variable.
 
 ### Challenge 1
 
-Create a new playground and include the enum `BobaTea` we just saw.
+Include the enum `BobaTea` we just saw in your playground
 
 Write a structure called `Order` that will represent a client's order. It will need two properties:
 
@@ -116,7 +132,29 @@ struct Order {
 
 <!-- > -->
 
+## Create-A-Boba
+
+We can use functions to create an instance of a `struct` and its properties. For example, let's write the `createBoba` function that takes `teaType` and `sweetnessLevel` as inputs, and returns a new `BobaTea`:
+
+```swift
+func createBoba(teaType: String, sweetness: Int) -> BobaTea{
+    let boba = BobaTea(teaType: tea, sweetnessLevel: sweetness)
+    return boba
+  }
+
+```
+
+<!-- v -->
+
+### Activity: createCoffee
+
+Write a `createCoffee` function that takes `beanType`, `sugarLevel`, and `containsMilk` as inputs (String, Int, Bool respectively), and returns a `Coffee` struct based on those input parameters.
+
+<!-- v -->
+
 ### Challenge 2
+
+Let's dive a little deeper and build out a function for our `order` struct:
 
 1. Write a function that given input parameters returns an order.
 2. Then create an order using the function.
@@ -127,6 +165,8 @@ This is how I should be able to call your function:
 
 and this is what you'll print in the end:
 `Adriana ordered black boba tea, 25% sweetness, with boba`
+
+Note your function should return an `order`, it should NOT print something. You should be able to construct a print statement based on the `order` struct returned from `createdOrder`
 
 <!--
 ```swift
@@ -172,7 +212,7 @@ newOrder.printDescription()
 //Adriana ordered black boba tea, 25% sweetness, with boba
 ```
 
-Do the same improvement in your implementation.
+**Do the same improvement in your implementation, then move your `createCoffee` function into the `Coffee` struct.**
 
 <!-- > -->
 
@@ -239,12 +279,19 @@ Accessing the value of properties is also using dot syntax.
 This time we see the word self. In Swift, self is a property of an instance that holds the instance itself.
 </aside>
 
-<!-- > -->
+<!-- v -->
+
+### Activity - Cashier Class
+
+Build a `Cashier` class that has `firstName`, `lastName`, and `hasBathroomKey` properties. Make sure you build out the `init` method for the class as well.
+
+<!-- v -->
 
 ### Challenge 4
 
-1. Add the class Customer and refactor your code to use it
-2. Using a class to represent the customer, instead of just using a String for the name.
+Add the class `Customer` from earlier into your playground and refactor your code to use it. 
+
+**Example:** using a class to represent the customer, instead of just using a String for the name.
 
 <!-- > -->
 
@@ -255,21 +302,6 @@ While structs are *value types*, classes are *reference types*.
 This means than a variable of a class doesn't store an instance but a reference to a location in memory, and that location stores the instance.
 
 <img data-src="https://miro.medium.com/max/940/1*oiSNPErZHJ40FcWNTxAM0A.gif">
-
-<!-- > -->
-
-## Read & Discuss
-
-Read [this article](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
-
-Then answer:
-
-- What's the difference between value type and reference type? give an example of each.
-- What is heap?
-- What is stack?
-- How do we know when to use a class or struct?
-
-When you are done, share & discuss with your neighbor.
 
 <!-- > -->
 
@@ -304,6 +336,12 @@ enum TeaType{
 var typeOfTea = TeaType.chai
 ```
 Common practice: start each case with lowercase.
+
+<!-- v -->
+
+### Activity: Coffee Enum
+
+Make a `CoffeeType` enum, where `robusta`, `liberica`, and `arabica` are valid types.
 
 <!-- > -->
 
@@ -344,6 +382,12 @@ case .oolong, .lavender:
 }
 ```
 
+<!-- v -->
+
+### Activity: Coffee Case
+
+Write a `typeOfCoffee` switch that prints out the name of the coffee type.
+
 <!-- > -->
 
 ## Raw values in enums
@@ -351,6 +395,8 @@ case .oolong, .lavender:
 We can assign a value to each case in an enum. This can help handling each case or getting a value to work with in our program.
 
 ```swift
+var typeOfTea = TeaType.chai
+
 enum TeaType : String{
     case black = "black"
     case oolong = "oolong"
@@ -438,7 +484,7 @@ case .error(let message):
 }
 ```
 
-We used let bindings to read associated values.
+We used `let` bindings to read the associated values.
 
 <!-- > -->
 
@@ -448,7 +494,7 @@ Finish the implementation of the Boba Tea shop.
 
 - Use enums to represent the tea types
 - Add an option to customize milk too: whole, almond, oat
-- Include the `makeOrder` to practice using associated values
+- Include the `makeOrder` function to practice using associated values
 - Experiment, break things 🤓
 
 <!-- > -->
@@ -480,3 +526,9 @@ For more practice with topics covered so far:
 - [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)
 - [The use of self](https://dmitripavlutin.com/how-to-use-correctly-self-keyword-in-swift/)
 - [Article - Value vs Reference type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
+- [Difference Between Value and Reference Type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
+    - Discussion Questions: 
+        - What's the difference between value type and reference type? give an example of each.
+        - What is heap?
+        - What is stack?
+        - How do we know when to use a class or struct?
