@@ -53,7 +53,7 @@ Tapping the back button in the navigation bar at the top of the interface remove
 ![components](assets/component.jpg)
 
 <aside class="notes">
-The navigation controller alsoo manages the navigation bar at the top of the interface and an optional toolbar at the bottom of the interface.
+The navigation controller also manages the navigation bar at the top of the interface and an optional toolbar at the bottom of the interface.
 </aside>
 
 <!-- > -->

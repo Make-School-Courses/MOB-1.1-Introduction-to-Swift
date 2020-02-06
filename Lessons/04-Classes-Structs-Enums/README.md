@@ -114,7 +114,7 @@ applies when considering if the struct should be a constant or variable.
 
 ### Challenge 1
 
-Include the enum `BobaTea` we just saw in your playground
+Include the type `BobaTea` we just saw in your playground.
 
 Write a structure called `Order` that will represent a client's order. It will need two properties:
 
@@ -140,7 +140,7 @@ We can use functions to create an instance of a `struct` and its properties. For
 func createBoba(teaType: String, sweetness: Int) -> BobaTea{
     let boba = BobaTea(teaType: tea, sweetnessLevel: sweetness)
     return boba
-  }
+}
 
 ```
 
@@ -156,7 +156,7 @@ Write a `createCoffee` function that takes `beanType`, `sugarLevel`, and `contai
 
 Let's dive a little deeper and build out a function for our `order` struct:
 
-1. Write a function that given input parameters returns an order.
+1. Write a function that given input parameters **returns an order (Type Order)**.
 2. Then create an order using the function.
 3. Then print it's details.
 
@@ -166,7 +166,7 @@ This is how I should be able to call your function:
 and this is what you'll print in the end:
 `Adriana ordered black boba tea, 25% sweetness, with boba`
 
-Note your function should return an `order`, it should NOT print something. You should be able to construct a print statement based on the `order` struct returned from `createdOrder`
+Note your function should return an `order`. Then construct a print statement based on the `order` struct returned from `createdOrder`.
 
 <!--
 ```swift
@@ -289,7 +289,7 @@ Build a `Cashier` class that has `firstName`, `lastName`, and `hasBathroomKey` p
 
 ### Challenge 4
 
-Add the class `Customer` from earlier into your playground and refactor your code to use it. 
+Add the class `Customer` from earlier into your playground and refactor your code to use it.
 
 **Example:** using a class to represent the customer, instead of just using a String for the name.
 
@@ -527,7 +527,7 @@ For more practice with topics covered so far:
 - [The use of self](https://dmitripavlutin.com/how-to-use-correctly-self-keyword-in-swift/)
 - [Article - Value vs Reference type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
 - [Difference Between Value and Reference Type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
-    - Discussion Questions: 
+    - Discussion Questions:
         - What's the difference between value type and reference type? give an example of each.
         - What is heap?
         - What is stack?

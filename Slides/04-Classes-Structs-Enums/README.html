@@ -73,6 +73,14 @@ Properties are constants or variables that are a member of the type. Every insta
 We'll start simple. Let's say we have a custom type and we call it BobaTea. Right now the customer can choose the kind of tea they want and the level of sweetness. Every new boba tea will need these two properties.
 </aside>
 </script></section><section data-markdown><script type="text/template">
+## Activity: Coffee Struct
+
+1. Create a new playground in Xcode
+1. Create a struct named `Coffee` that has three properties:
+    1. `bean`: a String that says what type of bean the coffee uses
+    1. `sugar`: an Int that says how many sugar packets are in the coffee
+    1. `hasMilk`: a Bool that says whether the coffee has milk or not
+</script></section><section data-markdown><script type="text/template">
 ## Creating an instance of a struct
 
 ```swift
@@ -85,6 +93,10 @@ To create an instance, we use the name of the type with the needed parameters. T
 <aside class="notes">
 An initializer is generally a method that the struct can use. But we didn't code it. Swift automatically gives an initializer for structs, using all of its properties.
 </aside>
+</script></section><section data-markdown><script type="text/template">
+## Activity: Coffee Instance
+
+Create an instance of your `Coffee` struct by storing it in a variable named `coffee`. Make sure to provide values for the `bean`, `sugar`, and `hasMilk` properties.
 </script></section><section data-markdown><script type="text/template">
 ## Accessing Properties
 
@@ -101,7 +113,7 @@ applies when considering if the struct should be a constant or variable.
 </script></section></section><section  data-markdown><script type="text/template">
 ### Challenge 1
 
-Create a new playground and include the enum `BobaTea` we just saw.
+Include the type `BobaTea` we just saw in your playground.
 
 Write a structure called `Order` that will represent a client's order. It will need two properties:
 
@@ -116,10 +128,28 @@ struct Order {
 }
 ```
 -->
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section ><section data-markdown><script type="text/template">
+## Create-A-Boba
+
+We can use functions to create an instance of a `struct` and its properties. For example, let's write the `createBoba` function that takes `teaType` and `sweetnessLevel` as inputs, and returns a new `BobaTea`:
+
+```swift
+func createBoba(teaType: String, sweetness: Int) -> BobaTea{
+    let boba = BobaTea(teaType: tea, sweetnessLevel: sweetness)
+    return boba
+}
+
+```
+</script></section><section data-markdown><script type="text/template">
+### Activity: createCoffee
+
+Write a `createCoffee` function that takes `beanType`, `sugarLevel`, and `containsMilk` as inputs (String, Int, Bool respectively), and returns a `Coffee` struct based on those input parameters.
+</script></section><section data-markdown><script type="text/template">
 ### Challenge 2
 
-1. Write a function that given input parameters returns an order.
+Let's dive a little deeper and build out a function for our `order` struct:
+
+1. Write a function that given input parameters **returns an order (Type Order)**.
 2. Then create an order using the function.
 3. Then print it's details.
 
@@ -128,6 +158,8 @@ This is how I should be able to call your function:
 
 and this is what you'll print in the end:
 `Adriana ordered black boba tea, 25% sweetness, with boba`
+
+Note your function should return an `order`. Then construct a print statement based on the `order` struct returned from `createdOrder`.
 
 <!--
 ```swift
@@ -142,7 +174,7 @@ let newOrder = createOrder(withTea: "black", sweetness: 25, forCustomer: "Adrian
 print("\(newOrder.name) ordered \(newOrder.boba.tea) boba tea, \(newOrder.boba.sweetness)% sweetness, \(newOrder.boba.hasBoba ? "with boba" : "no boba")")
 ```
 -->
-</script></section><section  data-markdown><script type="text/template">
+</script></section></section><section  data-markdown><script type="text/template">
 ## Methods
 
 We know now that structures can have constants and variables. They can also have their own functions. And every instance will have access to them, to execute them.
@@ -169,7 +201,7 @@ newOrder.printDescription()
 //Adriana ordered black boba tea, 25% sweetness, with boba
 ```
 
-Do the same improvement in your implementation.
+**Do the same improvement in your implementation, then move your `createCoffee` function into the `Coffee` struct.**
 </script></section><section  data-markdown><script type="text/template">
 ## Structures as value types
 
@@ -200,7 +232,7 @@ Many of the standard Swift types are structures:
 - Dictionary
 
 You can confirm this by looking at the documentation 🤓 (command+click -> jump to definition)
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section ><section data-markdown><script type="text/template">
 ## Classes
 
 Classes are also named types with properties and methods.
@@ -229,12 +261,17 @@ Accessing the value of properties is also using dot syntax.
 
 This time we see the word self. In Swift, self is a property of an instance that holds the instance itself.
 </aside>
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section data-markdown><script type="text/template">
+### Activity - Cashier Class
+
+Build a `Cashier` class that has `firstName`, `lastName`, and `hasBathroomKey` properties. Make sure you build out the `init` method for the class as well.
+</script></section><section data-markdown><script type="text/template">
 ### Challenge 4
 
-1. Add the class Customer and refactor your code to use it
-2. Using a class to represent the customer, instead of just using a String for the name.
-</script></section><section  data-markdown><script type="text/template">
+Add the class `Customer` from earlier into your playground and refactor your code to use it.
+
+**Example:** using a class to represent the customer, instead of just using a String for the name.
+</script></section></section><section  data-markdown><script type="text/template">
 ## Classes as reference types
 
 While structs are *value types*, classes are *reference types*.
@@ -242,19 +279,6 @@ While structs are *value types*, classes are *reference types*.
 This means than a variable of a class doesn't store an instance but a reference to a location in memory, and that location stores the instance.
 
 <img data-src="https://miro.medium.com/max/940/1*oiSNPErZHJ40FcWNTxAM0A.gif">
-</script></section><section  data-markdown><script type="text/template">
-## Read & Discuss
-
-Read [this article](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
-
-Then answer:
-
-- What's the difference between value type and reference type? give an example of each.
-- What is heap?
-- What is stack?
-- How do we know when to use a class or struct?
-
-When you are done, share & discuss with your neighbor.
 </script></section><section  data-markdown><script type="text/template">
 <!-- .slide: data-background="#087CB8" -->
 ## [**10m**] BREAK
@@ -283,6 +307,10 @@ enum TeaType{
 var typeOfTea = TeaType.chai
 ```
 Common practice: start each case with lowercase.
+</script></section><section data-markdown><script type="text/template">
+### Activity: Coffee Enum
+
+Make a `CoffeeType` enum, where `robusta`, `liberica`, and `arabica` are valid types.
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Switch statement
 
@@ -318,12 +346,18 @@ case .oolong, .lavender:
     print("This is a seasonal special.")
 }
 ```
+</script></section><section data-markdown><script type="text/template">
+### Activity: Coffee Case
+
+Write a `typeOfCoffee` switch that prints out the name of the coffee type.
 </script></section></section><section ><section data-markdown><script type="text/template">
 ## Raw values in enums
 
 We can assign a value to each case in an enum. This can help handling each case or getting a value to work with in our program.
 
 ```swift
+var typeOfTea = TeaType.chai
+
 enum TeaType : String{
     case black = "black"
     case oolong = "oolong"
@@ -401,7 +435,7 @@ case .error(let message):
 }
 ```
 
-We used let bindings to read associated values.
+We used `let` bindings to read the associated values.
 </script></section></section><section  data-markdown><script type="text/template">
 ### Challenge 5
 
@@ -409,7 +443,7 @@ Finish the implementation of the Boba Tea shop.
 
 - Use enums to represent the tea types
 - Add an option to customize milk too: whole, almond, oat
-- Include the `makeOrder` to practice using associated values
+- Include the `makeOrder` function to practice using associated values
 - Experiment, break things 🤓
 </script></section><section  data-markdown><script type="text/template">
 Find the solutions to each step of the challenges [here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/04-Classes-Structs-Enums/assignments/challenges.md).
@@ -433,6 +467,12 @@ For more practice with topics covered so far:
 - [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)
 - [The use of self](https://dmitripavlutin.com/how-to-use-correctly-self-keyword-in-swift/)
 - [Article - Value vs Reference type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
+- [Difference Between Value and Reference Type](https://medium.com/@abhimuralidharan/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a)
+    - Discussion Questions:
+        - What's the difference between value type and reference type? give an example of each.
+        - What is heap?
+        - What is stack?
+        - How do we know when to use a class or struct?
 </script></section></div>
     </div>
 
