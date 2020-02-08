@@ -138,7 +138,7 @@ We can use functions to create an instance of a `struct` and its properties. For
 
 ```swift
 func createBoba(teaType: String, sweetness: Int) -> BobaTea{
-    let boba = BobaTea(teaType: tea, sweetnessLevel: sweetness)
+    let boba = BobaTea(teaType: teaType, sweetnessLevel: sweetness)
     return boba
 }
 

@@ -70,12 +70,12 @@ Students by the end of the course will be able to ...
 | [Loops](https://repl.it/classroom/invite/YcITQAd)                | Jan Tue 28 | Feb Thu 6 | Repl.it site & tracker |
 | [Arrays](https://repl.it/classroom/invite/YcJWOag)               | Jan Tue 28 | Feb Thu 6| Repl.it site & tracker |
 | [Dictionaries](https://repl.it/classroom/invite/0J90Ejp)         | Jan Tue 28 | Feb Thu 6| Repl.it site & tracker |
-| Sushi Neko                                                       | Jan Thu 30 | Feb Thu 4 | Github link in tracker |
+| Sushi Neko                                                       | Jan Thu 30 | Feb Tue 4 | Github link in tracker |
+| Magic 8 ball                                                     | Feb Thu 6 |  Feb Fri 14 | Github link in tracker |
 | [Structs](https://repl.it/classroom/invite/YcKZNKj)              |  |   | Repl.it site & tracker |
 | [Enums](https://repl.it/classroom/invite/YcL2Lkm)                |  |   | Repl.it site & tracker |
 | Pop the squares                                                  |  |   | Github link in tracker |
 | [OOP](https://repl.it/classroom/invite/ZpclEej)                  |  |   | Repl.it site & tracker |
-| Magic 8 ball                                                     |  |   | Github link in tracker |
 | Course project                                                   |  |   | Github link in tracker |
 
 <!--| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
