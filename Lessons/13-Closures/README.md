@@ -18,22 +18,22 @@ You probably have already used closures by now without noticing or without knowi
 
 1. Describe how closures work and how to use them
 1. Declaring and calling closures
-1. List and implement use cases of closures
+1. Apply the closure syntax and shorthand argument names
 
 <!-- > -->
 
 ## Intro
 
-![gifts](assets/gifts.jpg)
+![gifts](assets/package.png)
 
 <aside class="notes">
-Let's say I send you a gift for the holidays. I wrap it in a box and take it to UPS.
+I need to send a gift to a friend. I wrap it in a box and take it to the post office.
 
-It's going to take a while before you get the package. Let's say you get it after 5 days.
+After 5 days, it finally arrives to its destination.
 
-Now that you have it, you open it to discover the top item in your wishlist!
+My friend can now open the package and reveal their gift.
 
-I'm not there to physically give you the present, but the contents still get to you and you use them until you get to open it.
+I'm not there to physically give them the present, but the contents remain in the package until it gets opened and ready to use.
 
 This is the same concept as closures. Let's see how.
 </aside>
@@ -55,15 +55,9 @@ In essence, a closure is a block of code that you can assign to a variable or co
 
 **The wrapped package** - the block of code now assigned to a variable
 
-The package gets passed around (by UPS)
+**The package gets passed around by the delivery truck** - code being passed around
 
-When you get the gift you use it, just as we would execute the block of code.
-
-<!-- > -->
-
-## Syntax
-
-![syntax](assets/closureSyntax.png)
+**My friend opens the package and uses it** - Executing the block of code.
 
 <!-- > -->
 
@@ -79,10 +73,10 @@ var brunch = {
 Everything inside the braces `{}` is the closure. And it is assigned to a variable (could be to a constant too).
 
 **Q:** What is the type of the closure? <br>
-We can add it in the decaration.
+We can add it in the declaration.
 </aside>
 
-<!-- v -->
+<!-- > -->
 
 ```Swift
 var brunch: () -> () = {
@@ -93,6 +87,13 @@ brunch()
 ```
 
 <!-- > -->
+
+## Syntax
+
+![syntax](assets/closureSyntax.png)
+
+<!-- > -->
+
 
 #### Example: closure with parameters
 
@@ -166,6 +167,38 @@ Once everyone is done, do the transformation in a big whiteboard for everyone to
 
 <!-- > -->
 
+## Capturing values
+
+```swift
+func cook() -> (String) -> Void {
+    return {
+        print("I'm going to cook \($0)")
+    }
+}
+
+let result = cook()
+result("pizza")
+
+```
+
+<!-- > -->
+
+```swift
+
+func cook() -> (String) -> Void {
+    var counter = 1
+    return {
+        print("\(counter). I'm going to cook \($0)")
+        counter += 1
+    }
+}
+
+let result = cook()
+result("pizza")
+result("pasta")
+result("cake")
+
+```
 ## Optimizing with closures
 
 Swift’s closure expressions have a clean, clear style, with optimizations including:
@@ -192,7 +225,7 @@ The `sorted(by:)` method accepts a closure that takes two arguments of the same 
 
 <!-- v -->
 
-First approach, using a functions and passing it as a parameter.
+First approach, using a function and passing it as a parameter.
 
 ```swift
 func backward(_ s1: String, _ s2: String) -> Bool {
@@ -258,3 +291,4 @@ Complete [these](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-
 1. [From function to closure - article](https://medium.com/ios-os-x-development/introduction-to-closures-in-swift-3-1d46dfaf8a20)
 1. [Apple's documentation on closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 1. [Closures explained & exercises](https://www.weheartswift.com/closures/)
+1. [Capturing values](https://www.hackingwithswift.com/sixty/6/11/capturing-values)
