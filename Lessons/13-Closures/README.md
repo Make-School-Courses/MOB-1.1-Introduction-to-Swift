@@ -199,6 +199,9 @@ result("pasta")
 result("cake")
 
 ```
+
+<!-- > -->
+
 ## Optimizing with closures
 
 Swift’s closure expressions have a clean, clear style, with optimizations including:
