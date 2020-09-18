@@ -81,7 +81,7 @@ Scenes consist of *View Controllers* and *Views*.
 
 <!-- > -->
 
-**VC**
+**View Controllers (VC)**
 
 Are the containers for the views.
 
@@ -143,6 +143,14 @@ Good place to save data, clean up resources,
 ### View Hierarchy
 
 (whiteboard)
+
+<!-- > -->
+
+### Question
+
+What is the main distinction between a view and a view control?
+
+<!--view displays information, view control responds to user interaction-->
 
 <!-- > -->
 

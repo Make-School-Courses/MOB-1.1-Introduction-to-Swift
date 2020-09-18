@@ -124,6 +124,16 @@ If by mistake you try to change the value of a constant, Xcode will throw an err
 Cannot assign to value: 'number' is a 'let' constant
 ```
 
+<!-- v -->
+
+### Question
+
+**Q1:** Will the following code snippet run without error? Justify your answer:
+
+`let number: Double = 3`
+
+<!--Yes, because the compiler will assign the value 3.0 to number-->
+
 <!-- > -->
 
 ## Variables
@@ -160,6 +170,31 @@ In Swift is common to use **camel case**.
 - Start with lower case
 - If the name has more than one word, start the next words with uppercase
 - If there is an abbreviation, use the same case for it
+
+<!-- v -->
+
+### Questions
+
+**Q1:** For a video game, which of the following would be best represented with a constant:
+
+1. Player name <!--correct-->
+1. Player level
+1. Player score
+1. Player location
+
+**Q2:** Which of the following would be best represented with a variable? Choose all that apply
+
+1. Name
+1. Birthday
+1. Age <!--correct-->
+1. Home Address <!--correct-->
+
+**Q3:** ____ is used to declare a constant, and ______ is used to declare a variable:
+
+1. `const`, `var`
+1. `const`, `let`
+1. `let`, `var` <!--correct-->
+1. `var`, `let`
 
 <!-- > -->
 
@@ -214,6 +249,17 @@ let nowADouble = Double(8)
 let nowADouble : Double = 8
 let nowADouble = 8 as Double
 ```
+
+<!-- v -->
+
+### Question
+
+Using type inference, which of the following would be asssigned a `Double` type?
+
+1. `var state = "Rhode Island"`
+1. `let country = "Belgium"`
+1. `let population = 142000`
+1. `let speedLimit = 75.0` <!--correct-->
 
 <!-- > -->
 

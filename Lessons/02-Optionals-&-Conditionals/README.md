@@ -120,6 +120,22 @@ We can extend an if statement to have code run in case the condition is false.
 
 <!-- v -->
 
+#### Question
+
+What will print to the console?
+
+```swift
+var weight = 52
+
+if weight <= 50 {
+    print("Have a great flight.")
+} else {
+    print("There is a $25 fee for your luggage.")
+}
+```
+
+<!-- v -->
+
 ### else if Clause
 
 ```swift
@@ -176,6 +192,18 @@ a > b ? a : b
 <aside class="notes">
 The ternary operator takes a condition and returns one of two values, depending on whether the condition was true or false.
 </aside>
+
+<!-- v -->
+
+### Question
+
+What is the value of `mood` after executing the following:
+
+```swift
+let numberOfCookies = 3
+
+let mood = numberOfCookies > 2 ? 😊 : 😔
+```
 
 <!-- > -->
 
@@ -406,6 +434,48 @@ if let unwrapped = optionalNumber {
 var optionalNumber: Int? = 8
 var result = optionalNumber ?? 0
 ```
+
+<!-- > -->
+
+### Questions
+
+**Q1:** How would you declare a double named `height` with a value of 4.2 that can be set to `nil` at a later date?
+<!--var height: Double? = 4.2-->
+
+**Q2:** What is the purpose of the following code?
+
+```swift
+if height != nil {
+
+}
+```
+<!--checks that height contains a value-->
+
+**Q3:** which of the following code snippets uses VALID optional binding syntax?
+
+1. `if let dogName = owner.dogs.first { }` <!--correct-->
+1. `if dogName = owner.dogs.first { }`
+1. `if let dogName = owner.dogs.first! { }`
+1. `if let dogName == owner.dogs.first { }` 
+
+**Q4:** In your own words, what is the purpose of `guard`?
+<!--to simply control flow, communicate intent, and eliminate invalid parameters early on-->
+
+**Stretch Question:** what will be returned at the end of the function call?
+
+```swift
+func calculateResult(a: Int?, b: Int?, c: Int?) -> Int {
+    guard let aValue = a else { return 0 }
+    guard let bValue = b else ( return aValue }
+    guard let cValue = c else {return bValue }
+    
+    return aValue + bValue + cValue
+}
+
+calculateResult(a: 4, b: 8, c: nil)
+```
+
+<!--returns 8, as it hits the return statement in the cValue guard-->
 
 <!-- > -->
 
