@@ -486,6 +486,24 @@ calculateResult(a: 4, b: 8, c: nil)
 
 <!-- > -->
 
+## Review Questions: `as?` and `as!`
+
+**Q1:** When you conditinally downcast from one type to another and store the value in a `constant`, which combination of keywords can you use? _Select all that apply_
+
+1. `as?` <!--correct-->
+1. `as!`
+1. `is`
+1. `if let` <!--correct-->
+
+**Q2:** when is it appropriate to use the `as!` operator?
+
+1. When you need to unwrap an optional
+1. When you need to conver a value to an `Any` type
+1. When you need to downcast from one type to another, on the condition that the type is valid
+1. When you need to downcast from one type to another, and you can guarantee the type is valid <!--correct-->
+
+<!-- > -->
+
 ## After Class
 
 - Check out the **toggle** function that you can apply to booleans directly.
