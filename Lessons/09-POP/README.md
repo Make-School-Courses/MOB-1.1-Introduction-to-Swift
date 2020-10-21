@@ -9,6 +9,27 @@
 
 <!-- > -->
 
+## Warmup - Review of UIKit
+
+**Q1:** What view would you use to display information that doesn't fit on the screen? Select all that apply
+
+1. UIView
+1. UILabel
+1. UIScrollView <!--correct-->
+1. UITableView <!--correct-->
+
+**Q2:** Which view or control allows the user to enter a single line of text? Which one allows the user to enter multiple lines of text?
+
+1. UITextField <!--single-->
+1. UITextView <!--multiple-->
+
+**Q3:** Which of the following allows you to execute code for a specific control event? Which allows you to access properties on a specific view or control?
+
+1. IBAction <!--execute code-->
+1. IBOutlet <!--access properties-->
+
+<!-- > -->
+
 ## Agenda
 
 - Intro to Protocols

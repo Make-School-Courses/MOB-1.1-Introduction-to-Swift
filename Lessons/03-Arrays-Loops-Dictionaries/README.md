@@ -168,6 +168,16 @@ The sorted method will return a sorted copy of the array.
 
 <!-- > -->
 
+### Question
+
+Given the following array, how would you insert 56123 before 29371?
+
+`var bankAccounts = [18203, 29371, 10295, 47290]`
+
+<!--bankAccounts.insert(56213, at: 1)-->
+
+<!-- > -->
+
 ## Challenge
 
 ```swift

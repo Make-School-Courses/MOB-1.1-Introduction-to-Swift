@@ -120,6 +120,22 @@ We can extend an if statement to have code run in case the condition is false.
 
 <!-- v -->
 
+#### Question
+
+What will print to the console?
+
+```swift
+var weight = 52
+
+if weight <= 50 {
+    print("Have a great flight.")
+} else {
+    print("There is a $25 fee for your luggage.")
+}
+```
+
+<!-- v -->
+
 ### else if Clause
 
 ```swift
@@ -176,6 +192,18 @@ a > b ? a : b
 <aside class="notes">
 The ternary operator takes a condition and returns one of two values, depending on whether the condition was true or false.
 </aside>
+
+<!-- v -->
+
+### Question
+
+What is the value of `mood` after executing the following:
+
+```swift
+let numberOfCookies = 3
+
+let mood = numberOfCookies > 2 ? 😊 : 😔
+```
 
 <!-- > -->
 
@@ -409,10 +437,70 @@ var result = optionalNumber ?? 0
 
 <!-- > -->
 
+### Questions
+
+**Q1:** How would you declare a double named `height` with a value of 4.2 that can be set to `nil` at a later date?
+<!--var height: Double? = 4.2-->
+
+**Q2:** What is the purpose of the following code?
+
+```swift
+if height != nil {
+
+}
+```
+<!--checks that height contains a value-->
+
+**Q3:** which of the following code snippets uses VALID optional binding syntax?
+
+1. `if let dogName = owner.dogs.first { }` <!--correct-->
+1. `if dogName = owner.dogs.first { }`
+1. `if let dogName = owner.dogs.first! { }`
+1. `if let dogName == owner.dogs.first { }` 
+
+**Q4:** In your own words, what is the purpose of `guard`?
+<!--to simply control flow, communicate intent, and eliminate invalid parameters early on-->
+
+**Stretch Question:** what will be returned at the end of the function call?
+
+```swift
+func calculateResult(a: Int?, b: Int?, c: Int?) -> Int {
+    guard let aValue = a else { return 0 }
+    guard let bValue = b else ( return aValue }
+    guard let cValue = c else {return bValue }
+    
+    return aValue + bValue + cValue
+}
+
+calculateResult(a: 4, b: 8, c: nil)
+```
+
+<!--returns 8, as it hits the return statement in the cValue guard-->
+
+<!-- > -->
+
 ## In Class Activity
 
 - [Optionals - Repl.it](https://repl.it/classroom/invite/YhH356u)
 - For more practice: [Optionals - playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/Optionals.playground.zip)
+
+<!-- > -->
+
+## Review Questions: `as?` and `as!`
+
+**Q1:** When you conditinally downcast from one type to another and store the value in a `constant`, which combination of keywords can you use? _Select all that apply_
+
+1. `as?` <!--correct-->
+1. `as!`
+1. `is`
+1. `if let` <!--correct-->
+
+**Q2:** when is it appropriate to use the `as!` operator?
+
+1. When you need to unwrap an optional
+1. When you need to conver a value to an `Any` type
+1. When you need to downcast from one type to another, on the condition that the type is valid
+1. When you need to downcast from one type to another, and you can guarantee the type is valid <!--correct-->
 
 <!-- > -->
 

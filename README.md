@@ -4,6 +4,14 @@
 
 This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games and simple apps in Swift and complete exercises online.
 
+
+
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Objectives or Competencies
 
 Students by the end of the course will be able to ...

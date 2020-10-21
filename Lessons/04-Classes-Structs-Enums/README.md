@@ -250,6 +250,25 @@ You can confirm this by looking at the documentation 🤓 (command+click -> jump
 
 <!-- > -->
 
+### Questions
+
+**Q1:** When is it useful to define a `struct`?
+
+<!--When you want to represent a new data type with a collection of properties and functions-->
+
+**Q2:** Which of the following is NOT a key component of a `struct`?
+
+1. Name
+1. Properties
+1. Functions
+1. Enumerations
+
+**Q3:** What do you call a function that's added to a `struct`?
+
+<!--instance method-->
+
+<!-- > -->
+
 ## Classes
 
 Classes are also named types with properties and methods.
@@ -508,6 +527,31 @@ For more practice with topics covered so far:
 1. [Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Swift-Language-Playgrounds/archive/swift4.zip)
 
 - You should be able to complete up to section 11
+
+<!-- > -->
+
+### Questions
+
+**Q1:** Which of the following would be best represented with an enumeration?
+
+1. Names of people in a room
+1. Political parties <!--correct-->
+1. Addresses
+1. Compass degrees
+
+**Q2:** Which of the following would be best represented with an enumeration? _Choose all that apply_
+
+1. Hair colors <!--correct-->
+1. T-shirt sizes <!--correct-->
+1. Favorite numbers
+1. Car speeds
+
+**Q3:** Which of the following would be best represented with an enumeration? _Choose all that apply_
+
+1. Car manufacturers <!--correct-->
+1. Wi-fi network names
+1. Professional basketball teams <!--correct-->
+1. Shoe brands <!--correct-->
 
 <!-- > -->
 

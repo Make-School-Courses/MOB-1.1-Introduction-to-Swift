@@ -185,6 +185,38 @@ The super keyword is similar to self, but it will invoke the method in the neare
 
 Also, here we are using a computed property. It calculates a value rather than storing one.
 
+<!-- v -->
+
+### Questions
+
+**Q1:** Which of the following statements are true about these classes? Select all that apply:
+
+```swift
+class Scientist {}
+class Geologist: Scientist {}
+class Physicist: Scientist {}
+class Astrophysicist: Scientist {}
+```
+
+1. `Scientist` is a base class <!--true-->
+1. There is only one subclass of `Scientist`
+1. `Geologist`, `Physicist`, and `Astrophysicist` are all descendants of `Scientist` <!--true-->
+1. `Astrophysicist` does not inherit from `Scientist`
+
+**Q2:** Why does the following code give an error?
+
+```swift
+class Scientist {
+    func performCalculation() {}
+}
+
+class Physicist: Scientist {
+    func performCalculation() {}
+}
+```
+
+<!--missing override keyword-->
+
 <!-- > -->
 
 ## Initializers
