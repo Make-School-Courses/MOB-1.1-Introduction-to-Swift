@@ -4,10 +4,6 @@
 
 This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games and simple apps in Swift and complete exercises online.
 
-## Prerequisites:
-
-Prework <br>
-
 ## Learning Objectives or Competencies
 
 Students by the end of the course will be able to ...
@@ -20,26 +16,27 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
+**Course Dates:** Wednesday, October 21 – Wednesday, December 9, 2020 (8 weeks)
 
-**Class Times:** Tuesday and Thursday at 9:30–12:20pm (14 class sessions)
+**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1    |   Tue, January 21    | [Variables, Types & Functions]       |
-|  2    |   Thu, January 23    | [Optionals & Conditionals]           |
-|  3    |   Tue, January 28    | [Collection types & Control Flow]    |
-|  4    |   Thu, January 30    | [Introduction to SpriteKit]          |
-|  5    |   Tue, February 4    | [Building an iOS Game]               |
-|  6    |   Thu, February 6    | [Classes, Structs & Enums]           |
-|  7    |   Tue, February 11   | [OOP]                                |
-|  8    |   Thu, February 13 	 | [Intro to UIKit]                     |
-|  9    |   Tue, February 18   | [POP] [POP 2]                        |
-|  10   |   Thu, February 20   | [Basic Navigation]                   |
-|  11   |   Tue, February 25   | [Closures]                           |
-|  12   |   Thu, February 27   | [Debugging & Review]                 |
-|  13   |   Tue, March 3	     | Final Exam                           |
-|  14   |   Thu, March 5       | Final Class (presentations)          |
+|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         |
+|  2 |  Mon, Oct 26               | [Optionals & Conditionals]             |
+|  3 |  Wed, Oct 28               | [Collection types & Control Flow]      |
+|  - |  Mon, Nov 2                | **Vote! - Civic Responsibility Break** |
+|  4 |  Wed, Nov 4                | [Introduction to SpriteKit]            |
+|  5 |  Mon, Nov 9                | [Building an iOS Game]                 |
+|  6 |  Wed, Nov 11               | [Classes, Structs & Enums]             |
+|  7 |  Mon, Nov 16               | [OOP]                                  |
+|  8 |  Wed, Nov 18               | [Intro to UIKit]                       |
+|  9 |  Mon, Nov 23               | [POP] [POP 2]                          |
+|  - |  Wed, Nov 25               | **Holiday - Thanksgiving**             |
+| 10 |  Mon, Nov 30               | [Basic Navigation]                     |
+| 11 |  Wed, Dec 2                | [Closures]                             |
+| 12 |  Mon, Dec 7                | [Debugging & Review]                   |
+| 13 |  Wed, Dec 9                | Final Exam/Presentations               |  
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
@@ -61,8 +58,13 @@ Students by the end of the course will be able to ...
 
 ## Assignment Schedule
 
-|            Assignment                 | Date Assigned |   Due Date   |            Submission Form           |
-|:-------------------------------------:|:-------------:|:------------:|:------------------------------------:|
+|            Assignment                 | Date Assigned |   Due Date   |  Submission Form  |
+|:-------------------------------------:|:-------------:|:------------:|:-----------------:|
+| [Variables, Types & Functions]        | Oct 21        | Oct 26       | Gradescope        |
+
+[Variables, Types & Functions]: https://repl.it/classroom/invite/YcFKUQ4
+
+<!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
 | [Functions](https://repl.it/classroom/invite/ghUSdYG)            | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
 | [Conditionals](https://repl.it/classroom/invite/YcGNSq7)         | Jan Thu 23 | Jan Mon 27 | Repl.it site & tracker |
@@ -77,8 +79,7 @@ Students by the end of the course will be able to ...
 | Pop the squares                                                  |  |   | Github link in tracker |
 | [OOP](https://repl.it/classroom/invite/ZpclEej)                  |  |   | Repl.it site & tracker |
 | Course project                                                   |  |   | Github link in tracker |
-
-<!--| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
+| [POP](https://repl.it/classroom/invite/0FruFZO)                  | day, Date | day, Date | Repl.it site & tracker |
 -->
 
 ### Tutorials
@@ -89,19 +90,33 @@ Students by the end of the course will be able to ...
 ### Projects
 
 - Pop the Squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
-- [Course project](Assignments/FinalProject.md)
+- [Course project](Assignments/FinalProject.md) NOTE: Will be updated for T1 2020
 <!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
+
+## Class Assignments
+
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
+
+As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
 - Complete 80% of all assignments
-- Complete both tutorials
+- Complete all tutorials
 - Pass all projects according to the associated project rubrics
 - Pass the final summative assessment according with more than 70%. [Study guide](StudyGuide.md)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+
+##  Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
