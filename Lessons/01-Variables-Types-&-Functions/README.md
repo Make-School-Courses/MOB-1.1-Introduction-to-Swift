@@ -189,12 +189,16 @@ In Swift is common to use **camel case**.
 1. Player score
 1. Player location
 
+<!-- v -->
+
 **Q2:** Which of the following would be best represented with a variable? Choose all that apply
 
 1. Name
 1. Birthday
 1. Age <!--correct-->
 1. Home Address <!--correct-->
+
+<!-- v -->
 
 **Q3:** ____ is used to declare a constant, and ______ is used to declare a variable:
 

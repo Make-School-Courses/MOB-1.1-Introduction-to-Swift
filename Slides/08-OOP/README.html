@@ -161,7 +161,7 @@ class BandMember: Person {
 ```
 
 Subclasses can override methods defined in their superclass.
-</script></section><section  data-markdown><script type="text/template">
+</script></section><section ><section data-markdown><script type="text/template">
 ## Super
 
 ```swift
@@ -179,7 +179,37 @@ class Singer: BandMember {
 The super keyword is similar to self, but it will invoke the method in the nearest implementing superclass. Here it will execute the method as defined in the BandMember class.
 
 Also, here we are using a computed property. It calculates a value rather than storing one.
-</script></section><section ><section data-markdown><script type="text/template">
+</script></section><section data-markdown><script type="text/template">
+### Questions
+
+**Q1:** Which of the following statements are true about these classes? Select all that apply:
+
+```swift
+class Scientist {}
+class Geologist: Scientist {}
+class Physicist: Scientist {}
+class Astrophysicist: Scientist {}
+```
+
+1. `Scientist` is a base class <!--true-->
+1. There is only one subclass of `Scientist`
+1. `Geologist`, `Physicist`, and `Astrophysicist` are all descendants of `Scientist` <!--true-->
+1. `Astrophysicist` does not inherit from `Scientist`
+
+**Q2:** Why does the following code give an error?
+
+```swift
+class Scientist {
+    func performCalculation() {}
+}
+
+class Physicist: Scientist {
+    func performCalculation() {}
+}
+```
+
+<!--missing override keyword-->
+</script></section></section><section ><section data-markdown><script type="text/template">
 ## Initializers
 
 Initializers are special methods we call to create a new instance. They omit the func keyword and even a name. Instead, they use init.
