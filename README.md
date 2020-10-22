@@ -28,9 +28,9 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
 
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         |
+| Class |          Date          |                 Topics                  | Recording |
+|:-----:|:----------------------:|:---------------------------------------:|:----------:
+|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         | [Video L1]|
 |  2 |  Mon, Oct 26               | [Optionals & Conditionals]             |
 |  3 |  Wed, Oct 28               | [Collection types & Control Flow]      |
 |  - |  Mon, Nov 2                | **Vote! - Civic Responsibility Break** |
@@ -63,6 +63,8 @@ Students by the end of the course will be able to ...
 [Basic Navigation]: Lessons/12-Basic-Navigation/README.md
 [Closures]: Lessons/13-Closures/README.md
 [Debugging & Review]: Lessons/14-Debugging/README.md
+
+[Video L1]: https://zoom.us/rec/share/hLwUfO9z9h-Qk96XPaMCm10kdr8smrhrviAoUpl4IELpIP-0MJqZDlIPHxc5WLKF.AW4iWM7TE4X9yWeB?startTime=1603317238000
 
 ## Assignment Schedule
 
