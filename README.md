@@ -70,7 +70,7 @@ Students by the end of the course will be able to ...
 |:-------------------------------------:|:-------------:|:------------:|:-----------------:|
 | [Variables, Types & Functions]        | Oct 21        | Oct 26       | Gradescope        |
 
-[Variables, Types & Functions]: https://repl.it/classroom/invite/YcFKUQ4
+[Variables, Types & Functions]: https://github.com/Make-School-Labs/swift-lab1
 
 <!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
