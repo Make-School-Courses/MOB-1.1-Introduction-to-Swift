@@ -237,7 +237,6 @@ max = a > b ? a : b
 ## In Class Activity
 
 - [Conditionals - Playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/conditionals-fixed.zip)
-- [Conditionals - Repl.it](https://repl.it/classroom/invite/YcGNSq7)
 
 <!-- > -->
 
@@ -540,15 +539,14 @@ var title: String!
 
 ## In Class Activity
 
-- [Optionals - Repl.it](https://repl.it/classroom/invite/YhH356u)
-- For more practice: [Optionals - playground](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/02-Optionals-%26-Conditionals/assets/Optionals.playground.zip)
+- [Lab 2](https://github.com/Make-School-Labs/swift-lab-2)
 
 <!-- > -->
 
 ## After Class
 
 - Find out how you can unwrap several values at the same time to avoid something called **pyramid of doom**.
-- Complete classwork and upload to Gradescope.
+- Complete Lab 2 and upload to Gradescope.
 - Read the [Apple Documentation - optionals section](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html) and write down questions from things that are unclear.
 
 <!-- > -->

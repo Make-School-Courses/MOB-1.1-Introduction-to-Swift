@@ -71,8 +71,10 @@ Students by the end of the course will be able to ...
 |            Assignment                 | Date Assigned |   Due Date   |  Submission Form  |
 |:-------------------------------------:|:-------------:|:------------:|:-----------------:|
 | [Lab 1]        | Oct 21        | Oct 26       | Gradescope        |
+| [Lab 2]        | Oct 26        | Oct 28       | Gradescope        |
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
+[Lab 2]: https://github.com/Make-School-Labs/swift-lab-2
 
 <!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
