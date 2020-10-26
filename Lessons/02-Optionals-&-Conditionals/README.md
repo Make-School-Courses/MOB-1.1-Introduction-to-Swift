@@ -25,28 +25,36 @@
 
 By the end of this lesson, students should be able to:
 
-1. Use conditional statements in Swift
-1. Identify and use optionals in Swift code
-1. Understand the importance of optional binding
-1. List & apply ways for unwrapping an optional value
+1. Use **conditional statements** in Swift
+1. Identify and use **optionals** in Swift code
+1. Understand the importance of **optional binding**
+1. List & apply ways for **unwrapping** an optional value
 
 <!-- > -->
 
 ## Initial Exercise
 
-Questions from the Repl.its?
-
-General questions?
+Homework review/general questions from last week.
 
 <!-- > -->
 
 ## Conditionals
 
-Swift has several constructs to handle control flow in a program. Using comparison operators and the type Boolean we can manipulate the flow of our apps.
+Swift has several constructs to handle control flow in a program.
 
-<aside class="notes">
-When we have a program and want to tell it to go through a specific path, we evaluate a condition before choosing the path. This is how we manage control flow in our programs.
-</aside>
+Using **comparison operators** and the type **Boolean** we can manipulate the flow of our apps.
+
+<!-- > -->
+
+### Why?
+
+When we have a program and want to tell it to go through a specific path, we **evaluate a condition** before choosing the path.
+
+- ⏰ Alarm goes off if it's 7:00 am
+- 👾 Game ends if time's up
+- 📱 Enable dark mode if it's active
+
+This is how we control what happens in our apps.
 
 <!-- v -->
 
@@ -64,14 +72,6 @@ When we have a program and want to tell it to go through a specific path, we eva
 |   &&     | and                       |
 |   ||     | or                        |
 
-<aside class="notes">
-*and* and *or* will let us combine operators
-
-*and* used to check if both conditions are true
-
-*or* used to check if at least one condition is true
-</aside>
-
 <!-- v -->
 
 ### (4 < 8 && 6 > 8) || 1 < 2
@@ -82,15 +82,17 @@ quick check: is this true or false?
 
 <!-- > -->
 
-## if Statement
+## IF Statement
 
 The most common way to control the flow of a program.
 
 Allows the program to execute the block **only** if the condition is true.
 
 ```swift
-if "some" != "sum" {
-  print("These are not the same word.")
+let color = "red"
+
+if color == "red"{
+  print("This is a primary color")
 }
 ```
 
@@ -100,7 +102,7 @@ If the condition is true, then the statement will execute the code between the b
 
 <!-- v -->
 
-### else Clause
+### ELSE Clause
 
 Extending the if statement
 
@@ -136,7 +138,7 @@ if weight <= 50 {
 
 <!-- v -->
 
-### else if Clause
+### ELSE IF Clause
 
 ```swift
 let studentCount = 35
@@ -154,9 +156,9 @@ if studentCount < 5 {
 print(message)
 ```
 
+<aside class="notes">
 Nested if statements test multiple conditions one by one until a condition is true. Only the code associated with that first true condition is executed, regardless of whether subsequent else-if conditions are true. Order matters!
 
-<aside class="notes">
 Sometimes we want to check one condition after another. We use the else-if clause to nest an if statement in the else clause of a previous if statement.
 The last else clause is optional. We might not always need it.
 </aside>
@@ -177,35 +179,60 @@ var max: Int
 
 Write code that will save the smaller number in *min* and the greater number in *max*.
 
+<!--
+if a < b{
+    min = a
+    max = b
+}else{
+    min = b
+    max = a
+}
+-->
+
 <!-- v -->
 
 ### Ternary operator
+
+The ternary operator takes a condition and returns one of two values, depending on whether the condition was true or false.
 
 ```swift
 (<CONDITION>) ? <TRUE VALUE> : <FALSE VALUE>
 ```
 
+<!-- v -->
+
+### Example
+
 ```swift
-a < b ? a : b
-a > b ? a : b
+let degrees = 76
+let mood = degrees > 70 ? 😊 : 😔
 ```
 <aside class="notes">
-The ternary operator takes a condition and returns one of two values, depending on whether the condition was true or false.
+This will return 😊
 </aside>
 
 <!-- v -->
 
-### Question
-
-What is the value of `mood` after executing the following:
-
 ```swift
-let numberOfCookies = 3
-
-let mood = numberOfCookies > 2 ? 😊 : 😔
+let buttonTitle = isFavorite ? "Remove" : "Save"
 ```
 
+<aside class="notes">
+Setting the title of a button. If you already marked something as favorite, the button should say "Remove" (from favorites), otherwise "Save".</aside>
+
+<!-- v -->
+
+#### Question
+
+Rewrite the min/max if statement with the ternary operator.
+
+<!--
+min = a < b ? a : b
+max = a > b ? a : b
+-->
+
 <!-- > -->
+
 
 ## In Class Activity
 
@@ -216,15 +243,53 @@ let mood = numberOfCookies > 2 ? 😊 : 😔
 
 ## Optionals
 
+“One of the greatest strengths of Swift is its ability to read code and quickly understand data.
+
+When a function may or may not return data, Swift forces you to deal properly with both possible scenarios.
+
+Swift uses unique syntax, called optionals, to handle this sort of case.”
+
+<aside class="notes">
+Excerpt From: Apple Education. “Develop in Swift Fundamentals.” Apple Inc. - Education, 2020. Apple Books.
+</aside>
+
+<!-- > -->
+
+![dogBox](assets/dogBox.png)
+
+<aside class="notes">
+Think of an Optional as a box that can only hold a certain type of something.
+
+For example a DogBox that can only store a Dog.
+
+The DogBox can only have one of two states: it's empty, or it contains a Dog.
+</aside>
+
+<!-- v -->
+
+### Two states
+
+![options](assets/options.png)
+
+<aside class = "notes">
+When the box is empty it has a nil value.
+
+When the box is not empty, it has some value: a Dog.
+</aside>
+
+<!-- v -->
+
+![notequal](assets/notequal.png)
+
+<!-- > -->
+
 Optionals are a special type in Swift.
 
-An optional can represent a value or the absence of a value.
-
-Sometimes we need to represent the absence of a value and not just with an empty string.
+An optional can represent **a value** or the **absence of a value**.
 
 ```swift
-var name = "Nadia"
-var fosterDog = "Lentil"
+var volunteer : String = "Nadia"
+var fosterDog : String = "Lentil"
 ```
 
 <aside class="notes">
@@ -233,69 +298,40 @@ In the example, Nadia is someone who fosters dogs for a few weeks. there might b
 
 <!-- v -->
 
-## Sentinel values
-
-A valid value that represents a special condition such as the absence of a value is known as a **sentinel value**.
-
-```swift
-var fosterDog = ""
-```
-<aside class="notes">
-That’s what the empty string would be in the example. But this way of representing the absence of a value can sometimes be confusing for programmers.
-</aside>
-
-<!-- v -->
-
-## Nil
-
 We need an explicit way to represent the absence of a value. This would be using **nil**. Swift gives us optionals, that can handle the possibility of a value to be **nil**.
 
 Handling a **non-optional** - we're guaranteed to have a value
 
+```swift
+var fosterDog : String = "Lentil"
+```
+
 Handling an **optional** - we must handle the nil case
 
-This is how we remove the ambiguity introduced by using sentinel values.
-
 ```swift
-var fosterDog = nil
+var fosterDog : String? = "Lentil"
+var fosterDog : String? = nil
 ```
-
-<!-- v -->
-
-<iframe src="https://www.youtube.com/embed/IOYyCHGWJq4" data-autoplay  width="700" height="500" ></iframe>
-
-<!-- v -->
-
-## Optionals
-
-Optionals are similar to the Schrödinger cat. An optional can both represent the value or the absence of a value.
-
-But we don't know what it holds until we directly go and check.
-
-```swift
-var fosterDog: String?
-```
-
-<aside class="notes">
-That is the syntax for an optional. We use ? at the end. This variable is of type optional String. Meaning it's value is like a box containing a String value or nil.
-</aside>
 
 <!-- > -->
 
 ## Unwrapping Optionals
 
 ```swift
-var fosterDog: String?
+var fosterDog: String? = "Lentil"
 print(fosterDog)
 
 Optional("Lentil")
 ```
 
+<aside class = "notes">
 This what will happen if we print out the value of an optional. The result is an optional that contains the value Lentil.
 
 This isn't wrong, but what we want is to get the value out of the box to print it.
 
-We need to **unwrap** the value from the box.
+</aside>
+
+We need to **unwrap** the value. Take it our of the box.
 
 <!-- v -->
 
@@ -304,7 +340,7 @@ We need to **unwrap** the value from the box.
 We can force unwrap the value using an exclamation mark.
 
 ```swift
-var fosterDog: String?
+var fosterDog: String? = "Lentil"
 var unwrappedDog = fosterDog!
 print("The dog's name is \(unwrappedDog)")
 
@@ -320,11 +356,11 @@ The exclamation mark after the variable name tells the compiler that we want to 
 What happens if we force unwrap the following?
 
 ```swift
-fosterDog = nil
-print("The dog's name is \(fosterDog)")
+var fosterDog: String?
+print("The dog's name is \(fosterDog!)")
 
 ```
-
+We get this:
 ```swift
 Fatal error: Unexpectedly found nil while unwrapping an Optional value
 ```
@@ -392,17 +428,17 @@ Sometimes you we want to check a condition and only continue executing a functio
 Swift has a guard statement that works for those situations.
 
 ```swift
-func maybeFostering(fosterDog: String?) {
+func buyFood(for fosterDog: String?) {
   guard let fosterDog = fosterDog else {
-    print("Not fostering dogs right now.")
+    print("Not fostering dogs right now. Don't buy food")
     return
   }
 
-  print("The name of the dog is \(fosterDog).")
+  print("Don't forget to get food for \(fosterDog).")
 }
 
-maybeFostering(fosterDog: nil)
-maybeFostering(fosterDog: "Lentil")
+buyFood(for: nil)
+buyFood(for: "Lentil")
 ```
 <aside class="notes">
 The guard keyword is followed by a condition that can include both Boolean expressions and optional bindings, followed by else, then a block of code that will only execute if the condition is false. Immediately then we must return.
@@ -412,27 +448,29 @@ The happy path is what comes if the condition is true and for readability it wil
 
 <!-- > -->
 
-## Nil-coalescing
-
-The last way of getting a value out of an optional. This one we use it when we **always** want something back.
-
-If the value inside the optional is nil, we give a **default value**.
-
-This is called nil-coalescing.
+What if we want default values for those cases where when get nil back?
 
 ```swift
-var optionalNumber: Int? = 8
-var result: Int
-if let unwrapped = optionalNumber {
-  result = unwrapped
+var dietSelected: String?
+if let diet = diet {
+  print("Buying \(dietSelected)")
 } else {
-  result = 0
+  print("Buying raw food")
 }
 ```
 
+<!-- > -->
+
+
+## Nil-coalescing
+
+If the value inside the optional is nil, we give a **default value** called nil-coalescing.
+
 ```swift
-var optionalNumber: Int? = 8
-var result = optionalNumber ?? 0
+<OPTIONAL VALUE> ?? <DEFAULT VALUE>
+
+var dietSelected: String?
+var shoppingItem = dietSelected ?? "raw food"
 ```
 
 <!-- > -->
@@ -441,6 +479,8 @@ var result = optionalNumber ?? 0
 
 **Q1:** How would you declare a double named `height` with a value of 4.2 that can be set to `nil` at a later date?
 <!--var height: Double? = 4.2-->
+
+<!-- v -->
 
 **Q2:** What is the purpose of the following code?
 
@@ -451,24 +491,30 @@ if height != nil {
 ```
 <!--checks that height contains a value-->
 
+<!-- v -->
+
 **Q3:** which of the following code snippets uses VALID optional binding syntax?
 
-1. `if let dogName = owner.dogs.first { }` <!--correct-->
-1. `if dogName = owner.dogs.first { }`
-1. `if let dogName = owner.dogs.first! { }`
-1. `if let dogName == owner.dogs.first { }` 
+1. `if let dogName = owner.dog { }` <!--correct-->
+1. `if dogName = owner.dog { }`
+1. `if let dogName = owner.dog! { }`
+1. `if let dogName == owner.dog { }`
+
+<!-- v -->
 
 **Q4:** In your own words, what is the purpose of `guard`?
 <!--to simply control flow, communicate intent, and eliminate invalid parameters early on-->
 
-**Stretch Question:** what will be returned at the end of the function call?
+<!-- v -->
+
+**Q5:** What will be returned at the end of the function call?
 
 ```swift
 func calculateResult(a: Int?, b: Int?, c: Int?) -> Int {
     guard let aValue = a else { return 0 }
     guard let bValue = b else ( return aValue }
     guard let cValue = c else {return bValue }
-    
+
     return aValue + bValue + cValue
 }
 
@@ -479,6 +525,19 @@ calculateResult(a: 4, b: 8, c: nil)
 
 <!-- > -->
 
+## Implicitly Unwrapped Optional
+
+```swift
+var title : String
+
+var title: String?
+
+var title: String!
+
+```
+
+<!-- > -->
+
 ## In Class Activity
 
 - [Optionals - Repl.it](https://repl.it/classroom/invite/YhH356u)
@@ -486,29 +545,11 @@ calculateResult(a: 4, b: 8, c: nil)
 
 <!-- > -->
 
-## Review Questions: `as?` and `as!`
-
-**Q1:** When you conditinally downcast from one type to another and store the value in a `constant`, which combination of keywords can you use? _Select all that apply_
-
-1. `as?` <!--correct-->
-1. `as!`
-1. `is`
-1. `if let` <!--correct-->
-
-**Q2:** when is it appropriate to use the `as!` operator?
-
-1. When you need to unwrap an optional
-1. When you need to conver a value to an `Any` type
-1. When you need to downcast from one type to another, on the condition that the type is valid
-1. When you need to downcast from one type to another, and you can guarantee the type is valid <!--correct-->
-
-<!-- > -->
-
 ## After Class
 
-- Check out the **toggle** function that you can apply to booleans directly.
 - Find out how you can unwrap several values at the same time to avoid something called **pyramid of doom**.
-- Complete classwork and mark progress in tracker.
+- Complete classwork and upload to Gradescope.
+- Read the [Apple Documentation - optionals section](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html) and write down questions from things that are unclear.
 
 <!-- > -->
 
@@ -516,3 +557,4 @@ calculateResult(a: 4, b: 8, c: nil)
 
 - [Article on Optionals](https://hackernoon.com/swift-optionals-explained-simply-e109a4297298)
 - [Explaining the guard statement](https://thatthinginswift.com/guard-statement-swift/)
+- [Apple Docs](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html)

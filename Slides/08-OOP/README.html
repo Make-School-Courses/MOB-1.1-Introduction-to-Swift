@@ -21,6 +21,9 @@
 <!-- reveal-md README.md -w -->
 
 <!-- .slide: class="header" -->
+
+<!--TODO: Type Casting-->
+
 # Object Oriented Programming with Swift
 
 ## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/08-OOP/README.html ':ignore')
@@ -323,6 +326,24 @@ final class Person {
 
 [Instructions](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/08-OOP/challenge.md)
 </script></section><section  data-markdown><script type="text/template">
+
+## Review Questions: `as?` and `as!`
+
+**Q1:** When you conditionally downcast from one type to another and store the value in a `constant`, which combination of keywords can you use? _Select all that apply_
+
+1. `as?` <!--correct-->
+1. `as!`
+1. `is`
+1. `if let` <!--correct-->
+
+**Q2:** When is it appropriate to use the `as!` operator?
+
+1. When you need to unwrap an optional
+1. When you need to convert a value to an `Any` type
+1. When you need to downcast from one type to another, on the condition that the type is valid
+1. When you need to downcast from one type to another, and you can guarantee the type is valid <!--correct-->
+</script></section><section  data-markdown><script type="text/template">
+
 ## After Class
 1. OOP Repl.it
 1. Research about Instance vs Type methods
