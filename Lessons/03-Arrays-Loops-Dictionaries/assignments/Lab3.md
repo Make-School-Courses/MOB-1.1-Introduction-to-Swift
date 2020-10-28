@@ -78,8 +78,8 @@ only unique letters.
 
 11.  Given a Grid with the following numbers.
 
-![grid](assets/grid.png)
+![grid](grid.png)
 
 Write a function that adds up the elements in the even rows only, like this:
 
-![grid2](assets/grid2.png)
+![grid2](grid2.png)
