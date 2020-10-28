@@ -76,4 +76,10 @@ only unique letters.
 
 10. Write a function that accepts a String and a character and returns how many times that specific character appears in the string.
 
-11. 
+11.  Given a Grid with the following numbers.
+
+![grid](assets/grid.png)
+
+Write a function that adds up the elements in the even rows only, like this:
+
+![grid2](assets/grid2.png)

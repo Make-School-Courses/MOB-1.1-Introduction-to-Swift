@@ -172,7 +172,9 @@ The sorted method will return a sorted copy of the array.
 
 ### Practice Problems
 
-Complete [these practice problems](assignments/Arrays.md) in a playground.
+Complete [these practice problems](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Arrays.md) in a playground.
+
+<!-- > -->
 
 <!--
 
@@ -388,6 +390,8 @@ printStudentcount(dictionary: coursesAndStudents)
 
 -->
 
+<!-- v -->
+
 ## Sets
 
 An **unordered** collection of **unique** values of the same type.
@@ -438,7 +442,7 @@ let removedPlant = plantCollection.remove("Calathea")
 
 ### Practice Problems
 
-Complete [these practice problems](assignments/Dictionaries.md) in a playground.
+Complete [these practice problems](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Dictionaries.md) in a playground.
 
 <!-- > -->
 
@@ -646,16 +650,6 @@ for course in coursesAndStudents{
 ## Lab Practice Problems
 
 Complete [these practice problems](assignments/Lab3.md) in a playground.
-
-<!-- > -->
-
-## Challenges for next class
-
-![grid](assets/grid.png)
-
-<!-- v -->
-
-![grid2](assets/grid2.png)
 
 <!-- > -->
 
