@@ -28,9 +28,9 @@ Students by the end of the course will be able to ...
 
 **Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
 
-| Class |          Date          |                 Topics                  | Recording |
-|:-----:|:----------------------:|:---------------------------------------:|:----------:
-|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         | [Video L1]|
+| Class |          Date          |                 Topics                  |
+|:-----:|:----------------------:|:---------------------------------------:|
+|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         |
 |  2 |  Mon, Oct 26               | [Optionals & Conditionals]             |
 |  3 |  Wed, Oct 28               | [Collection types & Control Flow]      |
 |  - |  Mon, Nov 2                | **Vote! - Civic Responsibility Break** |
@@ -64,14 +64,14 @@ Students by the end of the course will be able to ...
 [Closures]: Lessons/13-Closures/README.md
 [Debugging & Review]: Lessons/14-Debugging/README.md
 
-[Video L1]: https://zoom.us/rec/share/hLwUfO9z9h-Qk96XPaMCm10kdr8smrhrviAoUpl4IELpIP-0MJqZDlIPHxc5WLKF.AW4iWM7TE4X9yWeB?startTime=1603317238000
 
 ## Assignment Schedule
 
 |            Assignment                 | Date Assigned |   Due Date   |  Submission Form  |
 |:-------------------------------------:|:-------------:|:------------:|:-----------------:|
-| [Lab 1]        | Oct 21        | Oct 26       | Gradescope        |
-| [Lab 2]        | Oct 26        | Oct 28       | Gradescope        |
+| [Lab 1]        | Oct 21               | Oct 26       | Gradescope        |
+| [Lab 2]        | Oct 26               | Oct 30       | Gradescope        |
+| [Lab 3]        | Oct 28               | Nov 4        | Gradescope        |
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
 [Lab 2]: https://github.com/Make-School-Labs/swift-lab-2

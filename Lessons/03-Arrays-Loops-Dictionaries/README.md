@@ -25,18 +25,20 @@
 
 By the end of this lesson, students should be able to:
 
-- Construct and use Arrays to store collections of data
-- Declare and use Arrays and Dictionaries
-- Differentiate & use the various types of loops in Swift
-- Apply Optionals in creating and using different collection types
+- **Create** Arrays to store collections of data
+- **Create** Dictionaries to store collections of data
+- **Differentiate** & use the various types of loops in Swift
+- **Apply** Optionals in creating and using different collection types
 
 <!-- > -->
 
 ## Arrays
 
-The most common collection type in Swift. Collections are containers that let us store multiple values together.
+The most common collection type in Swift.
 
-Arrays are typed and they store multiple values in a list.
+Collections are containers that let us store multiple values together.
+
+Arrays store multiple values **of the same type** in a list.
 
 <!-- v -->
 
@@ -76,7 +78,7 @@ The type inside the square brackets tell us the type of values the array can sto
 
 ### Creating an empty array
 
-`let concentrations = []`
+`var concentrations = []`
 
 ```swift
 Empty collection literal requires an explicit type
@@ -168,15 +170,11 @@ The sorted method will return a sorted copy of the array.
 
 <!-- > -->
 
-### Question
+### Practice Problems
 
-Given the following array, how would you insert 56123 before 29371?
+Complete [these practice problems](assignments/Arrays.md) in a playground.
 
-`var bankAccounts = [18203, 29371, 10295, 47290]`
-
-<!--bankAccounts.insert(56213, at: 1)-->
-
-<!-- > -->
+<!--
 
 ## Challenge
 
@@ -193,7 +191,6 @@ We offer these concentrations: MOB,BEW,FEW,DS
 ```
 Done early? Get ahead on this [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
 
-<!-- v -->
 
 Solution
 
@@ -209,7 +206,6 @@ func printConcentrations(concentrationsArray:[String]){
 printConcentrations(concentrationsArray: coursesAndStudents)
 ```
 
-<!-- v -->
 
 For loop solution
 
@@ -229,7 +225,6 @@ printConcentrations(concentrationsArray: coursesAndStudents)
 
 Find out what `dropLast` is doing and how you can use it with collections.
 
-<!-- v -->
 
 Another solution
 
@@ -247,7 +242,7 @@ printConcentrations(concentrationsArray: coursesAndStudents)
 
 This option will not print the same sentence, it's mainly to see how you can use the method `enumerated` to get a tuple with both the index and the value of the element.
 
-<!-- > -->
+-->
 
 ## Dictionaries
 
@@ -258,9 +253,7 @@ Each pair has a **key** and a **value**.
 ![dictionary](assets/dictionary.png)
 
 <aside class="notes">
-Keys are unique.
-
-The same key can't appear more than once in a dictionary.
+Keys are unique, they can't appear more than once in a dictionary.
 
 All keys have to be of the same type and all values have to be of the same type.
 
@@ -335,7 +328,7 @@ These will remove the key and the corresponding value from the dictionary.
 There is a difference between the two methods. Assigning a key to nil will remove the value and the key entirely. If we wanted to keep the key and set the value to nil (in case we are dealing with optionals) we should use the removeValue method.
 </aside>
 
-<!-- > -->
+<!--
 
 ## Challenge
 
@@ -356,8 +349,6 @@ There are 40 students in the DS track
 
 Done early? Get ahead on this - [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
 
-<!-- v -->
-
 Solution
 
 First approach implementation
@@ -373,7 +364,6 @@ func printStudentcount(dictionary:[String:Int]){
 printStudentcount(dictionary: coursesAndStudents)
 ```
 
-<!-- v -->
 
 For loop implementation
 ```swift
@@ -396,7 +386,7 @@ func printStudentcount(dictionary:[String:Int]){
 printStudentcount(dictionary: coursesAndStudents)
 ```
 
-<!-- > -->
+-->
 
 ## Sets
 
@@ -443,16 +433,23 @@ plantCollection.insert("Ficus")
 let removedPlant = plantCollection.remove("Calathea")
 ```
 
+
 <!-- > -->
+
+### Practice Problems
+
+Complete [these practice problems](assignments/Dictionaries.md) in a playground.
+
+<!-- > -->
+
 
 ## In Class Activity
 
 Individually answer:
 
-- How are Dictionaries and Arrays different?
 - When would you use a Dictionary vs an Array? Are there advantages/disadvantages when using each?
 - When would you use a Set vs an Array? Are there advantages/disadvantages when using each?
-- When should we use a type annotation vs type inference?
+- Is type annotation better than type inference?
 
 <!-- v -->
 
@@ -465,6 +462,7 @@ Discuss your answers with a neighbor.
 <!-- > -->
 
 <!-- .slide: data-background="#087CB8" -->
+
 ## [**10m**] BREAK
 
 <!-- > -->
@@ -611,7 +609,7 @@ for (course, countStudents) in coursesAndStudents {
 }
 ```
 
-<!-- > -->
+<!--
 
 ## Challenge
 
@@ -630,7 +628,6 @@ There are 30 students in the FEW track
 There are 40 students in the DS track
 ```
 
-<!-- v -->
 
 Solution
 
@@ -642,6 +639,14 @@ for course in coursesAndStudents{
 }
 ```
 
+-->
+
+<!-- > -->
+
+## Lab Practice Problems
+
+Complete [these practice problems](assignments/Lab3.md) in a playground.
+
 <!-- > -->
 
 ## Challenges for next class
@@ -652,55 +657,10 @@ for course in coursesAndStudents{
 
 ![grid2](assets/grid2.png)
 
-#### 1. Write a function that returns the sum of all cells but exclude all odd rows
-
-<!--
-```swift
-var sum = 0
-
-for row in 0..<5 {
-  if row % 2 != 0 {
-    continue
-  }
-
-  for column in 0..<5 {
-    sum += row * column
-  }
-}
-
-print(sum)
-```
--->
-
-<!-- v -->
-
-#### 2. Write a program that prints the first N Fibonacci numbers.
-
-1,1,2,3,5,8,13
-
-`func fibo(n: Int) -> [Int]`
-
-fibo(n: 7) -> [1,1,2,3,5,8,13]
-
-fibo(n: 5) -> [1,1,2,3,5]
-
-<!-- v -->
-
-#### 3. Write a program that prints the powers of 2 that are less than or equal to N
-
-<!-- > -->
-
-## After class
-
-- [Repl.it for Loops](https://repl.it/classroom/invite/YcITQAd)
-- [Repl.it for Arrays](https://repl.it/classroom/invite/YcJWOag)
-- [Repl.it for Dictionaries](https://repl.it/classroom/invite/0J90Ejp)
-
-Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
-
 <!-- > -->
 
 ## Additional Resources
 
+- Challenge: Conway's Game of life found here: [Array's & Loops Swift Playgrounds](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assets/Arrays-Loops.playground.zip)
 - [Apple's documentation on Arrays & Dictionaries](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
 1. For more practice, try this out: [Optionals & Dictionaries Swift Playgrounds](https://github.com/MakeSchool-Tutorials/Intro-Optionals-Dictionaries-Playground/archive/master.zip)
