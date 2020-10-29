@@ -649,7 +649,7 @@ for course in coursesAndStudents{
 
 ## Lab Practice Problems
 
-Complete [these practice problems](assignments/Lab3.md) in a playground.
+Complete [these practice problems](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Lab3.md) in a playground.
 
 <!-- > -->
 
