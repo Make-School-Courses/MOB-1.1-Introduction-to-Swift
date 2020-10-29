@@ -5,7 +5,7 @@
 
 1. You can iterate over the key-value pairs in a dictionary with a for-in loop. Each item in the dictionary is returned as a (key, value) tuple. Print all the values from `colorHex`.
 
-```
+```swift
 var colorHex: [String:String] = [
     "purple" : "#6C3483",
     "blue" : "#2874A6",
@@ -19,11 +19,13 @@ var colorHex: [String:String] = [
 
 2. Given an array of colors. We need to know how many times each color appears in the array.
 
-`var colors = ["red", "orange", "purple", "pink", "blue", "red", "green", "red", "blue", "purple", "pink" , "purple", "purple"]`
+```swift
+var colors = ["red", "orange", "purple", "pink", "blue", "red", "green", "red", "blue", "purple", "pink" , "purple", "purple"]
+```
 
 Your solution should lead to this answer:
 
-```
+```swift
 red - 3
 orange - 1
 purple - 4
@@ -36,7 +38,7 @@ green - 1
 
 Sequence: 1,1,2,3,5,8,13
 
-```
+```swift
 func fibo(n: Int) -> [Int]
 
 //example:
