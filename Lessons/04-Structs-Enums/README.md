@@ -564,6 +564,7 @@ Find the solutions to each step of the challenges [here](https://github.com/Make
 
 - [Structs & Classes](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)
 - [Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#)
+- [Custom Inits for structs](https://www.hackingwithswift.com/example-code/language/how-to-add-a-custom-initializer-to-a-struct-without-losing-its-memberwise-initializer)
 - [Properties](https://www.hackingwithswift.com/read/0/17/properties)
 - [Apple Docs - When to use structs vs classes](https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes)
 - [Apple Docs - Value vs Reference Types](https://developer.apple.com/swift/blog/?id=10)
