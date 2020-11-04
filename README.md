@@ -4,8 +4,6 @@
 
 This class covers the foundations of Swift programming language. Students learn key concepts including variables, constants, keywords, conditionals, loops, data types, object oriented principles, and how to debug Swift in Xcode. Learning about these core concepts in mobile development will happen as students build games and simple apps in Swift and complete exercises online.
 
-
-
 ## Course Specifics
 
 **Course Delivery**: online | 7 weeks | 14 sessions
@@ -17,10 +15,10 @@ This class covers the foundations of Swift programming language. Students learn 
 Students by the end of the course will be able to ...
 
 1. Write Swift code using basic constructs and data types.
-1. Store and manipulate elements in arrays and dictionaries.
-1. Apply OOP principles in Swift.
-1. Apply knowledge in Structs, Classes, Protocols, Enums and other basic Swift types to build an iOS game and simple apps.
-1. Identify basic UIKit elements and navigation in iOS apps.
+1. Store and manipulate elements in Collections.
+1. Apply OOP & POP principles in Swift.
+1. Apply knowledge in Structs, Classes, Enums and other basic Swift types to build apps.
+1. Built basic interfaces using Apple's UI Frameworks.
 
 ## Schedule
 
@@ -34,15 +32,15 @@ Students by the end of the course will be able to ...
 |  2 |  Mon, Oct 26               | [Optionals & Conditionals]             |
 |  3 |  Wed, Oct 28               | [Collection types & Control Flow]      |
 |  - |  Mon, Nov 2                | **Vote! - Civic Responsibility Break** |
-|  4 |  Wed, Nov 4                | [Introduction to SpriteKit]            |
-|  5 |  Mon, Nov 9                | [Building an iOS Game]                 |
-|  6 |  Wed, Nov 11               | [Classes, Structs & Enums]             |
-|  7 |  Mon, Nov 16               | [OOP]                                  |
+|  4 |  Wed, Nov 4                | [Structs & Enums]                      |
+|  5 |  Mon, Nov 9                | [SwiftUI Pt.1]                         |
+|  6 |  Wed, Nov 11               | [SwiftUI Pt.2]                         |  
+|  7 |  Mon, Nov 16               | [Classes + OOP]                        |
 |  8 |  Wed, Nov 18               | [Intro to UIKit]                       |
 |  9 |  Mon, Nov 23               | [POP] [POP 2]                          |
 |  - |  Wed, Nov 25               | **Holiday - Thanksgiving**             |
-| 10 |  Mon, Nov 30               | [Basic Navigation]                     |
-| 11 |  Wed, Dec 2                | [Closures]                             |
+| 10 |  Mon, Nov 30               | [Closures]                             |
+| 11 |  Wed, Dec 2                | [Basic Navigation]                     |
 | 12 |  Mon, Dec 7                | [Debugging & Review]                   |
 | 13 |  Wed, Dec 9                | Final Exam/Presentations               |  
 
@@ -63,6 +61,7 @@ Students by the end of the course will be able to ...
 [Basic Navigation]: Lessons/12-Basic-Navigation/README.md
 [Closures]: Lessons/13-Closures/README.md
 [Debugging & Review]: Lessons/14-Debugging/README.md
+[Structs & Enums]: Lessons/04-Structs-Enums/README.md
 
 
 ## Assignment Schedule
@@ -72,10 +71,12 @@ Students by the end of the course will be able to ...
 | [Lab 1]        | Oct 21               | Oct 26       | Gradescope        |
 | [Lab 2]        | Oct 26               | Oct 30       | Gradescope        |
 | [Lab 3]        | Oct 28               | Nov 4        | Gradescope        |
+| [Lab 4]        | Nov 4                | Nov 9        | Gradescope        |
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
 [Lab 2]: https://github.com/Make-School-Labs/swift-lab-2
 [Lab 3]: https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Lab3.md
+[Lab 4]: https://github.com/Make-School-Labs/swift-lab4
 
 <!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
@@ -97,14 +98,14 @@ Students by the end of the course will be able to ...
 
 ### Tutorials
 
-- [Sushi Neko](https://www.makeschool.com/academy/track/learn-to-clone-timberman-with-spritekit-and-swift-4)
 - [Magic 8 ball](https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball)
 
 ### Projects
 
-- Pop the Squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
 - [Course project](Assignments/FinalProject.md) NOTE: Will be updated for T1 2020
-<!--- - Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
+<!---
+- Pop the Squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
+- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
 
 ## Class Assignments
 
