@@ -62,7 +62,7 @@ Students by the end of the course will be able to ...
 [Closures]: Lessons/13-Closures/README.md
 [Debugging & Review]: Lessons/14-Debugging/README.md
 [Structs & Enums]: Lessons/04-Structs-Enums/README.md
-
+[SwiftUI Pt.1]: Lessons/05-SwiftUI1/README.md
 
 ## Assignment Schedule
 
