@@ -161,7 +161,7 @@ In the template contents we have `body` that behaves like a view.
 
 ## In Class Activity
 
-[Instructions here]()
+[Instructions here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/05-SwiftUI1/assignments/calculator.md)
 
 <!-- > -->
 
