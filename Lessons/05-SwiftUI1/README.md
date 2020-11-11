@@ -181,12 +181,6 @@ let viewController = UIHostingController(rootView: swiftUIView)
 ```
  -->
 
-## Refactoring Demo
-
-Making our code more efficient and organized.
-
-<!-- > -->
-
 ## Additional Resources
 
 - [What is SwiftUI](https://developer.apple.com/xcode/swiftui/)
@@ -195,5 +189,4 @@ Making our code more efficient and organized.
 - [SwiftUI by examples](https://www.hackingwithswift.com/quick-start/swiftui)
 - [Learn App Making - SwiftUI intro](https://learnappmaking.com/swiftui-getting-started-how-to-ios-swift/)
 - [Warmup Images](https://www.sketchappsources.com/free-source/4389-coronavirus-icons-sketch-freebie-resource.html)
-- [For Each - Hacking with Swift](https://www.hackingwithswift.com/books/ios-swiftui/why-does-self-work-for-foreach)
 - [Let's build that app - Calculator](https://www.youtube.com/watch?v=ULEFrRSPXFE)
