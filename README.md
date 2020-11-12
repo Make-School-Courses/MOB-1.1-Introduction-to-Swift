@@ -103,10 +103,8 @@ Students by the end of the course will be able to ...
 
 ### Projects
 
-- [Course project](Assignments/FinalProject.md) NOTE: Will be updated for T1 2020
-<!---
-- Pop the Squares game - will be graded with [this rubric](https://www.makeschool.com/rubrics/UnVicmljLTg5)
-- Independent project. [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing) --->
+- [Course project](Assignments/FinalProject.md)
+    - [Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
 ## Class Assignments
 
@@ -120,10 +118,10 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Complete 80% of all assignments
-- Complete all tutorials
-- Pass all projects according to the associated project rubrics
-- Pass the final summative assessment according with more than 70%. [Study guide](StudyGuide.md)
+- Recieve a passing score for all 4 labs (see each lab for rubric)
+- 100% completion of the Magic 8 ball tutorial (submit proof of working Magic 8 ball project)
+- Complete course project by recieving a passing score on the [rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Recieve a 70% or higher on the final summative assessment [Study guide](StudyGuide.md)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 

@@ -70,7 +70,8 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 	- A game of your own creation.
 
 ## Rubric
-Find the rubric named: MOB 1.1 - Final Project [here]()
+
+[Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
 
 ## Resources
 Additional resources that will help with this project, or that can be used as reference
