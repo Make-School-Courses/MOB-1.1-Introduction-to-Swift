@@ -1,7 +1,14 @@
-## Lab Practice
+# MOB 1.1 - Lab 3 -  Collection Types & Control Flow
 
-## The following problems are common interview questions. Answer them in a Swift Playground using what you know so far about Arrays, Dictionaries and Loops.
+This Swift playground contains a series of problems to get you more familiar with Collection Types & Control Flow in Swift. The following problems are common interview questions. Answer them in a Swift Playground using what you know so far about Arrays, Dictionaries and Loops.
 
+## Rubric
+
+|            Not Passing       | Passing |   Stretch   |
+|:----------------------------:|:-------------:|:------------:|
+| Less than 90% of problems not completed | 90%+ challenges completed | 100% challenges completed |
+
+## Problems
 
 1. You can iterate over the key-value pairs in a dictionary with a for-in loop. Each item in the dictionary is returned as a (key, value) tuple. Print all the values from `colorHex`.
 
