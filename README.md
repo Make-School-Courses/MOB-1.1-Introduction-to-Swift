@@ -69,15 +69,20 @@ Students by the end of the course will be able to ...
 
 |            Assignment                 | Date Assigned |   Due Date   |  Submission Form  |
 |:-------------------------------------:|:-------------:|:------------:|:-----------------:|
-| [Lab 1]        | Oct 21               | Oct 26       | Gradescope        |
-| [Lab 2]        | Oct 26               | Oct 30       | Gradescope        |
-| [Lab 3]        | Oct 28               | Nov 4        | Gradescope        |
-| [Lab 4]        | Nov 4                | Nov 9        | Gradescope        |
+| [Lab 1]          | Oct 21               | Oct 26       | Gradescope        |
+| [Lab 2]          | Oct 26               | Oct 30       | Gradescope        |
+| [Lab 3]          | Oct 28               | Nov 4        | Gradescope        |
+| [Lab 4]          | Nov 4                | Nov 9        | Gradescope        |
+| [Calculator App] | Nov 10               | Nov 16       | Gradescope        |
+| [Final Project]  | --                   | Dec 9        | Gradescope        |
+
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
 [Lab 2]: https://github.com/Make-School-Labs/swift-lab-2
 [Lab 3]: https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Lab3.md
 [Lab 4]: https://github.com/Make-School-Labs/swift-lab4
+[Calculator app]: Lessons/05-SwiftUI1/README.md
+[Final Project]: Assignments/FinalProject.md
 
 <!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
@@ -118,10 +123,10 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Recieve a passing score for all 4 labs (see each lab for rubric)
+- Receive a passing score for all 4 labs (see each lab for rubric)
 - 100% completion of the Magic 8 ball tutorial (submit proof of working Magic 8 ball project)
-- Complete course project by recieving a passing score on the [rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
-- Recieve a 70% or higher on the final summative assessment [Study guide](StudyGuide.md)
+- Complete course project by receiving a passing score on the [rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- Receive a 70% or higher on the final summative assessment [Study guide](StudyGuide.md)
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
