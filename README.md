@@ -64,6 +64,7 @@ Students by the end of the course will be able to ...
 [Structs & Enums]: Lessons/04-Structs-Enums/README.md
 [SwiftUI Pt.1]: Lessons/05-SwiftUI1/README.md
 [SwiftUI Pt.2]: Lessons/06-SwiftUI2/README.md
+[Classes + OOP]: Lessons/08-OOP/README.md
 
 ## Assignment Schedule
 

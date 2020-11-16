@@ -23,7 +23,7 @@
 
 ## OOP
 
-OOP is a programming paradigm that represents the concept of objects that have attributes to describe them and can perform certain procedures known as methods.
+OOP is a programming paradigm that represents the concept of **objects** that have **attributes** to describe them and can perform certain procedures known as **methods**.
 
 When you learn about it you can read and write code easier and you will have a better understanding on how Swift works.
 
@@ -34,6 +34,7 @@ When you learn about it you can read and write code easier and you will have a b
 Classes are reference types and can be used to support traditional OOP.
 
 They introduce inheritance, overriding and polymorphism. These features require we know about initialization, class hierarchies, and other aspects.
+
 
 <!-- v -->
 
@@ -60,7 +61,7 @@ class Person {
 
 ### Creating an instance
 
-Creating a person is called creating and instance of the class `Person`
+You create an instance of the class `Person`
 
 ```swift
 let eddy = Person(name: "Eduardo")
@@ -161,7 +162,7 @@ class BandMember: Person {
   }
 
   override func sayHello(){
-    print("Hi, I'm \(firstName), I'm in a band.")
+    print("Hi, I'm \(nam,e), I'm in a band.")
   }
 }
 ```
@@ -176,17 +177,15 @@ Subclasses can override methods defined in their superclass.
 class Singer: BandMember {
     override func performedSong(_ song: String) {
       super.performedSong(song)
-      print("Also managed the audience.")
+      print("And also kept audience hyped.")
     }
 
     override func sayHello(){
-      print("Hi, I'm \(firstName), I also sing.")
+      print("Hi, I'm \(name), I'm a singer.")
     }
 }
 ```
 The super keyword is similar to self, but it will invoke the method in the nearest implementing superclass. Here it will execute the method as defined in the BandMember class.
-
-Also, here we are using a computed property. It calculates a value rather than storing one.
 
 <!-- v -->
 
@@ -234,10 +233,14 @@ Designated initializers are the primary initializers for a class. A designated i
 
 ```swift
 class Person {
-  var firstName: String
+  var name: String
 
-  init(firstName: String) {
-    self.firstName = firstName
+  init(name: String) {
+    self.name = name
+  }
+
+  func sayHello(){
+    print("Hello")
   }
 }
 ```
@@ -277,6 +280,7 @@ Convenience initializers must call the designated initializer for its class.
 class BandMember: Person {
     var songs: [String] = []
     var instrument: String!
+    var genre: String?
 
     init(name: String, instrument: String) {
       super.init(name: name)
@@ -285,7 +289,7 @@ class BandMember: Person {
 
     convenience init( name: String, genre: String, instrument: String) {
         self.init(name: name, instrument: instrument)
-        print("something")
+        self.genre = genre
     }
 
     func performedSong(_ song: String) {
@@ -297,20 +301,6 @@ class BandMember: Person {
     }
 }
 
-```
-
-<!-- v -->
-
-### Required initializer
-
-```swift
-class Person {
-  var firstName: String
-
-  required init(firstName: String) {
-    self.firstName = firstName
-  }
-}
 ```
 
 <!-- > -->
@@ -333,24 +323,50 @@ final class Person {
 }
 ```
 
-<!--
-[OOP Playgrounds](https://github.com/Product-College-Labs/object-oriented-programming-in-swift/archive/master.zip)
--->
+<!-- > -->
+
+## Type Casting
+
+Type casting is a way to **check the type of an instance**, or to **treat that instance as a different superclass or subclass** from somewhere else in its own class hierarchy.
+
+Type casting in Swift is implemented with the is and as operators.
 
 <!-- > -->
 
-## Challenge
+```swift
+let peopleArray = [BandMember(name: "someName", genre: "Jazz", instrument: "Sax"),
+              Singer(name: "someName", instrument: "mic"),
+              Singer(name: "someName", instrument: "guitar"),
+              Singer(name: "someName", instrument: "drums")]
 
-<!--
-[OOP Challenges](https://github.com/MakeSchool-Tutorials/Intro-Object-Oriented-Programming-Playground/archive/master.zip)
--->
+var singerCount = 0
 
-- Bubble Pop Game Challenges. Use OOP to improve your game.
-
-[Instructions](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/08-OOP/challenge.md)
+for person in peopleArray{
+    if person is Singer{
+        singerCount += 1
+    }
+}
+```
 
 <!-- > -->
 
+## Downcasting
+
+A constant or variable of a certain class type may actually refer to an instance of a subclass behind the scenes.
+
+Where you believe this is the case, you can try to downcast to the subclass type with a type cast operator (**as?** or **as!**).
+
+<!-- > -->
+
+```swift
+for person in people {
+    if let singer = person as? Singer {
+        print(singer.name)
+    }
+}
+```
+
+<!-- > -->
 
 ## Review Questions: `as?` and `as!`
 
@@ -361,6 +377,8 @@ final class Person {
 1. `is`
 1. `if let` <!--correct-->
 
+<!-- > -->
+
 **Q2:** When is it appropriate to use the `as!` operator?
 
 1. When you need to unwrap an optional
@@ -370,13 +388,25 @@ final class Person {
 
 <!-- > -->
 
+## Use Cases
 
-## After Class
-1. OOP Repl.it
-1. Research about Instance vs Type methods
-1. Look up what static properties are
+OOP in iOS development:
+
+- Handle data (creating Models used in the app)
+- Handle logic modules
+- Create UI (how UIKit is built)
+
+<!-- > -->
+
+## After Class - Lab
+
+- [OOP Lab](https://github.com/MakeSchool-Tutorials/Intro-Object-Oriented-Programming-Playground/archive/master.zip)
+- Look up what are static properties
+- Loo up Type Casting for `Any` and `AnyObject`
 
 <!-- > -->
 
 ## Additional Resources
 1. [Documentation for Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
+1. [Type Casting](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html
+1. [Rules of initializers](https://useyourloaf.com/blog/adding-swift-convenience-initializers/)
