@@ -75,7 +75,8 @@ Students by the end of the course will be able to ...
 | [Lab 3]          | Oct 28               | Nov 4        | Gradescope        |
 | [Lab 4]          | Nov 4                | Nov 9        | Gradescope        |
 | [Calculator App] | Nov 10               | Nov 16       | Gradescope        |
-| [Final Project]  | --                   | Dec 9        | Gradescope        |
+| [Magic 8 ball]   | Nov 16               | Dec 23       | Gradescope       |
+| [Final Project]  | Nov 18               | Dec 9        | Gradescope        |
 
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
@@ -83,6 +84,7 @@ Students by the end of the course will be able to ...
 [Lab 3]: https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Lab3.md
 [Lab 4]: https://github.com/Make-School-Labs/swift-lab4
 [Calculator app]: Lessons/05-SwiftUI1/README.md
+[Magic 8 ball]: https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball
 [Final Project]: Assignments/FinalProject.md
 
 <!--
