@@ -179,7 +179,7 @@ Instructor takes a screen design and replicates it in the storyboard.
 
 <!-- > -->
 
-## MVc for SwiftUI?
+## MVC for SwiftUI?
 
 Whiteboard
 
