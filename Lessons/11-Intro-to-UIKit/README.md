@@ -24,7 +24,6 @@
 By the end of this lesson, students should be able to:
 
 - Identify common elements in iOS apps
-- Build a wireframe using native iOS components
 - Understand the relationship between scenes, views and view controllers
 - Familiarize with the concept of MVC
 - Familiarize with Autolayout
@@ -34,9 +33,9 @@ By the end of this lesson, students should be able to:
 ## Keeping us updated
 
 
-[iOS 13](https://www.apple.com/ios/ios-13/)
+[iOS 14](https://www.apple.com/ios/ios-14/)
 
-[Xcode 11](https://developer.apple.com/xcode/)
+[Xcode 12](https://developer.apple.com/xcode/)
 
 <aside class="notes">
 iOS is the mobile operating system created by Apple Inc. It runs on iPhone, iPad, iPod, Macs, Apple Watch. There’s a new release every year.
@@ -60,6 +59,7 @@ Xcode is an Integrated Development Environment (IDE) developed by Apple for deve
 <!-- > -->
 
 ## How an app is made
+
 Every app is made up of scenes and transitions between scenes.
 
 ![scenes](assets/scenes.png)
@@ -138,20 +138,6 @@ The importance to differentiate them is if we are using animations to present vi
 
 Good place to save data, clean up resources,
 
-<!-- v -->
-
-### View Hierarchy
-
-(whiteboard)
-
-<!-- > -->
-
-### Question
-
-What is the main distinction between a view and a view control?
-
-<!--view displays information, view control responds to user interaction-->
-
 <!-- > -->
 
 ## Interface essentials
@@ -162,7 +148,7 @@ What is the main distinction between a view and a view control?
 
 ## Building a wireframe
 
-Let's say we want to turn the "Boba Shop" program into a real app.
+Let's say we want to turn the "Hotel management" program into a real app.
 
 1. Think about the scenes the app needs.
 
@@ -181,9 +167,21 @@ Share in pairs your designs.
 
 <!-- v -->
 
+## Demo Building a screen with storyboards
+
+Instructor takes a screen design and replicates it in the storyboard.
+
+<!-- v -->
+
 ## MVC
 
 ![mvc](assets/mvc.png)
+
+<!-- > -->
+
+## MVc for SwiftUI?
+
+Whiteboard
 
 <!-- > -->
 
@@ -221,20 +219,18 @@ Occur when the size of the views or controls in the user interface change.
 
 ## Magic 8 Ball 🎱
 
-Start (maybe complete) [Magic 8 Ball tutorial](https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball)
+Complete [Magic 8 Ball tutorial](https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball)
 
 <!-- > -->
 
-## After class
+## After class - Lab
 
-- Today Sushi Neko is due before midnight.
 - You have until Monday to submit the Magic 8 ball tutorial
+- Final Project Kick off
 
 <!-- v -->
 
 ## Additional Resources
 
-[iOS 12](https://www.apple.com/ios/ios-13/)<br>
-[Xcode 11](https://developer.apple.com/xcode/)<br>
 [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/overview/interface-essentials/)
 [UIKit inheritance video](https://www.youtube.com/watch?v=DFsENma-PAk)

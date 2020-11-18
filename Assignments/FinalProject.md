@@ -11,7 +11,7 @@ To read more about how research supports this, I encourage you to read [this art
 The game required for this project is a Color Matching game 🌈<br>
 Users are shown words of colors (one below the other) and need to identify if the text in the upper word matches the color of the word at the bottom.<br>
 This is usually an exercise to demonstrate the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect).
-And one of its goals is to help with reaction time.
+And one of its goals is to help with brain reaction time.
 
 An example of implementation [here](https://www.lumosity.com/en/brain-games/color-match/).
 
@@ -23,16 +23,15 @@ By completing this project, you should be able to…
 1. Demonstrate proficiency using Swift's basic building blocks.
 1. Follow a set of requirements to build a product.
 1. Build an app with Xcode that users can interact with.
-1. Run the final version of the app in a real device.
 
 ## Schedule
-From the day this project is assigned, you will have **3 weeks** to complete this project. A sample daily outline is provided to assist you in planning your project.
+From the day this project is assigned, you will have **3 weeks** to complete this project. A sample weekly outline is provided to assist you in planning your project.
 
 **Important note:** “Week 1” refers to the first calendar week of the project being assigned, and subsequent weeks will follow this reference:
 
 - Week 1: Project assigned, read the project spec, ask any clarifying questions you may have, design how you would implement the project and start the basic UI
-- Week 2: Build out main functionality (game mechanics) and hook up UI
-- Week 3: Testing, fix any remaining bugs, make sure your code has helpful comments, and submit the project!
+- Week 2: Build out main functionality (game mechanics)
+- Week 3: Fix any remaining bugs, make sure your code has helpful comments, and submit the project!
 
 ## Requirements
 
@@ -43,19 +42,20 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 1. Users can see a score in the screen.
 1. Users go on for 60 seconds before the game ends.
 1. Users can restart the game.
-1. You can either use SpriteKit or UIKit for the project. (UIKit is advised)
+1. You can either use SwiftUI or UIKit for the project.
 1. Use Swift's basic building blocks
 	-	variables & constants
 	- custom types (classes, structs or enums)
 	- functions
 	- control flow
-1. Version control with Github
+1. Version control with Github, including a [README file](https://github.com/matiassingers/awesome-readme)
 
-### Stretch Requirements/Challenges
+### Stretch Challenges
 
 1. With the same game:
 	- Make correct answers cumulative and show the user their streak!
-
+	- Add difficulty levels
+	- Include a home screen
 
 1. Extend your Brain Trainer to include one or more mini games!
 	- Add another variation of the Stroop Effect game.
@@ -71,7 +71,14 @@ From the day this project is assigned, you will have **3 weeks** to complete thi
 
 ## Rubric
 
-[Rubric](https://docs.google.com/document/d/1vEAeNCwbG9OHmLzYCuV2VzmG0aC2VQdDLoypzXdALj4/edit?usp=sharing)
+- **25 pts** Game Mechanics work correctly
+- **10 pts** Keeps a score
+- **10 pts** Implements a timer
+- **15 pts** UI is easy to use and is polished.
+- **15 pts** Code Craft - code follows conventions (variable naming, length of methods, code modularity, etc)
+- **15 pts** Technical complexity - Makes use of Swift core constructs
+- **5 pts** Uploaded to Github with a detailed Readme file
+- **5 pts** Timeliness - project turned in on time
 
 ## Resources
 Additional resources that will help with this project, or that can be used as reference
@@ -79,19 +86,9 @@ Additional resources that will help with this project, or that can be used as re
 - [A guide to timers in Swift](https://learnappmaking.com/timer-swift-how-to/)
 - [Autolayout introduction](https://www.youtube.com/watch?v=qb05nLPYKz8)
 - [Autolayout & Constraints](https://www.youtube.com/watch?v=m_0_XQEfrGQ)
+- [Learning SwiftUI pathway](https://www.hackingwithswift.com/100/swiftui)
 
-## Commit Requirements
-**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
+## Past Students' work
 
-- **Good Example:** 40+ commits throughout the length of the project, looking for a healthy spattering of commits each week (such as 3-5 per day).
-- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not passing the class.
-- **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class.
-
-### Why are we doing this?
-We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
-
-- It's much easier to retrace your steps if you break your project/product/code up into smaller pieces
-- It helps with being able to comprehend the larger problem, and also will help with your debugging (i.e. finding exactly when you pushed that piece of broken code)
-- It allows for a more streamlined, iterative communication in your team, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
-
-Through this requirement, we hope to encourage you to think about projects with an iterative, modular mindset. Doing so will allow you to break projects down into smaller milestones that come together to make your fully-realized solution.
+- [Example 1](https://github.com/SamuelFolledo/BrainTrainer)
+- [Example 2](https://github.com/ellojess/Stroopy)
