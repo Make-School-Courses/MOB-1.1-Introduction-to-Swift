@@ -37,7 +37,7 @@ Students by the end of the course will be able to ...
 |  6 |  Wed, Nov 11               | [SwiftUI Pt.2]                         |  
 |  7 |  Mon, Nov 16               | [Classes + OOP]                        |
 |  8 |  Wed, Nov 18               | [Intro to UIKit]                       |
-|  9 |  Mon, Nov 23               | [POP] [POP 2]                          |
+|  9 |  Mon, Nov 23               | [POP]             |
 |  - |  Wed, Nov 25               | **Holiday - Thanksgiving**             |
 | 10 |  Mon, Nov 30               | [Closures]                             |
 | 11 |  Wed, Dec 2                | [Basic Navigation]                     |
@@ -57,7 +57,6 @@ Students by the end of the course will be able to ...
 [Intro to UIKit]: Lessons/11-Intro-to-UIKit/README.md
 [Inspecting and Debugging Your Code]: Lessons/13-Inspecting-And-Debugging-Your-Code/README.md
 [POP]: Lessons/09-POP/README.md
-[POP 2]: Lessons/10-POP2/README.md
 [Basic Navigation]: Lessons/12-Basic-Navigation/README.md
 [Closures]: Lessons/13-Closures/README.md
 [Debugging & Review]: Lessons/14-Debugging/README.md

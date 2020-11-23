@@ -18,10 +18,14 @@
 1. UIScrollView <!--correct-->
 1. UITableView <!--correct-->
 
+<!-- v -->
+
 **Q2:** Which view or control allows the user to enter a single line of text? Which one allows the user to enter multiple lines of text?
 
 1. UITextField <!--single-->
 1. UITextView <!--multiple-->
+
+<!-- v -->
 
 **Q3:** Which of the following allows you to execute code for a specific control event? Which allows you to access properties on a specific view or control?
 
@@ -35,15 +39,13 @@
 - Intro to Protocols
 - Protocols vs Inheritance
 - Protocols in the Swift Standard Library
-- Break
-- Final project specifications
 
 <!-- > -->
 
 ## Learning Objectives
 
 - Create and use Protocols
-- Distinguish between Protocol Conformance and Inheritance
+- Distinguish between **Protocol Conformance** and **Inheritance**
 - Use protocols to describe properties and behaviors of a conforming type
 - Identify common protocols in the Swift Standard Library
 
@@ -194,7 +196,7 @@ It will be thanks to your contribution that others can learn about what you rese
 
 - Now split the group. Go and find people who did the other protocols.
 
-- We should have groups with people who know about all of them combined.
+- We should have groups with people who know about all of them.
 
 - Take turns to have each person explain their protocol and show the example.
 
@@ -236,7 +238,7 @@ let andy = Artist(name: "Andy Warhol", style: .popArt, yearBorn: 1928)
 
 ## After class
 
-Begin your final project. Follow the instructions [here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Assignments/FinalProject.md).
+Continue working in your final project.
 
 <!-- > -->
 
