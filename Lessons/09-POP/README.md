@@ -132,7 +132,7 @@ If a class inherits from another and also conforms to a protocol, all can be sep
 
 ## Mini challenge
 
-Create a protocol `Perimeter` that defines a read-only property `perimeter` of type `Double`.
+Create a protocol `Perimeter` that defines a read-only property `side` of type `[Double]`.
 
 <!-- > -->
 

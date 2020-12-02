@@ -10,8 +10,6 @@
 
 ## Resources
 
-- [Adobe XD](https://www.adobe.com/products/xd/details.html)
-- [Sketch](https://www.sketch.com)
 - [icons8](https://icons8.com)
 - [The Noun Project](http://thenounproject.com)
 - [Make App Icon](https://makeappicon.com)
@@ -20,17 +18,101 @@
 
 ## Agenda
 
-- UINavigationController
-- Segues
-- Present vs Push
-- Unwind segues
-- Programmatic approach
+- Navigation with SwiftUI
+- Navigation with UIKit
+- Activity with UIKit + Storyboards
+
+<!-- > -->
+
+## NavigationView
+
+NavigationView in SwiftUI is a **container** view which allows you to manage other views in a navigation interface.
+
+- push new views
+- pop views
+
+<!-- > -->
+
+## Create NavigationView
+
+```swift
+struct HomeView: View {
+    var body: some View {
+        NavigationView {
+            Text("Start Game")
+        }
+    }
+}
+```
+
+<!-- > -->
+
+## Add a title
+
+```swift
+NavigationView {
+    Text("Start Game")
+    .navigationBarTitle("Color Game")
+}
+```
+
+<!-- > -->
+
+## Push new view
+
+Also known as Master-Detail Navigation.
+
+To present a detail view on top of the master view in NavigationView we use **NavigationLink** – a button that triggers a navigation presentation when pressed.
+
+```swift
+struct GameView: View {
+    var body: some View {
+        Text("Your game goes here")
+    }
+}
+
+struct HomeView: View {
+    var body: some View {
+        NavigationView {
+            NavigationLink(destination: GameView()) {
+                Text("Start Game")
+            }
+            .navigationBarTitle("Color Game")
+        }
+    }
+}
+```
+
+<aside class = "notes">
+The NavigationView automatically adds the back button.
+</aside>
+
+<!-- > -->
+
+## Adding a title to the detail view
+
+```swift
+struct GameView: View {
+    var body: some View {
+        Text("Your game goes here")
+        .navigationBarTitle("Level 1", displayMode: .inline)
+    }
+}
+```
+
+<!-- > -->
+
+## Passing data between views
+
+Watch [this video](https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui)
+
+**Min 6:55 - 12:30**
 
 <!-- > -->
 
 ## UINavigationController
 
-A container view controller that defines a **stack-based** scheme for navigating hierarchical content.
+A container that defines a **stack-based** scheme for navigating hierarchical content.
 
 - Only one child view controller is visible at a time
 - Manages child view controllers using an ordered array, known as the **navigation stack**
@@ -98,9 +180,11 @@ The starting point of a segue is the button, table row, or gesture recognizer th
 
 ## Rock Paper Scissors
 
-[Starter Project](https://github.com/amelinagzz/RPS/tree/master/RockPaperScissors)
+[Starter Project](https://github.com/amelinagzz/RPS)
 
 <!-- > -->
+
+<!--
 
 ## Programmatic approach
 
@@ -110,7 +194,6 @@ let storyboard = UIStoryboard(name: "Main", bundle: nil)
 let controller = storyboard.instantiateViewController(withIdentifier: "CharacterVC") as! PlayerViewController
 ```
 
-<!-- v -->
 
 ```swift
 // Push view controller
@@ -119,7 +202,6 @@ self.navigationController?.pushViewController(controller, animated: true)
 
 Same result as using a segue with detail transition
 
-<!-- v -->
 
 ```swift
 // Present view controller
@@ -128,21 +210,18 @@ self.navigationController?.present(controller, animated: true, completion: nil)
 
 Same result as using a segue with modal transition
 
-<!-- v -->
 
 ```swift
 self.navigationController?.popViewController(animated: true)
 ```
 Same result as using a an unwind segue after a push.
 
-<!-- v -->
 
 ```swift
 self.navigationController?.dismiss(animated: true, completion: nil)
 ```
 Same result as using a an unwind segue after a present.
 
-<!-- > -->
 
 ## RPG Practice
 
@@ -150,15 +229,7 @@ Same result as using a an unwind segue after a present.
 
 Useful link for the activity: [Navigation done programmatically](https://medium.com/@felicity.johnson.mail/pushing-popping-dismissing-viewcontrollers-a30e98731df5)
 
-<!-- > -->
-
-## A note on Autolayout
-
-The starter project we used today, had all the elements on the screen already set up. Every UI element had a frame (origin in x, origin in y, width and height). This was done in the storyboard using Autolayout and constraints.
-
-Use the project to explore how the constraints were set up to get familiar with them.
-
-<!-- > -->
+-->
 
 ## After Class
 
@@ -173,6 +244,8 @@ These two videos go over the basics and show you how to get started.
 
 ## Additional Resources
 
+- [SwiftUI Navigation Guide](https://www.simpleswiftguide.com/swiftui-navigationview-tutorial-with-examples/)
+- [SwiftUI Navigation Video](https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui)
 - [UINavigationController Apple Docs](https://developer.apple.com/documentation/uikit/uinavigationcontroller)
 - [UINavigationBar Apple Docs](https://developer.apple.com/documentation/uikit/uinavigationbar)
 - [Segues](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/UsingSegues.html)

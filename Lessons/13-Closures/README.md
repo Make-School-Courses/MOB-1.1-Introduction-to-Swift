@@ -10,7 +10,11 @@
 
 ## Why you should know this
 
-You probably have already used closures by now without noticing or without knowing exactly how they work. Closures are a powerful way of writing code that performs and looks better. They are also present in many programming languages so knowing how they work will help you recognize them when working in other type of projects.
+You probably have already used closures by now without noticing 😯
+
+Closures are a powerful way of writing code that performs and looks better.
+
+They are also present in many programming languages so knowing how they work will help you recognize them when working in other type of projects.
 
 <!-- > -->
 
@@ -18,7 +22,7 @@ You probably have already used closures by now without noticing or without knowi
 
 1. Describe how closures work and how to use them
 1. Declaring and calling closures
-1. Apply the closure syntax and shorthand argument names
+1. Apply the **closure syntax** and **shorthand argument** names
 
 <!-- > -->
 
@@ -27,7 +31,7 @@ You probably have already used closures by now without noticing or without knowi
 ![gifts](assets/package.png)
 
 <aside class="notes">
-I need to send a gift to a friend. I wrap it in a box and take it to the post office.
+Let's say I need to send a gift to a friend. I wrap it in a box and take it to the post office.
 
 After 5 days, it finally arrives to its destination.
 
@@ -43,9 +47,10 @@ This is the same concept as closures. Let's see how.
 ## What is a Closure?
 
 Apple's definition:<br>
+
 **"Closures are self-contained blocks of functionality that can be passed around and used in your code."**
 
-In essence, a closure is a block of code that you can assign to a variable or constant. Then pass it around in your code and execute its content later somewhere else.
+In essence, a closure is a block of code that you can assign to a variable or constant. Then pass it around in your code and execute its content later somewhere else
 
 <!-- > -->
 
@@ -57,7 +62,7 @@ In essence, a closure is a block of code that you can assign to a variable or co
 
 **The package gets passed around by the delivery truck** - code being passed around
 
-**My friend opens the package and uses it** - Executing the block of code.
+**the package being opened and used** - Executing the block of code.
 
 <!-- > -->
 
