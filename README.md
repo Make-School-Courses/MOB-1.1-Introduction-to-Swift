@@ -22,27 +22,26 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Wednesday, October 21 – Wednesday, December 9, 2020 (8 weeks)
+**Course Dates:** Wednesday, January 20 – Wednesday, March 3, 2020 (7 weeks)
 
-**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
+**Class Times:** Monday, Wednesday at 2:45am–5:30pm (13 class sessions)
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Wed, Oct 21               | [Variables, Types & Functions]         |
-|  2 |  Mon, Oct 26               | [Optionals & Conditionals]             |
-|  3 |  Wed, Oct 28               | [Collection types & Control Flow]      |
-|  - |  Mon, Nov 2                | **Vote! - Civic Responsibility Break** |
-|  4 |  Wed, Nov 4                | [Structs & Enums]                      |
-|  5 |  Mon, Nov 9                | [SwiftUI Pt.1]                         |
-|  6 |  Wed, Nov 11               | [SwiftUI Pt.2]                         |  
-|  7 |  Mon, Nov 16               | [Classes + OOP]                        |
-|  8 |  Wed, Nov 18               | [Intro to UIKit]                       |
-|  9 |  Mon, Nov 23               | [POP]             |
-|  - |  Wed, Nov 25               | **Holiday - Thanksgiving**             |
-| 10 |  Mon, Nov 30               | [Closures]                             |
-| 11 |  Wed, Dec 2                | [Basic Navigation]                     |
-| 12 |  Mon, Dec 7                | [Debugging & Review]                   |
-| 13 |  Wed, Dec 9                | Final Exam/Presentations               |  
+| -     | Mon, Jan 18            | **No Class - MLK Day**                  |
+|  1    | Wed, Jan 20            | [Variables, Types & Functions]          |
+|  2    | Mon, Jan 25            | [Optionals & Conditionals]              |
+|  3    | Wed, Jan 27            | [Collection types & Control Flow]       |
+|  4    | Mon, Feb 1             | [Structs & Enums]                       |
+|  5    | Wed, Feb 3             | [SwiftUI Pt.1]                          |
+|  6    | Mon, Feb 8             | [SwiftUI Pt.2]                          |
+|  7    | Wed, Feb 10            | [Classes + OOP]                         |
+|  8    | Mon, Feb 15            | [Intro to UIKit]                        |
+|  9    | Wed, Feb 17            | [POP]                                   |
+| 10    | Mon, Feb 22            | [Closures]                              |
+| 11    | Wed, Feb 24            | [Basic Navigation]                      |
+| 12    | Mon, Mar               | [Debugging & Review]                    |
+| 13    | Wed, Mar 3             | Final Exam/Presentations                |
 
 [Variables, Types & Functions]: Lessons/01-Variables-Types-&-Functions/README.md
 [Optionals & Conditionals]: Lessons/02-Optionals-&-Conditionals/README.md
