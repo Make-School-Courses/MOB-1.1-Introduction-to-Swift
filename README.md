@@ -1,4 +1,4 @@
-# Introduction to Swift
+# MOB 1.1: Introduction to Swift
 
 ## Course Description
 
@@ -22,7 +22,7 @@ Students by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Wednesday, January 20 – Wednesday, March 3, 2020 (7 weeks)
+**Course Dates:** Wednesday, January 20 – Wednesday, March 3, 2021 (7 weeks)
 
 **Class Times:** Monday, Wednesday at 2:45am–5:30pm (13 class sessions)
 
