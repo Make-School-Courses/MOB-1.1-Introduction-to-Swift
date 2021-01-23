@@ -72,9 +72,9 @@ Students by the end of the course will be able to ...
 | [Lab 2]          | Mon, Jan 25   | Wed, Jan 27  | [Gradescope] |
 | [Lab 3]          | Wed, Jan 27   | Mon, Feb 1   | [Gradescope] |
 | [Lab 4]          | Mon, Feb 1    | Wed, Feb 3   | [Gradescope] |
-| [Calculator App] | Wed, Feb 3    | Mon, Feb 8   | [Gradescope] |
-| [Magic 8 ball]   | Mon, Feb 8    | Wed, Feb 10  | [Gradescope] |
-| [Final Project]  | Wed, Feb 10   | Wed, Mar 3   | [Gradescope] |
+| [Calculator App] | Wed, Feb 3    | Wed, Feb 10  | [Gradescope] |
+| [Magic 8 ball]   | Wed, Feb 10   | Wed, Feb 17  | [Gradescope] |
+| [Final Project]  | Wed, Feb 17   | Wed, Mar 3   | [Gradescope] |
 
 [GradeScope]: https://www.gradescope.com/courses/216934
 
