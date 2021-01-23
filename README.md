@@ -66,16 +66,17 @@ Students by the end of the course will be able to ...
 
 ## Assignment Schedule
 
-|            Assignment                 | Date Assigned |   Due Date   |  Submission Form  |
-|:-------------------------------------:|:-------------:|:------------:|:-----------------:|
-| [Lab 1]          | Oct 21               | Oct 26       | Gradescope        |
-| [Lab 2]          | Oct 26               | Oct 30       | Gradescope        |
-| [Lab 3]          | Oct 28               | Nov 4        | Gradescope        |
-| [Lab 4]          | Nov 4                | Nov 9        | Gradescope        |
-| [Calculator App] | Nov 10               | Nov 16       | Gradescope        |
-| [Magic 8 ball]   | Nov 16               | Dec 23       | Gradescope       |
-| [Final Project]  | Nov 18               | Dec 9        | Gradescope        |
+|    Assignment    | Date Assigned |   Due Date   |  Submission Form  |
+|:----------------:|:-------------:|:------------:|:-----------------:|
+| [Lab 1]          | Wed, Jan 20   | Mon, Jan 25  | [Gradescope] |
+| [Lab 2]          | Mon, Jan 25   | Wed, Jan 27  | [Gradescope] |
+| [Lab 3]          | Wed, Jan 27   | Mon, Feb 1   | [Gradescope] |
+| [Lab 4]          | Mon, Feb 1    | Wed, Feb 3   | [Gradescope] |
+| [Calculator App] | Wed, Feb 3    | Mon, Feb 8   | [Gradescope] |
+| [Magic 8 ball]   | Mon, Feb 8    | Wed, Feb 10  | [Gradescope] |
+| [Final Project]  | Wed, Feb 10   | Wed, Mar 3   | [Gradescope] |
 
+[GradeScope]: https://www.gradescope.com/courses/216934
 
 [Lab 1]: https://github.com/Make-School-Labs/swift-lab1
 [Lab 2]: https://github.com/Make-School-Labs/swift-lab-2
