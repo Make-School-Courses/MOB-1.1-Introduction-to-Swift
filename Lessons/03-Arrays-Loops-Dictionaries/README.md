@@ -446,6 +446,8 @@ let removedPlant = plantCollection.remove("Calathea")
 
 Complete [these practice problems](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Dictionaries.md) in a playground.
 
+[Download the playground here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Class-3.1.playground.zip)
+
 <!-- > -->
 
 
