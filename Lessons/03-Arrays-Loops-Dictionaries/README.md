@@ -174,6 +174,8 @@ The sorted method will return a sorted copy of the array.
 
 Complete [these practice problems](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Arrays.md) in a playground.
 
+[Download the playground here](https://github.com/Make-School-Courses/MOB-1.1-Introduction-to-Swift/blob/master/Lessons/03-Arrays-Loops-Dictionaries/assignments/Class-3.playground.zip)
+
 <!-- > -->
 
 <!--
