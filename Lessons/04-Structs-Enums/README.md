@@ -155,8 +155,8 @@ Write a `createCoffee` function that takes `beanType`, `sugarLevel`, and `contai
 
 ### Challenge 2
 
-1. Write a function that given input parameters returns an order type `order`
-2. Then create an order using the function.
+1. Write a function that given input parameters returns an order type `Order` (You'll need to make an `Order` struct!)
+2. Then create an order using the function (this should return an `Order`)
 3. Then print it's details.
 
 This is how I should be able to call your function:
@@ -164,8 +164,6 @@ This is how I should be able to call your function:
 
 and this is what you'll print in the end:
 `Adriana ordered black boba tea, 25% sweetness, with boba`
-
-Note your function should return an `order`. Then construct a print statement based on the `order` struct returned from `createOrder`.
 
 <!--
 ```swift
