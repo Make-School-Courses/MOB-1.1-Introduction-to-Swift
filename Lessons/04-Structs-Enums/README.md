@@ -529,7 +529,9 @@ Find the solutions to each step of the challenges [here](https://github.com/Make
 1. Addresses
 1. Compass degrees
 
+
 <!-- v -->
+
 
 **Q2:** Which of the following would be best represented with an enumeration? _Choose all that apply_
 

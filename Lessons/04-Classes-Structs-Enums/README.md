@@ -2,7 +2,7 @@
 <!-- reveal-md README.md -w -->
 
 <!-- .slide: class="header" -->
-# Classes, Structs & Enums
+# Structs, Classes & Enums
 
 ## [Slides](https://make-school-courses.github.io/MOB-1.1-Introduction-to-Swift/Slides/04-Classes-Structs-Enums/README.html ':ignore')
 
