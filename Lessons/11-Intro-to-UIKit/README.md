@@ -25,8 +25,8 @@ By the end of this lesson, students should be able to:
 
 - Identify common elements in iOS apps
 - Understand the relationship between scenes, views and view controllers
-- Familiarize with the concept of MVC
-- Familiarize with Autolayout
+- Describe MVC (Model, View, Controller) pattern
+- Use Autolayout to arrange elements in a view
 
 <!-- > -->
 
