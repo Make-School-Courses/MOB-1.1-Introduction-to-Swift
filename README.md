@@ -74,6 +74,7 @@ Students by the end of the course will be able to ...
 | [Lab 4]          | Mon, Feb 1    | Wed, Feb 3   | [Gradescope] |
 | [Calculator App] | Wed, Feb 3    | Wed, Feb 10  | [Gradescope] |
 | [Magic 8 ball]   | Wed, Feb 10   | Wed, Feb 17  | [Gradescope] |
+| [Pop Lab]        | Wed, Feb 17   | Mon, Feb 22  | [Gradescope] |
 | [Final Project]  | Wed, Feb 17   | Wed, Mar 3   | [Gradescope] |
 
 [GradeScope]: https://www.gradescope.com/courses/216934
@@ -85,6 +86,8 @@ Students by the end of the course will be able to ...
 [Calculator app]: Lessons/05-SwiftUI1/README.md
 [Magic 8 ball]: https://www.makeschool.com/academy/track/learn-how-to-build-apps--magic-8-ball
 [Final Project]: Assignments/FinalProject.md
+
+[POP Lab]: https://github.com/soggybag/swift-inheritance
 
 <!--
 | [Variables & Types](https://repl.it/classroom/invite/YcFKUQ4)    | Jan Tue 21 | Jan Fri 24 | Repl.it site & tracker |
